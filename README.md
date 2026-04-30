@@ -124,4 +124,4 @@ with Elsevier's author-rights policy for accepted manuscripts.
 
 ## Contact
 
-Yoshitha Challagulla — `bhaskar@zasti.ai`
+Bhaskar Gurram — `bhaskar@zasti.ai`
