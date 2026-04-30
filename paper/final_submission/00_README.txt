@@ -32,6 +32,10 @@ Files in this package
                                  manuscript.
   06_Declaration_of_Interest.pdf Conflict-of-interest statement (none
                                  declared).
+  07_ORCID.pdf                   ORCID identifier document for the
+                                 corresponding author
+                                 (0009-0005-2947-102X). Upload when EM
+                                 prompts for ORCID as a separate file.
 
   figures/                       The four figures as separate PDFs, in
                                  case the journal requires them
@@ -68,8 +72,9 @@ shows the dropdown choice to select for each file in EM.
    3     Highlights            03_Highlights.pdf
    4     Manuscript            04_Manuscript_anonymized.pdf
    5     Conflict of Interest  06_Declaration_of_Interest.pdf
-   6     Figure (x4)           figures/Figure_1.pdf .. Figure_4.pdf
-   7     Optional source       source_files/  (zip on request)
+   6     ORCID                 07_ORCID.pdf
+   7     Figure (x4)           figures/Figure_1.pdf .. Figure_4.pdf
+   8     Optional source       source_files/  (zip on request)
 
 The author manuscript (05_Manuscript_with_authors.pdf) is NOT
 typically uploaded; it is included for your reference only.
