@@ -109,7 +109,7 @@ Rayyan~\citep{ouzzani2016rayyan} and the Covidence ecosystem analysed by
 this paper addresses, applies large language models (LLMs) to screening,
 full-text eligibility and structured data extraction
 \citep{khraisha2024llmsr,gartlehner2024aisr,guo2024llmsr,wang2023llmscreen,
-syriani2023assistance,sundaram2023automating}.
+syriani2024screening,sundaram2023automating}.
 
 The third generation has matured rapidly. \citet{khraisha2024llmsr}
 benchmarked GPT-4 across screening and extraction in multilingual
@@ -124,7 +124,7 @@ accuracies would generalise across specialties with different trial
 designs and reporting conventions. Second, most evaluations test a
 single closed-weights model (almost always GPT-4 family); the rapid
 emergence of competitive open-weights mixture-of-experts (MoE) models
-\citep{grattafiori2024llama3,yang2024qwen25,deepseekv3,shazeer2017moe}
+\citep{grattafiori2024llama3,yang2025qwen3,deepseekv3,shazeer2017moe}
 has not been systematically benchmarked against closed baselines on SLR
 extraction. Third, ground-truth construction itself encodes
 review-specific analytical decisions that may penalise
@@ -141,7 +141,7 @@ fixed dose, parallel-group dose-comparison, multi-arm checkpoint inhibitor
 combinations and crossover psychotropic infusions). All five reviews were
 processed with a single locked extraction prompt and the same four LLMs:
 GPT-4o-mini~\citep{achiam2023gpt4}, Llama 3.3 70B
-Instruct~\citep{grattafiori2024llama3}, Qwen 3 235B-A22B~\citep{yang2024qwen25}
+Instruct~\citep{grattafiori2024llama3}, Qwen 3 235B-A22B~\citep{yang2025qwen3}
 and DeepSeek V3~\citep{deepseekv3}.
 
 The contributions of this paper are six-fold:
@@ -203,7 +203,7 @@ unsolved by classical methods.
 The first LLM-based screening studies appeared in 2023.
 \citet{wang2023llmscreen} examined whether GPT-4 could write
 \emph{Boolean} search queries comparable to expert search-strategists.
-\citet{syriani2023assistance} reported precision and recall trade-offs
+\citet{syriani2024screening} reported precision and recall trade-offs
 when ChatGPT was applied to title/abstract screening across review topics
 and found models outperformed simple baselines but lagged
 review-specific classifiers. \citet{guo2024llmsr} formalised the
@@ -264,7 +264,7 @@ Study & Task & Domains & Models & Trials & Notes \\
 \citet{wallace2010active}    & Screening   &  3 & 0       & ---  & Active learning \\
 \citet{vandeschoot2021asreview} & Screening & many & 0 (rule) & --- & Open-source platform \\
 \citet{wang2023llmscreen}    & Query gen.  &  4 & 1 (GPT-4) & --- & Boolean query construction \\
-\citet{syriani2023assistance}& Screening   &  3 & 1 (ChatGPT) & --- & Title/abstract \\
+\citet{syriani2024screening}& Screening   &  3 & 1 (ChatGPT) & --- & Title/abstract \\
 \citet{guo2024llmsr}         & Screening   &  3 & 2 (GPT-3.5/4) & --- & Clinical reviews \\
 \citet{khraisha2024llmsr}    & Screen + extract & 2 & 1 (GPT-4) & --- & Multilingual \\
 \citet{gartlehner2024aisr}   & Extraction  &  1 & 1 (Claude 2) & 10 & Nine-field schema \\
@@ -812,7 +812,7 @@ extraction}
 The dominance of Qwen 3 235B-A22B and DeepSeek V3 over GPT-4o-mini in
 this study warrants comment. Both winning models are mixture-of-experts
 designs with active parameter counts of 22B (Qwen) and 37B (DeepSeek)
-\citep{shazeer2017moe,deepseekv3,yang2024qwen25}. The closed dense
+\citep{shazeer2017moe,deepseekv3,yang2025qwen3}. The closed dense
 baseline does not have a published parameter count, but is widely
 believed to be smaller than 70B active parameters. Our results suggest
 that, on tasks dominated by structured extraction from long context
