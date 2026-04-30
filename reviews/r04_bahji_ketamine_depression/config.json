@@ -1,0 +1,49 @@
+{
+  "review_id": "r04_bahji_ketamine_depression",
+  "short_name": "Bahji 2021",
+  "full_title": "Comparative efficacy of racemic ketamine and esketamine for depression: A systematic review and meta-analysis",
+  "doi": "10.1016/j.jad.2020.09.071",
+  "pmid": "33022440",
+  "pmcid": "PMC7704936",
+  "domain": "Psychiatric",
+  "search": {
+    "pubmed_query": "((\"ketamine\"[MeSH Terms] OR \"ketamine\"[Title/Abstract] OR \"esketamine\"[Title/Abstract] OR \"arketamine\"[Title/Abstract] OR \"Spravato\"[Title/Abstract]) AND (\"depression\"[MeSH Terms] OR \"depressive disorder\"[MeSH Terms] OR \"depressive disorder, treatment-resistant\"[MeSH Terms] OR \"depression\"[Title/Abstract] OR \"depressive\"[Title/Abstract] OR \"major depressive disorder\"[Title/Abstract] OR \"treatment-resistant depression\"[Title/Abstract] OR \"treatment resistant depression\"[Title/Abstract]) AND (\"Randomized Controlled Trial\"[Publication Type] OR \"randomized controlled trial\"[Title/Abstract] OR \"randomised\"[Title/Abstract] OR \"randomized\"[Title/Abstract] OR \"placebo\"[Title/Abstract] OR \"double-blind\"[Title/Abstract])) AND (\"1966/01/01\"[PDAT] : \"2019/12/31\"[PDAT])",
+    "search_date_end": "2019-12-31",
+    "max_results": 2000,
+    "notes": "Reconstructed from Bahji 2021 Appendix 1 (PubMed strategy). Original Appendix 1 shows: Step 1 ketamine.mp OR exp Ketamine, Step 2 depression.mp OR exp Depression, Step 3 = 1 AND 2, Step 4 limit to humans, Step 5 limit to RCTs. This reconstruction uses MeSH + free-text equivalents. Also searched Embase, PsycINFO, Cochrane CENTRAL, ClinicalTrials.gov, EU CTR, ANZCTR."
+  },
+  "inclusion_criteria": {
+    "study_design": "Randomized controlled trial (parallel or crossover)",
+    "population": "Adults with unipolar or bipolar major depression",
+    "intervention": "Racemic ketamine or esketamine (any route of administration)",
+    "comparator": "Placebo, active placebo (e.g., midazolam), or active comparator",
+    "outcomes_required": ["depression response", "depression remission", "change in depression severity scores"]
+  },
+  "exclusion_criteria": [
+    "Non-randomized studies",
+    "Observational studies, case reports, case series",
+    "Reviews, meta-analyses, editorials, commentaries",
+    "Animal or in vitro studies",
+    "Studies not using ketamine or esketamine as primary intervention",
+    "Studies in non-depressive psychiatric conditions only",
+    "Studies without depression outcome measures"
+  ],
+  "prisma_expected": {
+    "records_identified": 2494,
+    "records_screened": 1972,
+    "fulltext_assessed_expected": 361,
+    "studies_included_final": 24
+  },
+  "prompts": {
+    "screening_system": "reviews/r04_bahji_ketamine_depression/prompts/screening_system.txt",
+    "fulltext_system": "reviews/r04_bahji_ketamine_depression/prompts/fulltext_system.txt",
+    "dedup_system": "reviews/r04_bahji_ketamine_depression/prompts/dedup_system.txt"
+  },
+  "paths": {
+    "base_dir": "reviews/r04_bahji_ketamine_depression",
+    "ground_truth": "reviews/r04_bahji_ketamine_depression/ground_truth.json",
+    "retrieved_dir": "reviews/r04_bahji_ketamine_depression/retrieved",
+    "results_dir": "reviews/r04_bahji_ketamine_depression/results",
+    "extractions_dir": "reviews/r04_bahji_ketamine_depression/extractions"
+  }
+}

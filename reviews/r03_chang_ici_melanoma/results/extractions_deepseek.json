@@ -1,0 +1,917 @@
+{
+  "model": "deepseek-v3",
+  "provider": "together_ai",
+  "together_model": "deepseek-ai/DeepSeek-V3",
+  "n_studies": 23,
+  "wall_time_seconds": 212.96,
+  "total_model_latency_seconds": 212.76,
+  "total_input_tokens": 133555,
+  "total_output_tokens": 6807,
+  "estimated_cost_usd": 0.1755,
+  "errors": 0,
+  "extractions": [
+    {
+      "extraction": {
+        "first_author": "Larkin",
+        "year": 2015,
+        "phase": "III",
+        "design": "Randomized, double-blind, multicenter, phase 3 trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Australia, Europe, Israel, New Zealand, and North America",
+        "n_total": 945,
+        "n_active": 630,
+        "n_placebo": 315,
+        "age_range_years": ">=18",
+        "intervention": "Nivolumab, Ipilimumab",
+        "dose": "Nivolumab: 3 mg/kg every 2 weeks or 1 mg/kg every 3 weeks; Ipilimumab: 3 mg/kg every 3 weeks",
+        "primary_efficacy_outcome": "Progression-free survival and overall survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 15.56,
+      "input_tokens": 11894,
+      "output_tokens": 309,
+      "error": null,
+      "pmid": "26027431",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Hodi",
+        "year": 2010,
+        "phase": "III",
+        "design": "Randomized, double-blind, phase 3 study with three treatment arms",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "North America, South America, Europe, and Africa",
+        "n_total": 676,
+        "n_active": 540,
+        "n_placebo": 136,
+        "age_range_years": ">=18",
+        "intervention": "Ipilimumab",
+        "dose": "3 mg/kg",
+        "primary_efficacy_outcome": "Overall survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "unclear",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 7.82,
+      "input_tokens": 11008,
+      "output_tokens": 270,
+      "error": null,
+      "pmid": "20525992",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Robert",
+        "year": 2015,
+        "phase": "III",
+        "design": "Randomized, controlled, phase 3 study comparing pembrolizumab (two dosing schedules) versus ipilimumab",
+        "blinding": "not_reported",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 834,
+        "n_active": 556,
+        "n_placebo": 278,
+        "age_range_years": ">=18",
+        "intervention": "Pembrolizumab, Ipilimumab",
+        "dose": "10 mg/kg every 2 weeks, 10 mg/kg every 3 weeks, 3 mg/kg every 3 weeks",
+        "primary_efficacy_outcome": "Progression-free survival and overall survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "not_reported",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 15.3,
+      "input_tokens": 2671,
+      "output_tokens": 310,
+      "error": null,
+      "pmid": "25891173",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Robert",
+        "year": 2015,
+        "phase": "III",
+        "design": "Randomized controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 418,
+        "n_active": 210,
+        "n_placebo": 208,
+        "age_range_years": ">=18",
+        "intervention": "Nivolumab",
+        "dose": "3 mg/kg every 2 weeks",
+        "primary_efficacy_outcome": "Overall survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 10.53,
+      "input_tokens": 2680,
+      "output_tokens": 431,
+      "error": null,
+      "pmid": "25399552",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Eggermont",
+        "year": 2018,
+        "phase": "III",
+        "design": "Randomized, double-blind, placebo-controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1019,
+        "n_active": 514,
+        "n_placebo": 505,
+        "age_range_years": ">=18",
+        "intervention": "Pembrolizumab",
+        "dose": "200 mg every 3 weeks",
+        "primary_efficacy_outcome": "Recurrence-free survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "unclear",
+          "attrition_bias": "low",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 6.43,
+      "input_tokens": 2685,
+      "output_tokens": 264,
+      "error": null,
+      "pmid": "29658430",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Blank",
+        "year": 2018,
+        "phase": "not_reported",
+        "design": "Randomized controlled trial comparing neoadjuvant versus adjuvant ipilimumab plus nivolumab",
+        "blinding": "not_reported",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 20,
+        "n_active": 20,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Ipilimumab, Nivolumab",
+        "dose": "Ipilimumab 3 mg/kg, Nivolumab 1 mg/kg",
+        "primary_efficacy_outcome": "not_reported",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "not_reported",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 11.4,
+      "input_tokens": 2463,
+      "output_tokens": 394,
+      "error": null,
+      "pmid": "30297911",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Weber",
+        "year": 2017,
+        "phase": "III",
+        "design": "Randomized, double-blind, phase 3 trial comparing nivolumab versus ipilimumab in patients with resected stage IIIB, IIIC, or IV melanoma",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not specified",
+        "n_total": 906,
+        "n_active": 453,
+        "n_placebo": 0,
+        "age_range_years": ">=15",
+        "intervention": "Nivolumab",
+        "dose": "3 mg/kg every 2 weeks",
+        "primary_efficacy_outcome": "Recurrence-free survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 6.75,
+      "input_tokens": 2711,
+      "output_tokens": 286,
+      "error": null,
+      "pmid": "28891423",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Weber",
+        "year": 2019,
+        "phase": "IIIb/IV",
+        "design": "Randomized, double-blind, parallel-group trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "13 countries",
+        "n_total": 360,
+        "n_active": 358,
+        "n_placebo": 0,
+        "age_range_years": ">=18",
+        "intervention": "Nivolumab, Ipilimumab",
+        "dose": "Nivolumab 3 mg/kg + Ipilimumab 1 mg/kg or Nivolumab 1 mg/kg + Ipilimumab 3 mg/kg",
+        "primary_efficacy_outcome": "Incidence of treatment-related grade 3 to 5 adverse events",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 9.0,
+      "input_tokens": 11111,
+      "output_tokens": 300,
+      "error": null,
+      "pmid": "30811280",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Weber",
+        "year": 2015,
+        "phase": "III",
+        "design": "Randomised, controlled, open-label, phase 3 trial",
+        "blinding": "Open-label",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "14 countries",
+        "n_total": 405,
+        "n_active": 272,
+        "n_placebo": 0,
+        "age_range_years": ">=18",
+        "intervention": "Nivolumab",
+        "dose": "3 mg/kg every 2 weeks",
+        "primary_efficacy_outcome": "Proportion of patients who had an objective response and overall survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "high",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 7.49,
+      "input_tokens": 2890,
+      "output_tokens": 272,
+      "error": null,
+      "pmid": "25795410",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Eggermont",
+        "year": 2015,
+        "phase": "III",
+        "design": "Randomised, double-blind, phase 3 trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "19 countries",
+        "n_total": 951,
+        "n_active": 475,
+        "n_placebo": 476,
+        "age_range_years": ">=18",
+        "intervention": "Ipilimumab",
+        "dose": "10 mg/kg",
+        "primary_efficacy_outcome": "Recurrence-free survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 7.14,
+      "input_tokens": 2898,
+      "output_tokens": 254,
+      "error": null,
+      "pmid": "25840693",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Robert",
+        "year": 2011,
+        "phase": "III",
+        "design": "Randomized, double-blind, placebo-controlled, multicenter trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 502,
+        "n_active": 250,
+        "n_placebo": 252,
+        "age_range_years": "not_reported",
+        "intervention": "Ipilimumab",
+        "dose": "10 mg per kilogram",
+        "primary_efficacy_outcome": "Overall survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 5.98,
+      "input_tokens": 2626,
+      "output_tokens": 258,
+      "error": null,
+      "pmid": "21639810",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Schadendorf",
+        "year": 2017,
+        "phase": "III",
+        "design": "Randomized, double-blind, parallel-group trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "21 countries",
+        "n_total": 945,
+        "n_active": 630,
+        "n_placebo": 315,
+        "age_range_years": ">=18",
+        "intervention": "Nivolumab",
+        "dose": "3 mg/kg every 2 weeks; 1 mg/kg every 3 weeks plus ipilimumab 3 mg/kg every 3 weeks",
+        "primary_efficacy_outcome": "Health-related quality of life (EORTC QLQ-C30 and EQ-5D)",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 12.7,
+      "input_tokens": 8721,
+      "output_tokens": 297,
+      "error": null,
+      "pmid": "28651159",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Long",
+        "year": 2019,
+        "phase": "III",
+        "design": "Randomized, placebo-controlled, double-blind, parallel-group, phase 3 trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 104,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "International",
+        "n_total": 706,
+        "n_active": 354,
+        "n_placebo": 352,
+        "age_range_years": ">=18",
+        "intervention": "Epacadostat",
+        "dose": "100 mg orally twice daily",
+        "primary_efficacy_outcome": "Progression-free survival and overall survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 6.35,
+      "input_tokens": 2915,
+      "output_tokens": 268,
+      "error": null,
+      "pmid": "31221619",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Long",
+        "year": 2018,
+        "phase": "II",
+        "design": "Multicentre open-label randomised phase 2 trial",
+        "blinding": "Open-label",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Australia",
+        "n_total": 79,
+        "n_active": 63,
+        "n_placebo": 0,
+        "age_range_years": ">=18",
+        "intervention": "Nivolumab, Ipilimumab",
+        "dose": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg every 3 weeks for four doses, then nivolumab 3 mg/kg every 2 weeks; or nivolumab 3 mg/kg every 2 weeks",
+        "primary_efficacy_outcome": "Intracranial response from week 12",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "unclear",
+          "performance_bias": "high",
+          "detection_bias": "high",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 7.25,
+      "input_tokens": 2839,
+      "output_tokens": 310,
+      "error": null,
+      "pmid": "29602646",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2017,
+        "phase": "II",
+        "design": "Randomized, multicenter, phase II study",
+        "blinding": "not_reported",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 540,
+        "n_active": 361,
+        "n_placebo": 179,
+        "age_range_years": "not_reported",
+        "intervention": "Pembrolizumab",
+        "dose": "2 mg/kg, 10 mg/kg every 3 weeks",
+        "primary_efficacy_outcome": "Overall survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "not_reported",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 6.96,
+      "input_tokens": 2714,
+      "output_tokens": 274,
+      "error": null,
+      "pmid": "28961465",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Ribas",
+        "year": 2013,
+        "phase": "III",
+        "design": "Randomized controlled trial comparing tremelimumab with standard-of-care chemotherapy",
+        "blinding": "not_reported",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 655,
+        "n_active": 328,
+        "n_placebo": 327,
+        "age_range_years": ">=18",
+        "intervention": "Tremelimumab",
+        "dose": "15 mg/kg once every 90 days",
+        "primary_efficacy_outcome": "Overall survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "not_reported",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 8.54,
+      "input_tokens": 2587,
+      "output_tokens": 276,
+      "error": null,
+      "pmid": "23295794",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Wolchok",
+        "year": 2016,
+        "phase": "II",
+        "design": "Randomized, controlled, double-blind, phase 2 trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "France, United States",
+        "n_total": 142,
+        "n_active": 95,
+        "n_placebo": 47,
+        "age_range_years": ">=18",
+        "intervention": "Nivolumab, Ipilimumab",
+        "dose": "Nivolumab 1 mg/kg + Ipilimumab 3 mg/kg induction, then Nivolumab 3 mg/kg maintenance",
+        "primary_efficacy_outcome": "Rate of confirmed objective response among patients with BRAF V600 wild-type tumours",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 6.44,
+      "input_tokens": 10643,
+      "output_tokens": 298,
+      "error": null,
+      "pmid": "27622997",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2017,
+        "phase": "III",
+        "design": "Randomised, double-blind, multicentre, phase 3 trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "21 countries worldwide",
+        "n_total": 727,
+        "n_active": 727,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Ipilimumab",
+        "dose": "3 mg/kg, 10 mg/kg",
+        "primary_efficacy_outcome": "Overall survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 5.47,
+      "input_tokens": 2871,
+      "output_tokens": 266,
+      "error": null,
+      "pmid": "28359784",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Weber",
+        "year": 2016,
+        "phase": "II",
+        "design": "Randomized, open-label, phase 2 study",
+        "blinding": "Open-label",
+        "duration_weeks": 25,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "USA",
+        "n_total": 140,
+        "n_active": 140,
+        "n_placebo": 0,
+        "age_range_years": ">=18",
+        "intervention": "Nivolumab, Ipilimumab",
+        "dose": "3 mg/kg every 2 weeks (nivolumab), 3 mg/kg every 3 weeks (ipilimumab)",
+        "primary_efficacy_outcome": "Treatment-related grade 3-5 adverse events during the induction period (up to week 25)",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "high",
+          "detection_bias": "high",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 15.8,
+      "input_tokens": 13049,
+      "output_tokens": 294,
+      "error": null,
+      "pmid": "27269740",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Rozeman",
+        "year": 2019,
+        "phase": "II",
+        "design": "multicentre, open-label, randomised, controlled trial",
+        "blinding": "open-label",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "Australia, Sweden, Netherlands",
+        "n_total": 89,
+        "n_active": 59,
+        "n_placebo": 0,
+        "age_range_years": ">=18",
+        "intervention": "Ipilimumab, Nivolumab",
+        "dose": "various dosing schedules: group A: ipilimumab 3 mg/kg + nivolumab 1 mg/kg; group B: ipilimumab 1 mg/kg + nivolumab 3 mg/kg; group C: ipilimumab 3 mg/kg followed by nivolumab 3 mg/kg",
+        "primary_efficacy_outcome": "proportion of patients with grade 3-4 immune-related toxicity within first 12 weeks and proportion achieving radiological objective response and pathological response at 6 weeks",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "high",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 10.61,
+      "input_tokens": 3189,
+      "output_tokens": 354,
+      "error": null,
+      "pmid": "31160251",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Long",
+        "year": 2016,
+        "phase": "III",
+        "design": "Randomized, double-blind study comparing nivolumab with dacarbazine",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Europe, Israel, Australia, Canada, and South America",
+        "n_total": 418,
+        "n_active": 210,
+        "n_placebo": 208,
+        "age_range_years": "not_reported",
+        "intervention": "Nivolumab",
+        "dose": "3 mg/kg every 2 weeks",
+        "primary_efficacy_outcome": "Overall survival",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 12.21,
+      "input_tokens": 10763,
+      "output_tokens": 272,
+      "error": null,
+      "pmid": "27405322",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Wolchok",
+        "year": 2010,
+        "phase": "II",
+        "design": "Randomized, double-blind, multicenter, dose-ranging study",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "12 countries",
+        "n_total": 217,
+        "n_active": 145,
+        "n_placebo": 0,
+        "age_range_years": ">=18",
+        "intervention": "Ipilimumab",
+        "dose": "0.3, 3, 10 mg/kg",
+        "primary_efficacy_outcome": "Best overall response rate (complete or partial response according to modified WHO criteria)",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 9.49,
+      "input_tokens": 2612,
+      "output_tokens": 276,
+      "error": null,
+      "pmid": "20004617",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2011,
+        "phase": "II",
+        "design": "Randomized, double-blind, biomarker study",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "European, North American, and South American countries",
+        "n_total": 82,
+        "n_active": 82,
+        "n_placebo": 0,
+        "age_range_years": ">=18",
+        "intervention": "Ipilimumab",
+        "dose": "3 or 10 mg/kg",
+        "primary_efficacy_outcome": "Best overall response rate (BORR)",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 7.54,
+      "input_tokens": 15015,
+      "output_tokens": 274,
+      "error": null,
+      "pmid": "22123319",
+      "model": "deepseek-v3"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "total_screened": 366,
+  "true_positives": 24,
+  "false_positives": 96,
+  "true_negatives": 246,
+  "false_negatives": 0,
+  "sensitivity_recall": 1.0,
+  "specificity": 0.7193,
+  "precision": 0.2,
+  "f1": 0.3333,
+  "cohen_kappa": 0.2515,
+  "classification_report": "              precision    recall  f1-score   support\n\n     EXCLUDE       1.00      0.72      0.84       342\n     INCLUDE       0.20      1.00      0.33        24\n\n    accuracy                           0.74       366\n   macro avg       0.60      0.86      0.59       366\nweighted avg       0.95      0.74      0.80       366\n"
+}

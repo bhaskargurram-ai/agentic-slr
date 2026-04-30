@@ -1,0 +1,49 @@
+{
+  "review_id": "r01_lattanzi_dravet",
+  "short_name": "Lattanzi 2023",
+  "full_title": "Pharmacotherapy for Dravet Syndrome: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials",
+  "doi": "10.1007/s40265-023-01936-y",
+  "pmid": "37695433",
+  "pmcid": "PMC10582139",
+  "domain": "Pediatric neurology / rare disease",
+  "search": {
+    "pubmed_query": "(\"Dravet syndrome\"[Title/Abstract] OR \"severe myoclonic epilepsy in infancy\"[Title/Abstract] OR \"severe myoclonic epilepsy of infancy\"[Title/Abstract] OR \"SMEI\"[Title/Abstract]) AND (randomized[Title/Abstract] OR randomised[Title/Abstract] OR \"controlled trial\"[Title/Abstract] OR \"clinical trial\"[Publication Type] OR \"randomized controlled trial\"[Publication Type]) AND (\"1990/01/01\"[PDAT] : \"2023/01/28\"[PDAT])",
+    "search_date_end": "2023-01-28",
+    "max_results": 2000,
+    "notes": "Reproduces paper's primary search terms from supplementary Appendix I, restricted to PubMed only. Paper also searched EMBASE, Cochrane CENTRAL, ClinicalTrials.gov."
+  },
+  "inclusion_criteria": {
+    "study_design": "Randomized, controlled, double- or single-blinded, parallel-group study",
+    "population": "Participants with a diagnosis of Dravet syndrome (also called severe myoclonic epilepsy in infancy / SMEI), any age, sex, ethnicity",
+    "intervention": "Any antiseizure medication (ASM)",
+    "comparator": "Placebo, another ASM, or a different dose of the same ASM",
+    "outcomes_required": ["seizure response (>=50% reduction)", "seizure freedom (100% reduction)", "adverse events", "treatment discontinuation"]
+  },
+  "exclusion_criteria": [
+    "Non-randomized studies",
+    "Observational studies",
+    "Case reports or case series",
+    "Reviews, editorials, commentaries",
+    "Studies not specifically on Dravet syndrome",
+    "Animal studies",
+    "In vitro studies"
+  ],
+  "prisma_expected": {
+    "records_identified": 652,
+    "records_screened": 652,
+    "fulltext_assessed_expected": null,
+    "studies_included_final": 8
+  },
+  "prompts": {
+    "screening_system": "reviews/r01_lattanzi_dravet/prompts/screening_system.txt",
+    "fulltext_system": "reviews/r01_lattanzi_dravet/prompts/fulltext_system.txt",
+    "dedup_system": "reviews/r01_lattanzi_dravet/prompts/dedup_system.txt"
+  },
+  "paths": {
+    "base_dir": "reviews/r01_lattanzi_dravet",
+    "ground_truth": "reviews/r01_lattanzi_dravet/ground_truth.json",
+    "retrieved_dir": "reviews/r01_lattanzi_dravet/retrieved",
+    "results_dir": "reviews/r01_lattanzi_dravet/results",
+    "extractions_dir": "reviews/r01_lattanzi_dravet/extractions"
+  }
+}

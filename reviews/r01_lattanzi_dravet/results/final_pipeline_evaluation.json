@@ -1,0 +1,12 @@
+{
+  "ground_truth_count": 7,
+  "final_included_count": 7,
+  "true_positives": 7,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "sensitivity": 1.0,
+  "precision": 1.0,
+  "f1": 1.0,
+  "missed_pmids": [],
+  "extra_pmids": []
+}

@@ -1,0 +1,3342 @@
+{
+  "field_scores": {
+    "first_author": {
+      "gpt-4o-mini": 0.0,
+      "llama-3.3-70b": 0.1111111111111111,
+      "qwen-3-235b": 0.4444444444444444,
+      "deepseek-v3": 0.6666666666666666
+    },
+    "year": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "phase": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "n_total": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "n_active": {
+      "gpt-4o-mini": 0.5555555555555556,
+      "llama-3.3-70b": 0.6666666666666666,
+      "qwen-3-235b": 0.7777777777777778,
+      "deepseek-v3": 0.7777777777777778
+    },
+    "n_placebo": {
+      "gpt-4o-mini": 0.3333333333333333,
+      "llama-3.3-70b": 0.2222222222222222,
+      "qwen-3-235b": 0.3333333333333333,
+      "deepseek-v3": 0.6666666666666666
+    },
+    "age_range_years": {
+      "gpt-4o-mini": 0.4444444444444444,
+      "llama-3.3-70b": 0.7777777777777778,
+      "qwen-3-235b": 0.4444444444444444,
+      "deepseek-v3": 0.6666666666666666
+    },
+    "intervention": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "dose": {
+      "gpt-4o-mini": 0.5555555555555556,
+      "llama-3.3-70b": 0.2222222222222222,
+      "qwen-3-235b": 0.3333333333333333,
+      "deepseek-v3": 0.3333333333333333
+    },
+    "primary_efficacy_outcome": {
+      "gpt-4o-mini": 0.8888888888888888,
+      "llama-3.3-70b": 0.8888888888888888,
+      "qwen-3-235b": 0.8888888888888888,
+      "deepseek-v3": 0.8888888888888888
+    },
+    "maintenance_weeks_ge_12": {
+      "gpt-4o-mini": 0.5555555555555556,
+      "llama-3.3-70b": 0.2222222222222222,
+      "qwen-3-235b": 0.8888888888888888,
+      "deepseek-v3": 0.4444444444444444
+    }
+  },
+  "overall_accuracy": {
+    "gpt-4o-mini": 0.6666666666666666,
+    "llama-3.3-70b": 0.6464646464646465,
+    "qwen-3-235b": 0.7373737373737373,
+    "deepseek-v3": 0.7676767676767676
+  },
+  "details_per_model": {
+    "gpt-4o-mini": {
+      "first_author": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Robert",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Hamid",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Robert",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Weber",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ascierto",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Hodi",
+          "pred": "Fuchs",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Robert",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Weber",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Larkin",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 2011,
+          "pred": 2011,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 2016,
+          "pred": 2016,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 502,
+          "pred": 502,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 540,
+          "pred": 540,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 418,
+          "pred": 418,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 405,
+          "pred": 405,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 727,
+          "pred": 727,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 142,
+          "pred": 142,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 834,
+          "pred": 834,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 906,
+          "pred": 906,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 945,
+          "pred": 945,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 250,
+          "pred": 251,
+          "match": true,
+          "note": "diff=1 tol=25"
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 361,
+          "pred": 361,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 210,
+          "pred": 209,
+          "match": true,
+          "note": "diff=1 tol=21"
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 272,
+          "pred": 272,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 365,
+          "pred": 727,
+          "match": false,
+          "note": "diff=362 tol=36"
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 95,
+          "pred": 95,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 556,
+          "pred": 834,
+          "match": false,
+          "note": "diff=278 tol=55"
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 453,
+          "pred": 906,
+          "match": false,
+          "note": "diff=453 tol=45"
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 314,
+          "pred": 630,
+          "match": false,
+          "note": "diff=316 tol=31"
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 252,
+          "pred": 251,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 179,
+          "pred": 179,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 208,
+          "pred": 209,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 133,
+          "pred": 133,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 362,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 47,
+          "pred": 47,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 278,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 453,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 315,
+          "pred": 0,
+          "match": false,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": ">=15",
+          "pred": ">=15",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Ipilimumab + Dacarbazine",
+          "pred": "Ipilimumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Pembrolizumab",
+          "pred": "Pembrolizumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ipilimumab",
+          "pred": "Ipilimumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Nivolumab + Ipilimumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Pembrolizumab",
+          "pred": "Pembrolizumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Nivolumab + Ipilimumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Ipilimumab 10 mg/kg + Dacarbazine 850 mg/m2 at weeks 1, 4, 7, 10; then Dacarbazine alone every 3 weeks through week 22; ipilimumab/placebo every 12 weeks as maintenance",
+          "pred": "10 mg/kg",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Pembrolizumab 2 mg/kg or 10 mg/kg every 3 weeks; comparator was investigator-choice chemotherapy",
+          "pred": "2, 10 mg/kg",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks (with dacarbazine-matched placebo every 3 weeks); comparator dacarbazine 1000 mg/m2 every 3 weeks",
+          "pred": "3 mg/kg every 2 weeks",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks; comparator was investigator's choice chemotherapy (dacarbazine 1000 mg/m2 every 3 weeks or paclitaxel 175 mg/m2 + carboplatin AUC 6 every 3 weeks)",
+          "pred": "3 mg/kg every 2 weeks",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ipilimumab 10 mg/kg vs ipilimumab 3 mg/kg, IV every 3 weeks for 4 doses",
+          "pred": "10, 3 mg/kg",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg every 3 weeks for 4 doses, followed by nivolumab 3 mg/kg every 2 weeks; comparator: ipilimumab 3 mg/kg + placebo every 3 weeks for 4 doses, followed by placebo every 2 weeks",
+          "pred": "1 mg/kg plus ipilimumab 3 mg/kg",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Pembrolizumab 10 mg/kg every 2 weeks or every 3 weeks; comparator was four doses of ipilimumab 3 mg/kg every 3 weeks",
+          "pred": "10 mg/kg every 2 weeks, 10 mg/kg every 3 weeks, 3 mg/kg every 3 weeks",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks; comparator: ipilimumab 10 mg/kg every 3 weeks for 4 doses then every 12 weeks; treatment up to 1 year",
+          "pred": "3 mg/kg every 2 weeks; 10 mg/kg every 3 weeks for four doses and then every 12 weeks",
+          "match": true,
+          "note": "partial token match (11/20)"
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg every 3 weeks for 4 doses, followed by nivolumab 3 mg/kg every 2 weeks; comparator arms: nivolumab 3 mg/kg every 2 weeks (mono) and ipilimumab 3 mg/kg every 3 weeks for 4 doses (mono)",
+          "pred": "3 mg/kg every 2 weeks; 1 mg/kg plus 3 mg/kg every 3 weeks for 4 doses",
+          "match": true,
+          "note": "partial token match (10/19)"
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Overall survival",
+          "pred": "overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Overall survival",
+          "pred": "overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Overall survival",
+          "pred": "Overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Objective response rate (and overall survival; co-primary endpoints)",
+          "pred": "proportion of patients who had an objective response and overall survival",
+          "match": false,
+          "note": "overlap=0.38"
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Overall survival",
+          "pred": "overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Investigator-assessed objective response rate (in BRAF V600 wild-type patients)",
+          "pred": "rate of confirmed objective response among patients with BRAF V600 wild-type tumours",
+          "match": true,
+          "note": "overlap=0.67"
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Progression-free survival and overall survival (co-primary)",
+          "pred": "progression-free survival and overall survival",
+          "match": true,
+          "note": "overlap=0.80"
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Recurrence-free survival",
+          "pred": "recurrence-free survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Progression-free survival and overall survival (co-primary)",
+          "pred": "Progression-free survival",
+          "match": true,
+          "note": "overlap=0.40"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        }
+      ]
+    },
+    "llama-3.3-70b": {
+      "first_author": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Robert",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Hamid",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Robert",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Weber",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ascierto",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Hodi",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Robert",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Weber",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Larkin",
+          "pred": "Larkin",
+          "match": true,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 2011,
+          "pred": 2011,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 2016,
+          "pred": 2016,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 502,
+          "pred": 502,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 540,
+          "pred": 540,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 418,
+          "pred": 418,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 405,
+          "pred": 405,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 727,
+          "pred": 727,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 142,
+          "pred": 142,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 834,
+          "pred": 834,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 906,
+          "pred": 906,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 945,
+          "pred": 945,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 250,
+          "pred": 251,
+          "match": true,
+          "note": "diff=1 tol=25"
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 361,
+          "pred": 361,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 210,
+          "pred": 209,
+          "match": true,
+          "note": "diff=1 tol=21"
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 272,
+          "pred": 272,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 365,
+          "pred": 727,
+          "match": false,
+          "note": "diff=362 tol=36"
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 95,
+          "pred": 95,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 556,
+          "pred": 558,
+          "match": true,
+          "note": "diff=2 tol=55"
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 453,
+          "pred": 906,
+          "match": false,
+          "note": "diff=453 tol=45"
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 314,
+          "pred": 630,
+          "match": false,
+          "note": "diff=316 tol=31"
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 252,
+          "pred": 251,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 179,
+          "pred": 179,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 208,
+          "pred": 209,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 133,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 362,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 47,
+          "pred": 47,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 278,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 453,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 315,
+          "pred": 0,
+          "match": false,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": ">=15",
+          "pred": ">=15",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Ipilimumab + Dacarbazine",
+          "pred": "Ipilimumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Pembrolizumab",
+          "pred": "Pembrolizumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ipilimumab",
+          "pred": "Ipilimumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Nivolumab + Ipilimumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Pembrolizumab",
+          "pred": "Pembrolizumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Nivolumab + Ipilimumab",
+          "pred": "Nivolumab, Ipilimumab",
+          "match": true,
+          "note": "partial token match (2/3)"
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Ipilimumab 10 mg/kg + Dacarbazine 850 mg/m2 at weeks 1, 4, 7, 10; then Dacarbazine alone every 3 weeks through week 22; ipilimumab/placebo every 12 weeks as maintenance",
+          "pred": "10 mg per kilogram",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Pembrolizumab 2 mg/kg or 10 mg/kg every 3 weeks; comparator was investigator-choice chemotherapy",
+          "pred": "2 mg/kg, 10 mg/kg",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks (with dacarbazine-matched placebo every 3 weeks); comparator dacarbazine 1000 mg/m2 every 3 weeks",
+          "pred": "3 mg per kilogram of body weight every 2 weeks",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks; comparator was investigator's choice chemotherapy (dacarbazine 1000 mg/m2 every 3 weeks or paclitaxel 175 mg/m2 + carboplatin AUC 6 every 3 weeks)",
+          "pred": "3 mg/kg every 2 weeks",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ipilimumab 10 mg/kg vs ipilimumab 3 mg/kg, IV every 3 weeks for 4 doses",
+          "pred": "10 mg/kg, 3 mg/kg",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg every 3 weeks for 4 doses, followed by nivolumab 3 mg/kg every 2 weeks; comparator: ipilimumab 3 mg/kg + placebo every 3 weeks for 4 doses, followed by placebo every 2 weeks",
+          "pred": "1 mg/kg, 3 mg/kg",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Pembrolizumab 10 mg/kg every 2 weeks or every 3 weeks; comparator was four doses of ipilimumab 3 mg/kg every 3 weeks",
+          "pred": "10 mg per kilogram of body weight",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks; comparator: ipilimumab 10 mg/kg every 3 weeks for 4 doses then every 12 weeks; treatment up to 1 year",
+          "pred": "3 mg/kg every 2 weeks",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg every 3 weeks for 4 doses, followed by nivolumab 3 mg/kg every 2 weeks; comparator arms: nivolumab 3 mg/kg every 2 weeks (mono) and ipilimumab 3 mg/kg every 3 weeks for 4 doses (mono)",
+          "pred": "3 mg/kg every 2 weeks (nivolumab), 1 mg/kg every 3 weeks + 3 mg/kg every 3 weeks (nivolumab + ipilimumab), 3 mg/kg every 3 weeks (ipilimumab)",
+          "match": false,
+          "note": null
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Overall survival",
+          "pred": "Overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Overall survival",
+          "pred": "Overall survival (OS)",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Overall survival",
+          "pred": "overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Objective response rate (and overall survival; co-primary endpoints)",
+          "pred": "proportion of patients who had an objective response and overall survival",
+          "match": false,
+          "note": "overlap=0.38"
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Overall survival",
+          "pred": "overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Investigator-assessed objective response rate (in BRAF V600 wild-type patients)",
+          "pred": "Confirmed objective response rate among patients with BRAF V600 wild-type tumours",
+          "match": true,
+          "note": "overlap=0.67"
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Progression-free survival and overall survival (co-primary)",
+          "pred": "progression-free and overall survival",
+          "match": true,
+          "note": "overlap=0.80"
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Recurrence-free survival",
+          "pred": "Recurrence-free survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Progression-free survival and overall survival (co-primary)",
+          "pred": "Progression-free survival",
+          "match": true,
+          "note": "overlap=0.40"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        }
+      ]
+    },
+    "qwen-3-235b": {
+      "first_author": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Robert",
+          "pred": "Hodi",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Hamid",
+          "pred": "Robert",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Robert",
+          "pred": "Robert",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Weber",
+          "pred": "Robert",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ascierto",
+          "pred": "Schadendorf",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Hodi",
+          "pred": "Larkin",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Robert",
+          "pred": "Robert",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Weber",
+          "pred": "Weber",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Larkin",
+          "pred": "Larkin",
+          "match": true,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 2011,
+          "pred": 2011,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 2016,
+          "pred": 2016,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 502,
+          "pred": 502,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 540,
+          "pred": 540,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 418,
+          "pred": 418,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 405,
+          "pred": 405,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 727,
+          "pred": 727,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 142,
+          "pred": 142,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 834,
+          "pred": 834,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 906,
+          "pred": 906,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 945,
+          "pred": 945,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 250,
+          "pred": 251,
+          "match": true,
+          "note": "diff=1 tol=25"
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 361,
+          "pred": 361,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 210,
+          "pred": 210,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 272,
+          "pred": 272,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 365,
+          "pred": 727,
+          "match": false,
+          "note": "diff=362 tol=36"
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 95,
+          "pred": 95,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 556,
+          "pred": 556,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 453,
+          "pred": 453,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 314,
+          "pred": 630,
+          "match": false,
+          "note": "diff=316 tol=31"
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 252,
+          "pred": 251,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 179,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 208,
+          "pred": 208,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 133,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 362,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 47,
+          "pred": 47,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 278,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 453,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 315,
+          "pred": 315,
+          "match": true,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": ">=15",
+          "pred": ">=15",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Ipilimumab + Dacarbazine",
+          "pred": "Ipilimumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Pembrolizumab",
+          "pred": "Pembrolizumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ipilimumab",
+          "pred": "Ipilimumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Nivolumab + Ipilimumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Pembrolizumab",
+          "pred": "Pembrolizumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Nivolumab + Ipilimumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Ipilimumab 10 mg/kg + Dacarbazine 850 mg/m2 at weeks 1, 4, 7, 10; then Dacarbazine alone every 3 weeks through week 22; ipilimumab/placebo every 12 weeks as maintenance",
+          "pred": "10 mg per kilogram",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Pembrolizumab 2 mg/kg or 10 mg/kg every 3 weeks; comparator was investigator-choice chemotherapy",
+          "pred": "2 mg/kg or 10 mg/kg every 3 weeks",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks (with dacarbazine-matched placebo every 3 weeks); comparator dacarbazine 1000 mg/m2 every 3 weeks",
+          "pred": "3 mg per kilogram every 2 weeks",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks; comparator was investigator's choice chemotherapy (dacarbazine 1000 mg/m2 every 3 weeks or paclitaxel 175 mg/m2 + carboplatin AUC 6 every 3 weeks)",
+          "pred": "3 mg/kg every 2 weeks",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ipilimumab 10 mg/kg vs ipilimumab 3 mg/kg, IV every 3 weeks for 4 doses",
+          "pred": "10 mg/kg vs 3 mg/kg",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg every 3 weeks for 4 doses, followed by nivolumab 3 mg/kg every 2 weeks; comparator: ipilimumab 3 mg/kg + placebo every 3 weeks for 4 doses, followed by placebo every 2 weeks",
+          "pred": "nivolumab 1 mg/kg + ipilimumab 3 mg/kg (induction), then nivolumab 3 mg/kg (maintenance)",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Pembrolizumab 10 mg/kg every 2 weeks or every 3 weeks; comparator was four doses of ipilimumab 3 mg/kg every 3 weeks",
+          "pred": "10 mg per kilogram every 2 weeks or every 3 weeks",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks; comparator: ipilimumab 10 mg/kg every 3 weeks for 4 doses then every 12 weeks; treatment up to 1 year",
+          "pred": "3 mg per kilogram every 2 weeks",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg every 3 weeks for 4 doses, followed by nivolumab 3 mg/kg every 2 weeks; comparator arms: nivolumab 3 mg/kg every 2 weeks (mono) and ipilimumab 3 mg/kg every 3 weeks for 4 doses (mono)",
+          "pred": "3 mg/kg every 2 weeks (nivolumab alone); 1 mg/kg nivolumab + 3 mg/kg ipilimumab every 3 weeks for 4 doses, then 3 mg/kg nivolumab every 2 weeks (combination)",
+          "match": true,
+          "note": "partial token match (12/19)"
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Overall survival",
+          "pred": "Overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Overall survival",
+          "pred": "Overall survival (OS)",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Overall survival",
+          "pred": "Overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Objective response rate (and overall survival; co-primary endpoints)",
+          "pred": "proportion of patients who had an objective response",
+          "match": false,
+          "note": "overlap=0.25"
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Overall survival",
+          "pred": "overall survival in the intention-to-treat population",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Investigator-assessed objective response rate (in BRAF V600 wild-type patients)",
+          "pred": "rate of confirmed objective response among patients with BRAF V600 wild-type tumours",
+          "match": true,
+          "note": "overlap=0.67"
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Progression-free survival and overall survival (co-primary)",
+          "pred": "Progression-free and overall survival",
+          "match": true,
+          "note": "overlap=0.80"
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Recurrence-free survival",
+          "pred": "Recurrence-free survival in the intention-to-treat population",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Progression-free survival and overall survival (co-primary)",
+          "pred": "Progression-free survival and overall survival (co-primary end points)",
+          "match": true,
+          "note": "overlap=0.80"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        }
+      ]
+    },
+    "deepseek-v3": {
+      "first_author": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Robert",
+          "pred": "Robert",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Hamid",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Robert",
+          "pred": "Robert",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Weber",
+          "pred": "Weber",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ascierto",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Hodi",
+          "pred": "Wolchok",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Robert",
+          "pred": "Robert",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Weber",
+          "pred": "Weber",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Larkin",
+          "pred": "Larkin",
+          "match": true,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 2011,
+          "pred": 2011,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 2016,
+          "pred": 2016,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 2015,
+          "pred": 2015,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 502,
+          "pred": 502,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 540,
+          "pred": 540,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 418,
+          "pred": 418,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 405,
+          "pred": 405,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 727,
+          "pred": 727,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 142,
+          "pred": 142,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 834,
+          "pred": 834,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 906,
+          "pred": 906,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 945,
+          "pred": 945,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 250,
+          "pred": 250,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 361,
+          "pred": 361,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 210,
+          "pred": 210,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 272,
+          "pred": 272,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 365,
+          "pred": 727,
+          "match": false,
+          "note": "diff=362 tol=36"
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 95,
+          "pred": 95,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 556,
+          "pred": 556,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 453,
+          "pred": 453,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 314,
+          "pred": 630,
+          "match": false,
+          "note": "diff=316 tol=31"
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": 252,
+          "pred": 252,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": 179,
+          "pred": 179,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": 208,
+          "pred": 208,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": 133,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": 362,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": 47,
+          "pred": 47,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": 278,
+          "pred": 278,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": 453,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": 315,
+          "pred": 315,
+          "match": true,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": ">=18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": ">=15",
+          "pred": ">=15",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": ">=18",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Ipilimumab + Dacarbazine",
+          "pred": "Ipilimumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Pembrolizumab",
+          "pred": "Pembrolizumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ipilimumab",
+          "pred": "Ipilimumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Nivolumab + Ipilimumab",
+          "pred": "Nivolumab, Ipilimumab",
+          "match": true,
+          "note": "partial token match (2/3)"
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Pembrolizumab",
+          "pred": "Pembrolizumab, Ipilimumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Nivolumab",
+          "pred": "Nivolumab",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Nivolumab + Ipilimumab",
+          "pred": "Nivolumab, Ipilimumab",
+          "match": true,
+          "note": "partial token match (2/3)"
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Ipilimumab 10 mg/kg + Dacarbazine 850 mg/m2 at weeks 1, 4, 7, 10; then Dacarbazine alone every 3 weeks through week 22; ipilimumab/placebo every 12 weeks as maintenance",
+          "pred": "10 mg per kilogram",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Pembrolizumab 2 mg/kg or 10 mg/kg every 3 weeks; comparator was investigator-choice chemotherapy",
+          "pred": "2 mg/kg, 10 mg/kg every 3 weeks",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks (with dacarbazine-matched placebo every 3 weeks); comparator dacarbazine 1000 mg/m2 every 3 weeks",
+          "pred": "3 mg/kg every 2 weeks",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks; comparator was investigator's choice chemotherapy (dacarbazine 1000 mg/m2 every 3 weeks or paclitaxel 175 mg/m2 + carboplatin AUC 6 every 3 weeks)",
+          "pred": "3 mg/kg every 2 weeks",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Ipilimumab 10 mg/kg vs ipilimumab 3 mg/kg, IV every 3 weeks for 4 doses",
+          "pred": "3 mg/kg, 10 mg/kg",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg every 3 weeks for 4 doses, followed by nivolumab 3 mg/kg every 2 weeks; comparator: ipilimumab 3 mg/kg + placebo every 3 weeks for 4 doses, followed by placebo every 2 weeks",
+          "pred": "Nivolumab 1 mg/kg + Ipilimumab 3 mg/kg induction, then Nivolumab 3 mg/kg maintenance",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Pembrolizumab 10 mg/kg every 2 weeks or every 3 weeks; comparator was four doses of ipilimumab 3 mg/kg every 3 weeks",
+          "pred": "10 mg/kg every 2 weeks, 10 mg/kg every 3 weeks, 3 mg/kg every 3 weeks",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Nivolumab 3 mg/kg every 2 weeks; comparator: ipilimumab 10 mg/kg every 3 weeks for 4 doses then every 12 weeks; treatment up to 1 year",
+          "pred": "3 mg/kg every 2 weeks",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg every 3 weeks for 4 doses, followed by nivolumab 3 mg/kg every 2 weeks; comparator arms: nivolumab 3 mg/kg every 2 weeks (mono) and ipilimumab 3 mg/kg every 3 weeks for 4 doses (mono)",
+          "pred": "Nivolumab: 3 mg/kg every 2 weeks or 1 mg/kg every 3 weeks; Ipilimumab: 3 mg/kg every 3 weeks",
+          "match": false,
+          "note": null
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": "Overall survival",
+          "pred": "Overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": "Overall survival",
+          "pred": "Overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": "Overall survival",
+          "pred": "Overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": "Objective response rate (and overall survival; co-primary endpoints)",
+          "pred": "Proportion of patients who had an objective response and overall survival",
+          "match": false,
+          "note": "overlap=0.38"
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": "Overall survival",
+          "pred": "Overall survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": "Investigator-assessed objective response rate (in BRAF V600 wild-type patients)",
+          "pred": "Rate of confirmed objective response among patients with BRAF V600 wild-type tumours",
+          "match": true,
+          "note": "overlap=0.67"
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": "Progression-free survival and overall survival (co-primary)",
+          "pred": "Progression-free survival and overall survival",
+          "match": true,
+          "note": "overlap=0.80"
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": "Recurrence-free survival",
+          "pred": "Recurrence-free survival",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": "Progression-free survival and overall survival (co-primary)",
+          "pred": "Progression-free survival and overall survival",
+          "match": true,
+          "note": "overlap=0.80"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "21639810",
+          "study": "Robert 2011 (CA184-024)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28961465",
+          "study": "Hamid 2017 (KEYNOTE-002 final)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25399552",
+          "study": "CheckMate 066 (Robert 2015 NEJM)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "25795410",
+          "study": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28359784",
+          "study": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "27622997",
+          "study": "CheckMate 069 (Hodi 2016)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "25891173",
+          "study": "KEYNOTE-006 (Robert 2015 NEJM)",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28891423",
+          "study": "CheckMate 238 (Weber 2017 NEJM)",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "26027431",
+          "study": "CheckMate 067 (Larkin 2015) \u2014 substituted for original GT PMID 28889792",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        }
+      ]
+    }
+  }
+}

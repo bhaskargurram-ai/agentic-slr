@@ -1,0 +1,309 @@
+{
+  "model": "qwen-3-235b",
+  "provider": "together_ai",
+  "together_model": "Qwen/Qwen3-235B-A22B-Instruct-2507-tput",
+  "n_studies": 7,
+  "wall_time_seconds": 105.17,
+  "total_model_latency_seconds": 105.15,
+  "total_input_tokens": 63926,
+  "total_output_tokens": 2222,
+  "estimated_cost_usd": 0.0141,
+  "errors": 0,
+  "extractions": [
+    {
+      "extraction": {
+        "first_author": "Devinsky",
+        "year": 2017,
+        "phase": "III",
+        "design": "Double-blind, placebo-controlled, randomized trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 18,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Multinational (sites in the United States, Europe, and Australia)",
+        "n_total": 120,
+        "n_active": 61,
+        "n_placebo": 59,
+        "age_range_years": "2 to 18",
+        "intervention": "Cannabidiol",
+        "dose": "20 mg/kg/day",
+        "primary_efficacy_outcome": "Change in convulsive-seizure frequency over a 14-week treatment period compared to a 4-week baseline period",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 11.68,
+      "input_tokens": 2651,
+      "output_tokens": 317,
+      "error": null,
+      "pmid": "28538134",
+      "model": "qwen-3-235b"
+    },
+    {
+      "extraction": {
+        "first_author": "Lagae",
+        "year": 2019,
+        "phase": "III",
+        "design": "Randomised, double-blind, placebo-controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 20,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 119,
+        "n_active": 79,
+        "n_placebo": 40,
+        "age_range_years": "not_reported",
+        "intervention": "Fenfluramine hydrochloride",
+        "dose": "0.2, 0.7 mg/kg/day",
+        "primary_efficacy_outcome": "Change in mean monthly frequency of convulsive seizures during the treatment period compared with baseline in the 0.7 mg/kg per day group versus placebo",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events",
+          "treatment_discontinuation",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 13.02,
+      "input_tokens": 2975,
+      "output_tokens": 302,
+      "error": null,
+      "pmid": "31862249",
+      "model": "qwen-3-235b"
+    },
+    {
+      "extraction": {
+        "first_author": "Devinsky",
+        "year": 2020,
+        "phase": "III",
+        "design": "Double-blind, parallel-group, placebo-controlled, randomized clinical trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 18,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Canada, France, Germany, the Netherlands, Spain, the United Kingdom, and the United States",
+        "n_total": 87,
+        "n_active": 43,
+        "n_placebo": 44,
+        "age_range_years": "2-18",
+        "intervention": "Fenfluramine hydrochloride",
+        "dose": "0.4 mg/kg/d (maximum 17 mg/d)",
+        "primary_efficacy_outcome": "Change in mean monthly convulsive seizure frequency (MCSF) from baseline to the combined titration and maintenance (T + M) periods",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 14.91,
+      "input_tokens": 15646,
+      "output_tokens": 339,
+      "error": null,
+      "pmid": "31790543",
+      "model": "qwen-3-235b"
+    },
+    {
+      "extraction": {
+        "first_author": "Devinsky",
+        "year": 2018,
+        "phase": "II",
+        "design": "Multisite, randomized, double-blind, placebo-controlled, parallel-group trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 11,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "United States and United Kingdom",
+        "n_total": 34,
+        "n_active": 27,
+        "n_placebo": 7,
+        "age_range_years": "4-10",
+        "intervention": "Cannabidiol",
+        "dose": "5, 10, or 20 mg/kg/d",
+        "primary_efficacy_outcome": "Not explicitly stated; primary focus was safety and pharmacokinetics",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation",
+          "pharmacokinetics",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 16.18,
+      "input_tokens": 9319,
+      "output_tokens": 288,
+      "error": null,
+      "pmid": "29540584",
+      "model": "qwen-3-235b"
+    },
+    {
+      "extraction": {
+        "first_author": "Chiron",
+        "year": 2000,
+        "phase": "II",
+        "design": "Randomised, placebo-controlled, add-on trial with a baseline period of 1 month and a double-blind period of 2 months",
+        "blinding": "Double-blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 41,
+        "n_active": 21,
+        "n_placebo": 20,
+        "age_range_years": "not_reported",
+        "intervention": "Stiripentol",
+        "dose": "not_reported",
+        "primary_efficacy_outcome": "Proportion of responders defined as having more than 50% reduction in the frequency of clonic or tonic-clonic seizures during the second month of the double-blind period compared with baseline",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 12.81,
+      "input_tokens": 2563,
+      "output_tokens": 324,
+      "error": null,
+      "pmid": "11089822",
+      "model": "qwen-3-235b"
+    },
+    {
+      "extraction": {
+        "first_author": "Scheffer",
+        "year": 2022,
+        "phase": "II",
+        "design": "Phase 2, randomized, double-blind, placebo-controlled, parallel-group study",
+        "blinding": "Double-blind",
+        "duration_weeks": 20,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Australia, Canada, China, Israel, Poland, Portugal, Spain, and the USA",
+        "n_total": 141,
+        "n_active": 71,
+        "n_placebo": 70,
+        "age_range_years": "2-17",
+        "intervention": "Soticlestat",
+        "dose": "\u2264300 mg twice daily, weight-adjusted",
+        "primary_efficacy_outcome": "Change from baseline in frequency of convulsive seizures (DS) or drop seizures (LGS) in the combined patient population during the maintenance period, compared with placebo",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "pharmacokinetics",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 15.15,
+      "input_tokens": 14953,
+      "output_tokens": 334,
+      "error": null,
+      "pmid": "35841234",
+      "model": "qwen-3-235b"
+    },
+    {
+      "extraction": {
+        "first_author": "Devinsky",
+        "year": 2020,
+        "phase": "III",
+        "design": "multicenter, double-blind, randomized, placebo-controlled, parallel-group trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 20,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "United States, Spain, Poland, Netherlands, Australia, Israel",
+        "n_total": 199,
+        "n_active": 133,
+        "n_placebo": 65,
+        "age_range_years": "2-18",
+        "intervention": "Cannabidiol",
+        "dose": "10, 20 mg/kg/day",
+        "primary_efficacy_outcome": "change in convulsive seizure frequency during the 14-week treatment period compared with baseline",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 21.4,
+      "input_tokens": 15819,
+      "output_tokens": 318,
+      "error": null,
+      "pmid": "32119035",
+      "model": "qwen-3-235b"
+    }
+  ]
+}

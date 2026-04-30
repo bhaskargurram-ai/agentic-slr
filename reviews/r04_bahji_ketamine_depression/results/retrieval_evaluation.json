@@ -1,0 +1,251 @@
+{
+  "target_count": 24,
+  "found_count": 24,
+  "missed_count": 0,
+  "recall": 1.0,
+  "found_pmids": [
+    "10686270",
+    "12088953",
+    "16894061",
+    "20679587",
+    "22297150",
+    "23803871",
+    "23982301",
+    "24821196",
+    "26478208",
+    "27056608",
+    "26707087",
+    "26821769",
+    "28452409",
+    "28492279",
+    "29656663",
+    "29202655",
+    "29282469",
+    "30283029",
+    "30922101",
+    "30286416",
+    "31109201",
+    "31290965",
+    "31786030",
+    "31734084"
+  ],
+  "missed_pmids": [],
+  "included_studies_details": [
+    {
+      "pmid": "10686270",
+      "first_author": "Berman",
+      "year": 2000,
+      "short_name": "Berman 2000",
+      "journal": "Biological Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "12088953",
+      "first_author": "Kudoh",
+      "year": 2002,
+      "short_name": "Kudoh 2002",
+      "journal": "Anesthesia & Analgesia",
+      "intervention": "IV ketamine",
+      "dose": "1 mg/kg"
+    },
+    {
+      "pmid": "16894061",
+      "first_author": "Zarate",
+      "year": 2006,
+      "short_name": "Zarate 2006",
+      "journal": "Archives of General Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "20679587",
+      "first_author": "Diazgranados",
+      "year": 2010,
+      "short_name": "Diazgranados 2010",
+      "journal": "Archives of General Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "22297150",
+      "first_author": "Zarate",
+      "year": 2012,
+      "short_name": "Zarate 2012",
+      "journal": "Biological Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "23803871",
+      "first_author": "Sos",
+      "year": 2013,
+      "short_name": "Sos 2013",
+      "journal": "Journal of Clinical Psychopharmacology",
+      "intervention": "IV ketamine",
+      "dose": "0.54 mg/kg"
+    },
+    {
+      "pmid": "23982301",
+      "first_author": "Murrough",
+      "year": 2013,
+      "short_name": "Murrough 2013",
+      "journal": "American Journal of Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "24821196",
+      "first_author": "Lapidus",
+      "year": 2014,
+      "short_name": "Lapidus 2014",
+      "journal": "Biological Psychiatry",
+      "intervention": "Intranasal ketamine",
+      "dose": "50 mg"
+    },
+    {
+      "pmid": "26478208",
+      "first_author": "Hu",
+      "year": 2016,
+      "short_name": "Hu 2016",
+      "journal": "Journal of Affective Disorders",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "27056608",
+      "first_author": "Singh",
+      "year": 2016,
+      "short_name": "Singh 2016a",
+      "journal": "Biological Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "26707087",
+      "first_author": "Singh",
+      "year": 2016,
+      "short_name": "Singh 2016b",
+      "journal": "Neuropsychopharmacology",
+      "intervention": "IV esketamine",
+      "dose": "0.20 mg/kg or 0.40 mg/kg"
+    },
+    {
+      "pmid": "26821769",
+      "first_author": "Li",
+      "year": 2016,
+      "short_name": "Li 2016",
+      "journal": "Human Brain Mapping",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg or 0.2 mg/kg"
+    },
+    {
+      "pmid": "28452409",
+      "first_author": "Grunebaum",
+      "year": 2017,
+      "short_name": "Grunebaum 2017",
+      "journal": "Journal of Clinical Psychopharmacology",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "28492279",
+      "first_author": "Su",
+      "year": 2017,
+      "short_name": "Su 2017",
+      "journal": "Neuropsychopharmacology",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg or 0.2 mg/kg"
+    },
+    {
+      "pmid": "29656663",
+      "first_author": "Canuso",
+      "year": 2018,
+      "short_name": "Canuso 2018",
+      "journal": "Journal of Clinical Psychiatry",
+      "intervention": "Intranasal esketamine",
+      "dose": "84 mg"
+    },
+    {
+      "pmid": "29202655",
+      "first_author": "Grunebaum",
+      "year": 2018,
+      "short_name": "Grunebaum 2018",
+      "journal": "American Journal of Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "29282469",
+      "first_author": "Daly",
+      "year": 2018,
+      "short_name": "Daly 2018",
+      "journal": "JAMA Psychiatry",
+      "intervention": "Intranasal esketamine",
+      "dose": "28 mg, 56 mg, or 84 mg"
+    },
+    {
+      "pmid": "30283029",
+      "first_author": "Fava",
+      "year": 2018,
+      "short_name": "Fava 2018",
+      "journal": "Molecular Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.1, 0.2, 0.5, 1.0 mg/kg"
+    },
+    {
+      "pmid": "30922101",
+      "first_author": "Phillips",
+      "year": 2019,
+      "short_name": "Phillips 2019",
+      "journal": "American Journal of Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "30286416",
+      "first_author": "Ionescu",
+      "year": 2019,
+      "short_name": "Ionescu 2019",
+      "journal": "Journal of Clinical Psychopharmacology",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "31109201",
+      "first_author": "Popova",
+      "year": 2019,
+      "short_name": "TRANSFORM-2",
+      "journal": "International Journal of Neuropsychopharmacology",
+      "intervention": "Intranasal esketamine",
+      "dose": "56 mg or 84 mg"
+    },
+    {
+      "pmid": "31290965",
+      "first_author": "Fedgchin",
+      "year": 2019,
+      "short_name": "TRANSFORM-1",
+      "journal": "International Journal of Neuropsychopharmacology",
+      "intervention": "Intranasal esketamine",
+      "dose": "56 mg or 84 mg"
+    },
+    {
+      "pmid": "31786030",
+      "first_author": "Correia-Melo",
+      "year": 2020,
+      "short_name": "Correia-Melo 2020",
+      "journal": "Journal of Affective Disorders",
+      "intervention": "Esketamine vs racemic ketamine",
+      "dose": "0.25 mg/kg esketamine or 0.5 mg/kg ketamine"
+    },
+    {
+      "pmid": "31734084",
+      "first_author": "Ochs-Ross",
+      "year": 2020,
+      "short_name": "TRANSFORM-3",
+      "journal": "American Journal of Geriatric Psychiatry",
+      "intervention": "Intranasal esketamine",
+      "dose": "28 mg, 56 mg, or 84 mg"
+    }
+  ]
+}

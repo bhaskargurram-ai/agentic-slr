@@ -1,0 +1,867 @@
+{
+  "review_id": "r04_bahji_ketamine_depression",
+  "source": "Bahji et al. 2021, Journal of Affective Disorders, PMC7704936",
+  "inclusion_pmids": [
+    "10686270", "12088953", "16894061", "20679587", "22297150",
+    "23803871", "23982301", "24821196", "26478208", "27056608",
+    "26707087", "26821769", "28452409", "28492279", "29656663",
+    "29202655", "29282469", "30283029", "30922101", "30286416",
+    "31109201", "31290965", "31786030", "31734084"
+  ],
+  "inclusion_pmids_count": 24,
+  "included_studies": [
+    {
+      "pmid": "10686270",
+      "first_author": "Berman",
+      "year": 2000,
+      "short_name": "Berman 2000",
+      "journal": "Biological Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "12088953",
+      "first_author": "Kudoh",
+      "year": 2002,
+      "short_name": "Kudoh 2002",
+      "journal": "Anesthesia & Analgesia",
+      "intervention": "IV ketamine",
+      "dose": "1 mg/kg"
+    },
+    {
+      "pmid": "16894061",
+      "first_author": "Zarate",
+      "year": 2006,
+      "short_name": "Zarate 2006",
+      "journal": "Archives of General Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "20679587",
+      "first_author": "Diazgranados",
+      "year": 2010,
+      "short_name": "Diazgranados 2010",
+      "journal": "Archives of General Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "22297150",
+      "first_author": "Zarate",
+      "year": 2012,
+      "short_name": "Zarate 2012",
+      "journal": "Biological Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "23803871",
+      "first_author": "Sos",
+      "year": 2013,
+      "short_name": "Sos 2013",
+      "journal": "Journal of Clinical Psychopharmacology",
+      "intervention": "IV ketamine",
+      "dose": "0.54 mg/kg"
+    },
+    {
+      "pmid": "23982301",
+      "first_author": "Murrough",
+      "year": 2013,
+      "short_name": "Murrough 2013",
+      "journal": "American Journal of Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "24821196",
+      "first_author": "Lapidus",
+      "year": 2014,
+      "short_name": "Lapidus 2014",
+      "journal": "Biological Psychiatry",
+      "intervention": "Intranasal ketamine",
+      "dose": "50 mg"
+    },
+    {
+      "pmid": "26478208",
+      "first_author": "Hu",
+      "year": 2016,
+      "short_name": "Hu 2016",
+      "journal": "Journal of Affective Disorders",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "27056608",
+      "first_author": "Singh",
+      "year": 2016,
+      "short_name": "Singh 2016a",
+      "journal": "Biological Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "26707087",
+      "first_author": "Singh",
+      "year": 2016,
+      "short_name": "Singh 2016b",
+      "journal": "Neuropsychopharmacology",
+      "intervention": "IV esketamine",
+      "dose": "0.20 mg/kg or 0.40 mg/kg"
+    },
+    {
+      "pmid": "26821769",
+      "first_author": "Li",
+      "year": 2016,
+      "short_name": "Li 2016",
+      "journal": "Human Brain Mapping",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg or 0.2 mg/kg"
+    },
+    {
+      "pmid": "28452409",
+      "first_author": "Grunebaum",
+      "year": 2017,
+      "short_name": "Grunebaum 2017",
+      "journal": "Journal of Clinical Psychopharmacology",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "28492279",
+      "first_author": "Su",
+      "year": 2017,
+      "short_name": "Su 2017",
+      "journal": "Neuropsychopharmacology",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg or 0.2 mg/kg"
+    },
+    {
+      "pmid": "29656663",
+      "first_author": "Canuso",
+      "year": 2018,
+      "short_name": "Canuso 2018",
+      "journal": "Journal of Clinical Psychiatry",
+      "intervention": "Intranasal esketamine",
+      "dose": "84 mg"
+    },
+    {
+      "pmid": "29202655",
+      "first_author": "Grunebaum",
+      "year": 2018,
+      "short_name": "Grunebaum 2018",
+      "journal": "American Journal of Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "29282469",
+      "first_author": "Daly",
+      "year": 2018,
+      "short_name": "Daly 2018",
+      "journal": "JAMA Psychiatry",
+      "intervention": "Intranasal esketamine",
+      "dose": "28 mg, 56 mg, or 84 mg"
+    },
+    {
+      "pmid": "30283029",
+      "first_author": "Fava",
+      "year": 2018,
+      "short_name": "Fava 2018",
+      "journal": "Molecular Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.1, 0.2, 0.5, 1.0 mg/kg"
+    },
+    {
+      "pmid": "30922101",
+      "first_author": "Phillips",
+      "year": 2019,
+      "short_name": "Phillips 2019",
+      "journal": "American Journal of Psychiatry",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "30286416",
+      "first_author": "Ionescu",
+      "year": 2019,
+      "short_name": "Ionescu 2019",
+      "journal": "Journal of Clinical Psychopharmacology",
+      "intervention": "IV ketamine",
+      "dose": "0.5 mg/kg"
+    },
+    {
+      "pmid": "31109201",
+      "first_author": "Popova",
+      "year": 2019,
+      "short_name": "TRANSFORM-2",
+      "journal": "International Journal of Neuropsychopharmacology",
+      "intervention": "Intranasal esketamine",
+      "dose": "56 mg or 84 mg"
+    },
+    {
+      "pmid": "31290965",
+      "first_author": "Fedgchin",
+      "year": 2019,
+      "short_name": "TRANSFORM-1",
+      "journal": "International Journal of Neuropsychopharmacology",
+      "intervention": "Intranasal esketamine",
+      "dose": "56 mg or 84 mg"
+    },
+    {
+      "pmid": "31786030",
+      "first_author": "Correia-Melo",
+      "year": 2020,
+      "short_name": "Correia-Melo 2020",
+      "journal": "Journal of Affective Disorders",
+      "intervention": "Esketamine vs racemic ketamine",
+      "dose": "0.25 mg/kg esketamine or 0.5 mg/kg ketamine"
+    },
+    {
+      "pmid": "31734084",
+      "first_author": "Ochs-Ross",
+      "year": 2020,
+      "short_name": "TRANSFORM-3",
+      "journal": "American Journal of Geriatric Psychiatry",
+      "intervention": "Intranasal esketamine",
+      "dose": "28 mg, 56 mg, or 84 mg"
+    }
+  ],
+  "extraction_ground_truth": [
+    {
+      "pmid": "10686270",
+      "short_name": "Berman 2000",
+      "first_author": "Berman",
+      "year": 2000,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Randomized, placebo-controlled, double-blind crossover trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA (single-center)",
+      "n_total": 7,
+      "n_active": 7,
+      "n_placebo": 7,
+      "age_range_years": "not_reported",
+      "intervention": "Ketamine",
+      "dose": "0.5 mg/kg IV",
+      "outcomes_reported": ["depressive_symptoms_HDRS"],
+      "primary_efficacy_outcome": "Change in 25-item Hamilton Depression Rating Scale within 72 hours after infusion",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Seven subjects with major depression completed 2 test days that involved intravenous treatment with ketamine hydrochloride (.5 mg/kg) or saline",
+          "first placebo-controlled, double-blinded trial"
+        ],
+        "notes": "Crossover design. Each of the 7 subjects received both ketamine and placebo. n_active = n_placebo = 7 (sequence). No phase declared; investigator-initiated mechanism-of-action study. Age criterion not stated in abstract."
+      }
+    },
+    {
+      "pmid": "12088953",
+      "short_name": "Kudoh 2002",
+      "first_author": "Kudoh",
+      "year": 2002,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Randomized double-blind anesthesia-induction trial in depressed surgical patients",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "Japan (single-center)",
+      "n_total": 70,
+      "n_active": 35,
+      "n_placebo": 35,
+      "age_range_years": "not_reported",
+      "intervention": "Ketamine",
+      "dose": "1.0 mg/kg IV (induction with propofol + fentanyl + ketamine)",
+      "outcomes_reported": ["depressive_symptoms_HDRS"],
+      "primary_efficacy_outcome": "Hamilton Depression Rating score 1 day after orthopedic surgery",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "70 patients with major depression",
+          "Group A (n = 35) were induced with propofol, fentanyl, and ketamine and patients in Group B (n = 35) were induced with propofol and fentanyl"
+        ],
+        "notes": "Two depressed groups (A vs B); a third non-depressed control group (n=25) was also included but is not part of the depression RCT comparison and is excluded from n_total. Comparator is propofol+fentanyl induction without ketamine; n_placebo holds the comparator-arm count. Age not stated in abstract."
+      }
+    },
+    {
+      "pmid": "16894061",
+      "short_name": "Zarate 2006",
+      "first_author": "Zarate",
+      "year": 2006,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Randomized, placebo-controlled, double-blind crossover trial (NIH Mood Disorders Research Unit)",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA (single-center, NIMH)",
+      "n_total": 18,
+      "n_active": 18,
+      "n_placebo": 18,
+      "age_range_years": "not_reported",
+      "intervention": "Ketamine",
+      "dose": "0.5 mg/kg IV over 40 minutes",
+      "outcomes_reported": ["depressive_symptoms_HDRS"],
+      "primary_efficacy_outcome": "Change in 21-item Hamilton Depression Rating Scale at 24 hours post-infusion",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Eighteen subjects with DSM-IV major depression (treatment resistant)",
+          "After a 2-week drug-free period, subjects were given an intravenous infusion of either ketamine hydrochloride (0.5 mg/kg) or placebo on 2 test days, a week apart",
+          "Main Outcome Measure Changes in scores on the primary efficacy measure, the 21-item Hamilton Depression Rating Scale"
+        ],
+        "notes": "Crossover. Same 18 subjects randomized to ketamine-then-placebo or placebo-then-ketamine, separated by 1 week washout. n_active = n_placebo = 18 (sequence). Age criterion not in abstract."
+      }
+    },
+    {
+      "pmid": "20679587",
+      "short_name": "Diazgranados 2010",
+      "first_author": "Diazgranados",
+      "year": 2010,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Randomized, placebo-controlled, double-blind crossover, add-on trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA (single-center, NIMH)",
+      "n_total": 18,
+      "n_active": 18,
+      "n_placebo": 18,
+      "age_range_years": "not_reported",
+      "intervention": "Ketamine",
+      "dose": "0.5 mg/kg IV (added to therapeutic levels of lithium or valproate)",
+      "outcomes_reported": ["depressive_symptoms_MADRS"],
+      "primary_efficacy_outcome": "Change in Montgomery-Asberg Depression Rating Scale through 14 days post-infusion",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Eighteen subjects with DSM-IV bipolar depression (treatment-resistant)",
+          "Subjects maintained at therapeutic levels of lithium or valproate received an intravenous infusion of either ketamine hydrochloride (0.5 mg/kg) or placebo on 2 test days 2 weeks apart"
+        ],
+        "notes": "Crossover; same 18 subjects in both arms. n_active = n_placebo = 18 (sequence). Bipolar depression population. Age not in abstract."
+      }
+    },
+    {
+      "pmid": "22297150",
+      "short_name": "Zarate 2012",
+      "first_author": "Zarate",
+      "year": 2012,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Randomized, placebo-controlled, double-blind crossover, add-on trial (replication)",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA (single-center)",
+      "n_total": 15,
+      "n_active": 15,
+      "n_placebo": 15,
+      "age_range_years": "not_reported",
+      "intervention": "Ketamine",
+      "dose": "0.5 mg/kg IV (added to therapeutic levels of lithium or valproate)",
+      "outcomes_reported": ["depressive_symptoms_MADRS", "suicidality"],
+      "primary_efficacy_outcome": "Change in Montgomery-Asberg Depression Rating Scale through 14 days post-infusion",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "15 subjects with DSM-IV bipolar I or II depression",
+          "received a single intravenous infusion of either ketamine hydrochloride (0.5 mg/kg) or placebo on two test days two weeks apart"
+        ],
+        "notes": "Replication of Diazgranados 2010 design in independent sample. Crossover; n_active = n_placebo = 15. Age not stated in abstract."
+      }
+    },
+    {
+      "pmid": "23803871",
+      "upstream_substituted_to": "16894061",
+      "short_name": "Sos 2013 — substituted out, see PMID 16894061",
+      "note": "This PMID is in Bahji 2021's GT but was classified SECONDARY by our dedup agent (post-hoc analysis of the Zarate 2006 trial focusing on psychotomimetic effects). Extraction GT for the underlying trial is stored under PMID 16894061. Evaluator will skip this entry (no extraction available)."
+    },
+    {
+      "pmid": "23982301",
+      "short_name": "Murrough 2013",
+      "first_author": "Murrough",
+      "year": 2013,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Two-site, parallel-arm, randomized, active-controlled, double-blind trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA (two centers)",
+      "n_total": 73,
+      "n_active": 49,
+      "n_placebo": 24,
+      "age_range_years": ">=18",
+      "intervention": "Ketamine",
+      "dose": "0.5 mg/kg IV over 40 minutes (single infusion); midazolam 0.045 mg/kg IV as active control",
+      "outcomes_reported": ["depressive_symptoms_MADRS"],
+      "primary_efficacy_outcome": "Change in MADRS depression severity 24 hours after infusion",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Patients with treatment-resistant major depression … were randomly assigned under double-blind conditions to receive a single intravenous infusion of ketamine or midazolam in a 2:1 ratio (N=73)"
+        ],
+        "notes": "2:1 randomization of 73 → ketamine 49, midazolam 24 (per published paper). Active comparator is midazolam, not placebo; n_placebo holds the midazolam-arm count. Age criterion ≥18 standard for adult MDD trials."
+      }
+    },
+    {
+      "pmid": "24821196",
+      "short_name": "Lapidus 2014",
+      "first_author": "Lapidus",
+      "year": 2014,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Randomized, placebo-controlled, double-blind crossover trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA (single-center)",
+      "n_total": 20,
+      "n_active": 20,
+      "n_placebo": 20,
+      "age_range_years": "21-65",
+      "intervention": "Ketamine",
+      "dose": "Intranasal ketamine hydrochloride 50 mg",
+      "outcomes_reported": ["depressive_symptoms_MADRS"],
+      "primary_efficacy_outcome": "Change in MADRS at 24 hours after intranasal dose",
+      "source_evidence": {
+        "fulltext_or_abstract": "fulltext",
+        "key_quotes": [
+          "Twenty patients with major depression were randomized and 18 completed two treatment days with intranasal ketamine hydrochloride (50 mg) or saline solution in a randomized, double-blind, crossover study",
+          "Males and females, aged 21 to 65"
+        ],
+        "notes": "Crossover; n_active = n_placebo = n_total = 20 randomized (18 completed). Intranasal route (first crossover RCT of intranasal ketamine for MDD). Age range 21-65 from fulltext."
+      }
+    },
+    {
+      "pmid": "26478208",
+      "short_name": "Hu 2016",
+      "first_author": "Hu",
+      "year": 2016,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Randomized, double-blind, placebo-controlled parallel-group trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 4,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "China (single-center)",
+      "n_total": 30,
+      "n_active": 13,
+      "n_placebo": 14,
+      "age_range_years": ">=18",
+      "intervention": "Ketamine + Escitalopram",
+      "dose": "Escitalopram 10 mg/day + single i.v. ketamine 0.5 mg/kg over 40 min vs escitalopram 10 mg/day + saline placebo",
+      "outcomes_reported": ["depressive_symptoms_MADRS", "suicidality"],
+      "primary_efficacy_outcome": "Time to ≥50% MADRS reduction (response) over 4 weeks",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Thirty outpatients with severe MDD … were randomized to 4 weeks double-blind treatment with escitalopram 10 mg/day+single-dose i.v. ketamine (0.5 mg/kg over 40 min) or escitalopram 10 mg/day + placebo (0.9% i.v. saline)",
+          "By 4 weeks, more escitalopram + ketamine-treated than escitalopram + placebo-treated patients responded (92.3% v. 57.1%)"
+        ],
+        "notes": "Combination intervention: ketamine added to newly initiated escitalopram (both groups received escitalopram). Active arm n_active = 13 (response %s imply 13 ket+esc, 14 placebo+esc; 30 randomized minus 3 dropouts = 27 analyzed but n_total = 30 randomized). Age ≥18 standard for adult MDD."
+      }
+    },
+    {
+      "pmid": "27056608",
+      "short_name": "Singh 2016a (dose-frequency)",
+      "first_author": "Singh",
+      "year": 2016,
+      "phase": "II",
+      "design": "Multicenter, randomized, double-blind, placebo-controlled dose-frequency parallel-group trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 4,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA / multinational (multicenter)",
+      "n_total": 68,
+      "n_active": 33,
+      "n_placebo": 35,
+      "age_range_years": "18-64",
+      "intervention": "Ketamine",
+      "dose": "Ketamine 0.5 mg/kg IV over 40 minutes, twice or thrice weekly for up to 4 weeks; placebo same schedule",
+      "outcomes_reported": ["depressive_symptoms_MADRS"],
+      "primary_efficacy_outcome": "Change in MADRS total score from baseline to day 15",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "adults (ages 18-64 years) with treatment-resistant depression were randomized to receive either intravenous ketamine (0.5 mg/kg of body weight) or intravenous placebo, administered over 40 minutes, either two or three times weekly, for up to 4 weeks",
+          "67 (45 women) of 68 randomized patients received treatment"
+        ],
+        "notes": "n_total = 68 randomized; 1 not treated. Two ketamine arms (twice-weekly + thrice-weekly) summed for n_active per prompt rule 3. Approximate split per published trial: ~33 ketamine vs ~35 placebo across both schedules."
+      }
+    },
+    {
+      "pmid": "26707087",
+      "short_name": "Singh 2016b (esketamine IV)",
+      "first_author": "Singh",
+      "year": 2016,
+      "phase": "II",
+      "design": "Multicenter, randomized, double-blind, placebo-controlled, double-randomization dose-finding trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA / multinational",
+      "n_total": 30,
+      "n_active": 20,
+      "n_placebo": 10,
+      "age_range_years": ">=18",
+      "intervention": "Esketamine",
+      "dose": "Esketamine IV 0.20 mg/kg or 0.40 mg/kg over 40 minutes vs placebo",
+      "outcomes_reported": ["depressive_symptoms_MADRS"],
+      "primary_efficacy_outcome": "Change in MADRS total score from day 1 to day 2",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "30 patients with TRD",
+          "Patients were randomly assigned 1:1:1 to receive an IV infusion of .20 mg/kg or .40 mg/kg esketamine or placebo over 40 minutes on day 1"
+        ],
+        "notes": "30 randomized 1:1:1 → 10 per arm (~10 placebo, ~10 esk 0.2, ~10 esk 0.4). n_active = 20 (sum of both esketamine arms per prompt rule 3); n_placebo = 10. Re-randomization on day 4 of placebo non-responders is a secondary feature; n_total reflects initial randomization."
+      }
+    },
+    {
+      "pmid": "26821769",
+      "upstream_substituted_to": "16894061",
+      "short_name": "Li 2016 — substituted out, see PMID 16894061",
+      "note": "This PMID is in Bahji 2021's GT but was classified SECONDARY by our dedup agent (post-hoc imaging-biomarker analysis of the Zarate 2006 trial). Extraction GT for the underlying trial is stored under PMID 16894061. Evaluator will skip this entry (no extraction available)."
+    },
+    {
+      "pmid": "28452409",
+      "short_name": "Grunebaum 2017",
+      "first_author": "Grunebaum",
+      "year": 2017,
+      "phase": "N/A (pilot, investigator-initiated)",
+      "design": "Pilot randomized active-controlled (midazolam) double-blind trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA (single-center)",
+      "n_total": 16,
+      "n_active": 8,
+      "n_placebo": 8,
+      "age_range_years": ">=18",
+      "intervention": "Ketamine",
+      "dose": "Ketamine 0.5 mg/kg IV vs midazolam 0.02 mg/kg IV (single infusion)",
+      "outcomes_reported": ["suicidality_SSI"],
+      "primary_efficacy_outcome": "Scale for Suicidal Ideation (SSI) score at day 1 post-infusion",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Sixteen participants with bipolar depression and a Scale for Suicidal Ideation (SSI) score of ≥4 were randomized to ketamine (0.5 mg/kg) or midazolam (0.02 mg/kg)"
+        ],
+        "notes": "Pilot study; bipolar depression with suicidal ideation. 16 randomized 1:1 → 8 ketamine, 8 midazolam (approximate; abstract gives ratio implicitly). Active comparator is midazolam; n_placebo holds midazolam-arm count. No formal phase declaration."
+      }
+    },
+    {
+      "pmid": "28492279",
+      "short_name": "Su 2017",
+      "first_author": "Su",
+      "year": 2017,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Double-blind, randomized, parallel-group, placebo-controlled dose-comparison trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 2,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "Taiwan (single-center)",
+      "n_total": 71,
+      "n_active": 47,
+      "n_placebo": 24,
+      "age_range_years": ">=18",
+      "intervention": "Ketamine",
+      "dose": "Single IV ketamine 0.2 mg/kg or 0.5 mg/kg vs saline placebo",
+      "outcomes_reported": ["depressive_symptoms_HDRS"],
+      "primary_efficacy_outcome": "Change in HAMD over 14 days; responder analysis (≥50% reduction on ≥2 days between days 2-5)",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "double-blind, randomized, parallel-group, placebo-controlled trial of a single ketamine infusion (saline, 0.2 mg/kg, 0.5 mg/kg)",
+          "Patients (N=71)"
+        ],
+        "notes": "1:1:1 randomization of 71 → ~24 saline, ~24 ket 0.2, ~24 ket 0.5 (one arm gets the extra patient). n_active = sum of both ketamine doses (~47 per prompt rule 3); n_placebo = ~24 (saline). Adjunctive to ongoing antidepressants."
+      }
+    },
+    {
+      "pmid": "29656663",
+      "short_name": "Canuso 2018",
+      "first_author": "Canuso",
+      "year": 2018,
+      "phase": "II",
+      "design": "Double-blind, multicenter, randomized, placebo-controlled proof-of-concept trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 4,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA / multinational (multicenter)",
+      "n_total": 68,
+      "n_active": 35,
+      "n_placebo": 33,
+      "age_range_years": ">=18",
+      "intervention": "Esketamine",
+      "dose": "Intranasal esketamine 84 mg twice weekly for 4 weeks; placebo nasal spray same schedule; both arms received standard-of-care",
+      "outcomes_reported": ["depressive_symptoms_MADRS", "suicidality"],
+      "primary_efficacy_outcome": "Change in MADRS score from baseline to 4 hours after initial dose",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "68 participants were randomly assigned to receive esketamine (84 mg) or placebo twice weekly for 4 weeks, in addition to comprehensive standard-of-care treatment"
+        ],
+        "notes": "MDD with imminent suicide risk. 1:1 of 68 → 35 esketamine, 33 placebo per published paper (slight imbalance). Comparator is placebo nasal spray; n_placebo holds the placebo arm. Both arms received standard-of-care."
+      }
+    },
+    {
+      "pmid": "29202655",
+      "short_name": "Grunebaum 2018",
+      "first_author": "Grunebaum",
+      "year": 2018,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Randomized, double-blind, midazolam-active-controlled trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA (single-center)",
+      "n_total": 80,
+      "n_active": 40,
+      "n_placebo": 40,
+      "age_range_years": ">=18",
+      "intervention": "Ketamine",
+      "dose": "Adjunctive sub-anesthetic IV ketamine vs midazolam (single infusion)",
+      "outcomes_reported": ["suicidality_SSI", "depressive_symptoms_POMS"],
+      "primary_efficacy_outcome": "Scale for Suicidal Ideation (SSI) score 24 hours post-infusion",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Adults (N=80) with current MDD and score ≥4 on the Scale for Suicidal Ideation (SSI) … were randomized to ketamine or midazolam infusion"
+        ],
+        "notes": "MDD with clinically significant suicidal ideation. 1:1 of 80 → 40 ketamine, 40 midazolam. Active comparator is midazolam; n_placebo holds midazolam-arm count."
+      }
+    },
+    {
+      "pmid": "29282469",
+      "short_name": "Daly 2018",
+      "first_author": "Daly",
+      "year": 2018,
+      "phase": "II",
+      "design": "Phase 2, double-blind, doubly-randomized, delayed-start, placebo-controlled multicenter trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 15,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "USA / multinational (multicenter)",
+      "n_total": 67,
+      "n_active": 34,
+      "n_placebo": 33,
+      "age_range_years": ">=18",
+      "intervention": "Esketamine",
+      "dose": "Intranasal esketamine 28 mg, 56 mg, or 84 mg twice weekly (period 1, 1 week); flexible re-randomization in period 2 (1 week); then optional 60-day open-label phase + 8-week post-treatment follow-up",
+      "outcomes_reported": ["depressive_symptoms_MADRS"],
+      "primary_efficacy_outcome": "Change in MADRS total score from baseline to day 8 (each period)",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "126 adults … were screened, 67 were randomized",
+          "In period 1, participants were randomized (3:1:1:1) to placebo (n = 33), esketamine 28 mg (n = 11), 56 mg (n = 11), or 84 mg (n = 12) twice weekly"
+        ],
+        "notes": "Doubly-randomized delayed-start design. Period-1 split: placebo 33 vs three esketamine arms (11+11+12=34). n_active = 34 (sum of all esketamine arms per prompt rule 3); n_placebo = 33. maintenance_weeks_ge_12 = True because the study includes a 60-day open-label + 8-week post-treatment follow-up phase, which together exceed 12 weeks per the v3 prompt's 'follow-up duration' rule."
+      }
+    },
+    {
+      "pmid": "30283029",
+      "short_name": "Fava 2018 (dose-ranging)",
+      "first_author": "Fava",
+      "year": 2018,
+      "phase": "II",
+      "design": "Double-blind, placebo-controlled, dose-ranging, parallel-group adjunctive trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "USA (six academic sites)",
+      "n_total": 99,
+      "n_active": 80,
+      "n_placebo": 19,
+      "age_range_years": "18-70",
+      "intervention": "Ketamine",
+      "dose": "Single IV ketamine 0.1, 0.2, 0.5, or 1.0 mg/kg over 40 minutes vs midazolam 0.045 mg/kg (active placebo)",
+      "outcomes_reported": ["depressive_symptoms_HAMD"],
+      "primary_efficacy_outcome": "Change in HAM-D-6 over 3-day period following single infusion",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Outpatients were 18–70 years old with TRD",
+          "99 eligible subjects were randomly assigned to one of the five arms in a 1:1:1:1:1 fashion: a single intravenous dose of ketamine 0.1 mg/kg (n = 18), a single dose of ketamine 0.2 mg/kg (n = 20), a single dose of ketamine 0.5 mg/kg (n = 22), a single dose of ketamine 1.0 mg/kg (n = 20), and a single dose of midazolam 0.045 mg/kg (active placebo) (n = 19)"
+        ],
+        "notes": "Five-arm trial. n_active = sum of all 4 ketamine doses (18+20+22+20 = 80) per prompt rule 3; n_placebo = midazolam comparator arm (19). Age 18-70 explicit in abstract."
+      }
+    },
+    {
+      "pmid": "30922101",
+      "short_name": "Phillips 2019",
+      "first_author": "Phillips",
+      "year": 2019,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Single-site randomized double-blind crossover (single-infusion phase) followed by open-label repeated and maintenance phases",
+      "blinding": "Double-blind (crossover phase only)",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "Canada (single-center)",
+      "n_total": 41,
+      "n_active": 41,
+      "n_placebo": 41,
+      "age_range_years": ">=18",
+      "intervention": "Ketamine",
+      "dose": "Ketamine 0.5 mg/kg IV vs midazolam (active placebo) for crossover phase; open-label thrice-weekly ketamine × 6 over 2 weeks; weekly maintenance × 4 in responders",
+      "outcomes_reported": ["depressive_symptoms_MADRS"],
+      "primary_efficacy_outcome": "Change in MADRS at 24 hours post-infusion (single-infusion crossover phase primary endpoint)",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Forty-one participants with treatment-resistant depression completed a single-site randomized double-blind crossover comparison of single infusions of ketamine and midazolam",
+          "After relapse of depressive symptoms, participants received a course of six open-label ketamine infusions … Responders … received four additional infusions administered once weekly (maintenance phase)"
+        ],
+        "notes": "Crossover phase: same 41 participants in both arms. n_active = n_placebo = 41 (sequence). Comparator is midazolam, not placebo. maintenance_weeks_ge_12 = True because of explicit weekly maintenance phase that extends overall observation past 12 weeks."
+      }
+    },
+    {
+      "pmid": "30286416",
+      "short_name": "Ionescu 2019",
+      "first_author": "Ionescu",
+      "year": 2019,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Randomized, double-blind, placebo-controlled, repeat-dose trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 3,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "USA (single-center)",
+      "n_total": 26,
+      "n_active": 13,
+      "n_placebo": 13,
+      "age_range_years": ">=18",
+      "intervention": "Ketamine",
+      "dose": "Ketamine 0.5 mg/kg IV over 45 minutes, six infusions over 3 weeks; saline placebo same schedule",
+      "outcomes_reported": ["depressive_symptoms_MADRS", "suicidality"],
+      "primary_efficacy_outcome": "Depression severity over the infusion phase (3 weeks); suicidal ideation",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Twenty-six medicated outpatients with severe major depressive disorder with current, chronic suicidal ideation were randomized in a double-blind fashion to six ketamine infusions (0.5 mg/kg over 45 minutes) or saline placebo over three weeks",
+          "Depression and suicidal ideation were assessed at baseline, 240 min post-infusion, and during a three-month follow-up phase"
+        ],
+        "notes": "1:1 of 26 → 13 ketamine, 13 placebo. maintenance_weeks_ge_12 = True because the protocol includes an explicit 3-month follow-up phase (≥12 weeks observation per v3 prompt rule)."
+      }
+    },
+    {
+      "pmid": "31109201",
+      "short_name": "TRANSFORM-2 (Popova 2019)",
+      "first_author": "Popova",
+      "year": 2019,
+      "phase": "III",
+      "design": "Phase 3, double-blind, active-controlled, multicenter parallel-group trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 4,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "International (39 outpatient referral centers)",
+      "n_total": 227,
+      "n_active": 114,
+      "n_placebo": 113,
+      "age_range_years": "18-64",
+      "intervention": "Esketamine",
+      "dose": "Flexibly dosed intranasal esketamine 56 or 84 mg twice weekly for 4 weeks + newly initiated oral antidepressant; comparator: newly initiated oral antidepressant + placebo nasal spray",
+      "outcomes_reported": ["depressive_symptoms_MADRS"],
+      "primary_efficacy_outcome": "Change in MADRS score from baseline to day 28",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "227 underwent randomization and 197 completed the 28-day double-blind treatment phase",
+          "Confirmed nonresponders were randomly assigned to treatment with esketamine nasal spray (56 or 84 mg twice weekly) and an antidepressant or antidepressant and placebo nasal spray"
+        ],
+        "notes": "1:1 of 227 → 114 esketamine, 113 placebo nasal spray (per published paper). Both arms also receive newly initiated oral antidepressant. n_placebo holds placebo-nasal-spray arm. maintenance_weeks_ge_12 = False — RCT phase is 28 days (4 weeks). Age 18-64 standard for adult-TRD trials of this program; not in abstract directly."
+      }
+    },
+    {
+      "pmid": "31290965",
+      "short_name": "TRANSFORM-1 (Fedgchin 2019)",
+      "first_author": "Fedgchin",
+      "year": 2019,
+      "phase": "III",
+      "design": "Phase 3, double-blind, multicenter, fixed-dose parallel-group trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 4,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "International (multicenter)",
+      "n_total": 346,
+      "n_active": 230,
+      "n_placebo": 116,
+      "age_range_years": "18-64",
+      "intervention": "Esketamine",
+      "dose": "Fixed-dose intranasal esketamine 56 mg or 84 mg twice weekly for 4 weeks + newly initiated oral antidepressant; comparator: oral antidepressant + placebo nasal spray",
+      "outcomes_reported": ["depressive_symptoms_MADRS"],
+      "primary_efficacy_outcome": "Change in MADRS score from baseline to day 28",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Eligible patients (N = 346) were randomized (1:1:1) to twice-weekly nasal spray treatment (esketamine [56 or 84 mg] or placebo) plus a newly initiated, open-label, oral antidepressant taken daily for 4 weeks"
+        ],
+        "notes": "1:1:1 of 346 → ~115 each arm (esk 56, esk 84, placebo). n_active = sum of both esketamine arms (~230) per prompt rule 3; n_placebo = ~116. RCT phase 28 days. Age 18-64 standard for adult-TRD trials."
+      }
+    },
+    {
+      "pmid": "31786030",
+      "short_name": "Correia-Melo 2020",
+      "first_author": "Correia-Melo",
+      "year": 2020,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Randomized, double-blind, active-controlled, bicentre, non-inferiority parallel-group trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "Brazil (two centers)",
+      "n_total": 63,
+      "n_active": 34,
+      "n_placebo": 29,
+      "age_range_years": ">=18",
+      "intervention": "Esketamine",
+      "dose": "Single 40-min IV infusion of esketamine 0.25 mg/kg vs ketamine 0.5 mg/kg (head-to-head)",
+      "outcomes_reported": ["depressive_symptoms_MADRS", "remission"],
+      "primary_efficacy_outcome": "Difference in remission rates (MADRS) at 24 hours post-infusion",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "63 subjects were included and randomly assigned (29 to receive ketamine and 34 to receive esketamine)"
+        ],
+        "notes": "Head-to-head non-inferiority trial. No placebo. n_active = esketamine arm (34); n_placebo holds the racemic-ketamine comparator arm (29). Convention: esketamine is the experimental in the non-inferiority framing (newer, more selective)."
+      }
+    },
+    {
+      "pmid": "31734084",
+      "short_name": "TRANSFORM-3 (Ochs-Ross 2020)",
+      "first_author": "Ochs-Ross",
+      "year": 2020,
+      "phase": "III",
+      "design": "Phase 3, double-blind, multicenter, flexible-dose parallel-group trial in elderly TRD",
+      "blinding": "Double-blind",
+      "duration_weeks": 4,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "International (multicenter)",
+      "n_total": 138,
+      "n_active": 72,
+      "n_placebo": 66,
+      "age_range_years": ">=65",
+      "intervention": "Esketamine",
+      "dose": "Flexibly dosed intranasal esketamine + new oral antidepressant; comparator: new oral antidepressant + placebo nasal spray; 4 weeks",
+      "outcomes_reported": ["depressive_symptoms_MADRS"],
+      "primary_efficacy_outcome": "Change in MADRS from baseline to day 28",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "phase 3 double-blind study randomized patients with treatment-resistant depression (TRD) ≥65 years (1:1) to flexibly dosed esketamine nasal spray and new oral antidepressant (esketamine/antidepressant) or new oral antidepressant and placebo nasal spray (antidepressant/placebo)"
+        ],
+        "notes": "Elderly population (≥65 years); 1:1 of 138 → ~72 esketamine, ~66 placebo per published paper. Comparator is placebo nasal spray. Age criterion ≥65 explicit in abstract — important: differs from other TRANSFORM trials' 18-64."
+      }
+    }
+  ],
+  "extraction_fields_for_evaluation": [
+    "first_author",
+    "year",
+    "phase",
+    "n_total",
+    "n_active",
+    "n_placebo",
+    "age_range_years",
+    "intervention",
+    "dose",
+    "primary_efficacy_outcome",
+    "maintenance_weeks_ge_12"
+  ]
+}

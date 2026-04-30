@@ -1,0 +1,306 @@
+{
+  "model": "llama-3.3-70b",
+  "provider": "together_ai",
+  "together_model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+  "n_studies": 7,
+  "wall_time_seconds": 70.9,
+  "total_model_latency_seconds": 70.86,
+  "total_input_tokens": 60562,
+  "total_output_tokens": 3156,
+  "estimated_cost_usd": 0.0561,
+  "errors": 0,
+  "extractions": [
+    {
+      "extraction": {
+        "first_author": "Devinsky",
+        "year": 2017,
+        "phase": "N/A",
+        "design": "Double-blind, placebo-controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 18,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 120,
+        "n_active": 60,
+        "n_placebo": 60,
+        "age_range_years": "2-18",
+        "intervention": "Cannabidiol",
+        "dose": "20 mg per kilogram of body weight per day",
+        "primary_efficacy_outcome": "Change in convulsive-seizure frequency over a 14-week treatment period",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 2.53,
+      "input_tokens": 2611,
+      "output_tokens": 298,
+      "error": null,
+      "pmid": "28538134",
+      "model": "llama-3.3-70b"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2019,
+        "phase": "not_reported",
+        "design": "randomised, double-blind, placebo-controlled",
+        "blinding": "Double-blind",
+        "duration_weeks": 20,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 119,
+        "n_active": 79,
+        "n_placebo": 40,
+        "age_range_years": "not_reported",
+        "intervention": "Fenfluramine hydrochloride",
+        "dose": "0.2, 0.7 mg/kg per day",
+        "primary_efficacy_outcome": "change in mean monthly frequency of convulsive seizures",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 2.61,
+      "input_tokens": 2912,
+      "output_tokens": 285,
+      "error": null,
+      "pmid": "31862249",
+      "model": "llama-3.3-70b"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2020,
+        "phase": "III",
+        "design": "Double-blind, parallel-group, placebo-controlled, randomized clinical trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 18,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Canada, France, Germany, Netherlands, Spain, United Kingdom, United States",
+        "n_total": 87,
+        "n_active": 43,
+        "n_placebo": 44,
+        "age_range_years": "2-18",
+        "intervention": "Fenfluramine",
+        "dose": "0.4 mg/kg/d; maximum 17 mg/d",
+        "primary_efficacy_outcome": "Change in mean monthly convulsive seizure frequency (MCSF) from baseline to the combined titration and maintenance periods",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 19.98,
+      "input_tokens": 14623,
+      "output_tokens": 625,
+      "error": null,
+      "pmid": "31790543",
+      "model": "llama-3.3-70b"
+    },
+    {
+      "extraction": {
+        "first_author": "Devinsky",
+        "year": 2018,
+        "phase": "I",
+        "design": "Randomized, double-blind, placebo-controlled, parallel-group trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 7,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "United States, United Kingdom",
+        "n_total": 34,
+        "n_active": 27,
+        "n_placebo": 7,
+        "age_range_years": "4-10",
+        "intervention": "Cannabidiol",
+        "dose": "5, 10, 20 mg/kg/d",
+        "primary_efficacy_outcome": "Safety and pharmacokinetics",
+        "outcomes_reported": [
+          "adverse_events",
+          "pharmacokinetics",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 24.74,
+      "input_tokens": 9092,
+      "output_tokens": 639,
+      "error": null,
+      "pmid": "29540584",
+      "model": "llama-3.3-70b"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2000,
+        "phase": "not_reported",
+        "design": "randomised, placebo-controlled, add-on trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 41,
+        "n_active": 21,
+        "n_placebo": 20,
+        "age_range_years": "not_reported",
+        "intervention": "Stiripentol",
+        "dose": "not_reported",
+        "primary_efficacy_outcome": "more than 50% reduction in the frequency of clonic (or tonic-clonic) seizures",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 4.02,
+      "input_tokens": 2531,
+      "output_tokens": 273,
+      "error": null,
+      "pmid": "11089822",
+      "model": "llama-3.3-70b"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2022,
+        "phase": "II",
+        "design": "Randomized, double-blind, placebo-controlled",
+        "blinding": "Double-blind",
+        "duration_weeks": 20,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Australia, Canada, China, Israel, Poland, Portugal, Spain, USA",
+        "n_total": 141,
+        "n_active": 71,
+        "n_placebo": 70,
+        "age_range_years": "2-17",
+        "intervention": "Soticlestat",
+        "dose": "\u2264300 mg twice daily, weight-adjusted",
+        "primary_efficacy_outcome": "Change from baseline in frequency of convulsive seizures (DS) or drop seizures (LGS) in patients receiving soticlestat in the combined patient population during the maintenance period, compared with those receiving placebo",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 10.33,
+      "input_tokens": 14065,
+      "output_tokens": 401,
+      "error": null,
+      "pmid": "35841234",
+      "model": "llama-3.3-70b"
+    },
+    {
+      "extraction": {
+        "first_author": "Devinsky",
+        "year": 2020,
+        "phase": "N/A",
+        "design": "Randomized, double-blind, placebo-controlled, parallel-group trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 20,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "United States, Spain, Poland, Netherlands, Australia, Israel",
+        "n_total": 198,
+        "n_active": 133,
+        "n_placebo": 65,
+        "age_range_years": "2-18",
+        "intervention": "Cannabidiol",
+        "dose": "10, 20 mg/kg/d",
+        "primary_efficacy_outcome": "Change in convulsive seizure frequency during the 14-week treatment period",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 6.65,
+      "input_tokens": 14728,
+      "output_tokens": 635,
+      "error": null,
+      "pmid": "32119035",
+      "model": "llama-3.3-70b"
+    }
+  ]
+}

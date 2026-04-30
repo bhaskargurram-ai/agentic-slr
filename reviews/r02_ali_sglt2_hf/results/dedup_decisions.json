@@ -1,0 +1,424 @@
+{
+  "model": "gpt-4o",
+  "approach": "embedding-cluster-v2",
+  "clustering_summary": {
+    "n_clusters": 1,
+    "singletons": 0,
+    "multi_paper_clusters": 1,
+    "cluster_sizes": [
+      56
+    ],
+    "llm_calls": 1,
+    "embedding_cost_usd": 0.000535
+  },
+  "classifications": [
+    {
+      "pmid": "31535829",
+      "classification": "PRIMARY",
+      "confidence": 1.0,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the DAPA-HF trial, a large RCT with its own trial registration number."
+    },
+    {
+      "pmid": "36027570",
+      "classification": "PRIMARY",
+      "confidence": 1.0,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the DELIVER trial, a large RCT with its own trial registration number."
+    },
+    {
+      "pmid": "34711976",
+      "classification": "PRIMARY",
+      "confidence": 1.0,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of a multicenter RCT focused on HFpEF with its own trial registration number."
+    },
+    {
+      "pmid": "36029467",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "36027570",
+      "reasoning": "This is a subgroup analysis of the DELIVER trial, focusing on age-related outcomes."
+    },
+    {
+      "pmid": "34446370",
+      "classification": "PRIMARY",
+      "confidence": 1.0,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the DAPA-CKD trial, a large RCT with its own trial registration number."
+    },
+    {
+      "pmid": "32219386",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on diabetes status."
+    },
+    {
+      "pmid": "31524498",
+      "classification": "PRIMARY",
+      "confidence": 1.0,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the DEFINE-HF trial, a distinct RCT with its own trial registration number."
+    },
+    {
+      "pmid": "36029465",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "36027570",
+      "reasoning": "This is a prespecified analysis of the DELIVER trial, focusing on frailty."
+    },
+    {
+      "pmid": "33595593",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on prior HF hospitalization."
+    },
+    {
+      "pmid": "33615642",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: child title/methods has trial name(s) absent from parent: {'deliver'}. Original: This is a secondary analysis of the DAPA-HF trial, focusing on anemia."
+    },
+    {
+      "pmid": "36041668",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "36027570",
+      "reasoning": "This is a subgroup analysis of the DELIVER trial, focusing on atrial fibrillation."
+    },
+    {
+      "pmid": "35902157",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on medical therapy score."
+    },
+    {
+      "pmid": "35971840",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on iron deficiency."
+    },
+    {
+      "pmid": "36041669",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "36027570",
+      "reasoning": "This is a prespecified analysis of the DELIVER trial, focusing on long-term benefits."
+    },
+    {
+      "pmid": "33082245",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on glucose-lowering therapy."
+    },
+    {
+      "pmid": "35603596",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31524498",
+      "reasoning": "This is a secondary analysis of the DEFINE-HF trial, focusing on metabolomic profiling."
+    },
+    {
+      "pmid": "34448003",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on ventricular arrhythmias."
+    },
+    {
+      "pmid": "34272791",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on BMI."
+    },
+    {
+      "pmid": "35629062",
+      "classification": "PRIMARY",
+      "confidence": 1.0,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of a distinct RCT focused on exercise capacity in non-diabetic HFrEF patients."
+    },
+    {
+      "pmid": "31843945",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: child title/methods has trial name(s) absent from parent: {'DECLARE'}. Original: This is a secondary analysis of the DECLARE-TIMI 58 trial, focusing on elderly patients."
+    },
+    {
+      "pmid": "35241246",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "36027570",
+      "reasoning": "This is a baseline characteristics report of the DELIVER trial."
+    },
+    {
+      "pmid": "33653824",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31843945",
+      "reasoning": "This is a secondary analysis of the DECLARE-TIMI 58 trial, focusing on primary prevention cohort."
+    },
+    {
+      "pmid": "38559420",
+      "classification": "PRIMARY",
+      "confidence": 1.0,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the PREDOMINACE trial, a distinct RCT focused on STEMI patients."
+    },
+    {
+      "pmid": "34319398",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on long-term survival."
+    },
+    {
+      "pmid": "32653447",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on sacubitril/valsartan."
+    },
+    {
+      "pmid": "34766424",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: child title/methods has trial name(s) absent from parent: {'DECLARE'}. Original: This is a secondary analysis of the DAPA-HF trial, focusing on atrial fibrillation."
+    },
+    {
+      "pmid": "34431782",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a commentary on prescribing SGLT2 inhibitors in HF without diabetes, related to DAPA-HF."
+    },
+    {
+      "pmid": "36041912",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "36027570",
+      "reasoning": "This is a prespecified analysis of the DELIVER trial, focusing on recent hospitalization."
+    },
+    {
+      "pmid": "36339117",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on Asian patients."
+    },
+    {
+      "pmid": "32673497",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on diuretic use."
+    },
+    {
+      "pmid": "34969498",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on racial differences."
+    },
+    {
+      "pmid": "33832352",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on recurrent hospitalizations."
+    },
+    {
+      "pmid": "35064721",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on uric acid levels."
+    },
+    {
+      "pmid": "36054231",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "36027570",
+      "reasoning": "This is a prespecified analysis of the DELIVER trial, focusing on NYHA class."
+    },
+    {
+      "pmid": "33368858",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on COPD."
+    },
+    {
+      "pmid": "31736328",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on age."
+    },
+    {
+      "pmid": "32795086",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31843945",
+      "reasoning": "This is a secondary analysis of the DECLARE-TIMI 58 trial, focusing on PAD."
+    },
+    {
+      "pmid": "34743554",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on cardiac troponin."
+    },
+    {
+      "pmid": "35604416",
+      "classification": "PRIMARY",
+      "confidence": 1.0,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the DAPA-VO2 trial, a distinct RCT focused on functional capacity."
+    },
+    {
+      "pmid": "35442064",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on eGFR."
+    },
+    {
+      "pmid": "33355302",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on incident diabetes."
+    },
+    {
+      "pmid": "35609943",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "36027570",
+      "reasoning": "This is a pilot study related to the DELIVER trial, focusing on renal function."
+    },
+    {
+      "pmid": "33040613",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: different NCTs: child={'NCT03594110'}, parent={'NCT03036124'}. Original: This is a secondary analysis of the DAPA-HF trial, focusing on renal function."
+    },
+    {
+      "pmid": "34802253",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on NT-proBNP."
+    },
+    {
+      "pmid": "33549554",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on MRA use."
+    },
+    {
+      "pmid": "32245746",
+      "classification": "PRIMARY",
+      "confidence": 1.0,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the REFORM trial, a distinct RCT focused on LV remodeling."
+    },
+    {
+      "pmid": "33269486",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31843945",
+      "reasoning": "This is a secondary analysis of the DECLARE-TIMI 58 trial, focusing on cardiac biomarkers."
+    },
+    {
+      "pmid": "33606921",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31524498",
+      "reasoning": "This is a secondary analysis of the DEFINE-HF trial, focusing on lung fluid volumes."
+    },
+    {
+      "pmid": "33787831",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on sex differences."
+    },
+    {
+      "pmid": "33594755",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on etiology."
+    },
+    {
+      "pmid": "32883108",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on outpatient worsening."
+    },
+    {
+      "pmid": "30895697",
+      "classification": "PRIMARY",
+      "confidence": 1.0,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the design and methods of the DAPA-HF trial, confirming its primary status."
+    },
+    {
+      "pmid": "33164553",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on HF duration."
+    },
+    {
+      "pmid": "32820334",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on systolic blood pressure."
+    },
+    {
+      "pmid": "31736335",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on symptoms and quality of life."
+    },
+    {
+      "pmid": "32539224",
+      "classification": "SECONDARY",
+      "confidence": 1.0,
+      "parent_pmid": "31535829",
+      "reasoning": "This is a secondary analysis of the DAPA-HF trial, focusing on LVEF."
+    }
+  ],
+  "final_included_pmids": [
+    "31535829",
+    "36027570",
+    "34711976",
+    "34446370",
+    "31524498",
+    "33615642",
+    "35629062",
+    "31843945",
+    "38559420",
+    "34766424",
+    "35604416",
+    "33040613",
+    "32245746",
+    "30895697"
+  ]
+}

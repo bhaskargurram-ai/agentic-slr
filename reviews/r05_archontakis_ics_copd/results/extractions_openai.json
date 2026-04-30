@@ -1,0 +1,2260 @@
+{
+  "model": "gpt-4o-mini",
+  "n_studies": 60,
+  "total_input_tokens": 309984,
+  "total_output_tokens": 16736,
+  "total_latency_seconds": 398.42,
+  "estimated_cost_usd": 0.0565,
+  "extractions": [
+    {
+      "pmid": "32579807",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.42,
+      "input_tokens": 2406,
+      "output_tokens": 248,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2020,
+        "phase": "III",
+        "design": "randomized trial",
+        "blinding": "Double-Blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 8509,
+        "n_active": 4258,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Budesonide",
+        "dose": "160, 320 \u03bcg",
+        "primary_efficacy_outcome": "annual rate of moderate or severe COPD exacerbations",
+        "outcomes_reported": [
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "33252985",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 15.0,
+      "input_tokens": 14632,
+      "output_tokens": 276,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2021,
+        "phase": "III",
+        "design": "randomized, double-blind, parallel-group",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "26 countries",
+        "n_total": 8509,
+        "n_active": 4258,
+        "n_placebo": 0,
+        "age_range_years": "40-80",
+        "intervention": "Budesonide/Glycopyrrolate/Formoterol",
+        "dose": "320/18/9.6, 160/18/9.6 \u03bcg",
+        "primary_efficacy_outcome": "not_reported",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "28375647",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.04,
+      "input_tokens": 2098,
+      "output_tokens": 300,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2017,
+        "phase": "III",
+        "design": "randomized, double-blind, double-dummy study",
+        "blinding": "Double-blind",
+        "duration_weeks": 24,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1810,
+        "n_active": 911,
+        "n_placebo": 899,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone furoate/umeclidinium/vilanterol",
+        "dose": "100 \u03bcg/62.5 \u03bcg/25 \u03bcg",
+        "primary_efficacy_outcome": "change from baseline in trough FEV1 and in St. George's Respiratory Questionnaire (SGRQ) total score at Week 24",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "30232048",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.11,
+      "input_tokens": 2677,
+      "output_tokens": 283,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2018,
+        "phase": "III",
+        "design": "double-blind, parallel-group, multicentre, randomized controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 24,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Canada, China, Japan, USA",
+        "n_total": 1902,
+        "n_active": 1902,
+        "n_placebo": 0,
+        "age_range_years": "40-80",
+        "intervention": "Budesonide/glycopyrrolate/formoterol fumarate",
+        "dose": "320/18/9.6 \u03bcg",
+        "primary_efficacy_outcome": "FEV1 AUC0-4",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "30680975",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.12,
+      "input_tokens": 1791,
+      "output_tokens": 282,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2019,
+        "phase": "III",
+        "design": "double-blind randomized study",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 0,
+        "n_active": 0,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Vilanterol",
+        "dose": "25 ?g/umeclidinium 62.5 ?g/fluticasone furoate 100 ?g",
+        "primary_efficacy_outcome": "reduction of the rate of exacerbation",
+        "outcomes_reported": [
+          "adverse_events",
+          "quality_of_life",
+          "dyspnea",
+          "mortality"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "27598678",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.19,
+      "input_tokens": 2486,
+      "output_tokens": 306,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2016,
+        "phase": "N/A",
+        "design": "double-blind, parallel group, randomised controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "14 countries",
+        "n_total": 1368,
+        "n_active": 1368,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Beclometasone dipropionate, formoterol fumarate, glycopyrronium bromide",
+        "dose": "100 \u03bcg, 6 \u03bcg, 12\u00b75 \u03bcg",
+        "primary_efficacy_outcome": "pre-dose FEV1, 2-h post-dose FEV1, Transition Dyspnea Index (TDI) focal score",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "30220648",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 18.05,
+      "input_tokens": 16675,
+      "output_tokens": 345,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2018,
+        "phase": "III",
+        "design": "randomised, double-blind, parallel-group",
+        "blinding": "Double-blind",
+        "duration_weeks": 24,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Canada, Czech Republic, Germany, Hungary, Poland, Russia, USA",
+        "n_total": 2389,
+        "n_active": 2389,
+        "n_placebo": 0,
+        "age_range_years": "40-80",
+        "intervention": "Budesonide/formoterol",
+        "dose": "320/10 \u00b5g, 160/10 \u00b5g, 10 \u00b5g, 320 \u00b5g, 400/12 \u00b5g",
+        "primary_efficacy_outcome": "change from baseline in morning pre-dose trough FEV1 and FEV1 area under the curve from 0\u20134 h",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "pharmacokinetics",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "22383665",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 6.03,
+      "input_tokens": 1968,
+      "output_tokens": 301,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2012,
+        "phase": "N/A",
+        "design": "Randomized Controlled Trial",
+        "blinding": "Double-Blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 2866,
+        "n_active": 2866,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Budesonide",
+        "dose": "320/9 \u03bcg, 160/9 \u03bcg, 320 \u03bcg + 9 \u03bcg, 320 \u03bcg, 9 \u03bcg",
+        "primary_efficacy_outcome": "predose FEV(1) and 1-h postdose FEV(1), exacerbations, diary variables, and adverse events",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "22033040",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.58,
+      "input_tokens": 2124,
+      "output_tokens": 267,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2012,
+        "phase": "N/A",
+        "design": "double-blind, randomized, parallel-group, multicenter study",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1219,
+        "n_active": 813,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Budesonide/formoterol",
+        "dose": "320/9, 160/9 \u03bcg",
+        "primary_efficacy_outcome": "exacerbation rates",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "24953015",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.6,
+      "input_tokens": 1934,
+      "output_tokens": 307,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2014,
+        "phase": "not_reported",
+        "design": "randomised, double-blind trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 48,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1186,
+        "n_active": 1186,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Beclomethasone",
+        "dose": "100/6 \u03bcg pMDI, 2 inhalations BID; 12 \u03bcg pMDI, 1 inhalation BID",
+        "primary_efficacy_outcome": "exacerbation rate over 48 weeks and pre-dose morning FEV(1) at 12 weeks",
+        "outcomes_reported": [
+          "exacerbation_rate",
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "34428980",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 17.95,
+      "input_tokens": 17054,
+      "output_tokens": 319,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2021,
+        "phase": "III",
+        "design": "randomized, double-blind, multi-center, parallel-group",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "26 countries",
+        "n_total": 3088,
+        "n_active": 2354,
+        "n_placebo": 0,
+        "age_range_years": "40-80",
+        "intervention": "Budesonide/glycopyrrolate/formoterol fumarate",
+        "dose": "320/18/9.6 \u00b5g, 160/18/9.6 \u00b5g",
+        "primary_efficacy_outcome": "change from baseline in morning pre-dose trough FEV1",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "pharmacokinetics",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "9925060",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.82,
+      "input_tokens": 1985,
+      "output_tokens": 261,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 1999,
+        "phase": "N/A",
+        "design": "randomized, double-blind, placebo-controlled cross-over trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 8,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 30,
+        "n_active": 15,
+        "n_placebo": 15,
+        "age_range_years": "not_reported",
+        "intervention": "Beclomethasone",
+        "dose": "3 mg/d",
+        "primary_efficacy_outcome": "mean absolute improvement in FEV1",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "29773947",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.45,
+      "input_tokens": 13883,
+      "output_tokens": 288,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2018,
+        "phase": "IIb",
+        "design": "randomized, double-blind, four-period, five-treatment, incomplete-block, crossover study",
+        "blinding": "double-blind",
+        "duration_weeks": 4,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "USA",
+        "n_total": 180,
+        "n_active": 180,
+        "n_placebo": 0,
+        "age_range_years": "40-80",
+        "intervention": "Budesonide/Formoterol fumarate",
+        "dose": "320/9.6, 160/9.6, 80/9.6 \u03bcg",
+        "primary_efficacy_outcome": "FEV1 area under the curve from 0 to 12 hours on Day 29",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "12970006",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.0,
+      "input_tokens": 2190,
+      "output_tokens": 266,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2003,
+        "phase": "N/A",
+        "design": "Randomized, double-blind, multicenter, placebo-controlled study",
+        "blinding": "Double-blind",
+        "duration_weeks": 24,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "United States",
+        "n_total": 723,
+        "n_active": 723,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Fluticasone propionate",
+        "dose": "250 microg, 50 microg",
+        "primary_efficacy_outcome": "morning predose FEV(1)",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "20692140",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.2,
+      "input_tokens": 2048,
+      "output_tokens": 267,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2010,
+        "phase": "N/A",
+        "design": "double-blind, multicentre, three-period crossover study",
+        "blinding": "Double-blind",
+        "duration_weeks": 1,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 111,
+        "n_active": 74,
+        "n_placebo": 37,
+        "age_range_years": ">=40",
+        "intervention": "Budesonide",
+        "dose": "320/9 microg",
+        "primary_efficacy_outcome": "exercise endurance time (EET) at 75% peak work capacity",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "12391509",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.33,
+      "input_tokens": 2004,
+      "output_tokens": 268,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2002,
+        "phase": "N/A",
+        "design": "prospective, randomized, double-blinded, placebo-controlled, crossover study",
+        "blinding": "Double-blind",
+        "duration_weeks": 6,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "Idaho",
+        "n_total": 36,
+        "n_active": 18,
+        "n_placebo": 18,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone",
+        "dose": "220 micro g/puff, 2 puffs twice daily",
+        "primary_efficacy_outcome": "prebronchodilator FEV1",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "14680078",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.89,
+      "input_tokens": 1898,
+      "output_tokens": 265,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2003,
+        "phase": "N/A",
+        "design": "Randomized Controlled Trial",
+        "blinding": "Double-Blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1022,
+        "n_active": 1022,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Budesonide and Formoterol",
+        "dose": "320/9 microg",
+        "primary_efficacy_outcome": "Postmedication FEV1 improvement and health-related quality of life",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "20965712",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.95,
+      "input_tokens": 2055,
+      "output_tokens": 304,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2010,
+        "phase": "III",
+        "design": "double-blind, double-dummy, randomised, active-controlled, parallel-group study",
+        "blinding": "Double-blind",
+        "duration_weeks": 48,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 718,
+        "n_active": 703,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Beclomethasone",
+        "dose": "200/12 \u03bcg",
+        "primary_efficacy_outcome": "change from baseline to 48 weeks in pre-dose morning forced expiratory volume in 1 s (FEV(1)) and mean rate of COPD exacerbations",
+        "outcomes_reported": [
+          "adverse_events",
+          "quality_of_life",
+          "COPD_symptoms",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "low",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "28982774",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.89,
+      "input_tokens": 1869,
+      "output_tokens": 270,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2017,
+        "phase": "N/A",
+        "design": "prospective, randomised, open-label, blinded endpoint study",
+        "blinding": "blinded endpoint",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 60,
+        "n_active": 60,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone",
+        "dose": "50\u2005\u03bcg plus 500\u2005\u03bcg",
+        "primary_efficacy_outcome": "change of sputum bacterial loads over the course of treatment",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "unclear",
+          "detection_bias": "unclear",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "17314337",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.59,
+      "input_tokens": 2089,
+      "output_tokens": 269,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2007,
+        "phase": "N/A",
+        "design": "Randomized, double-blind trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 156,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 6112,
+        "n_active": 0,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Salmeterol",
+        "dose": "50 microg plus fluticasone propionate at a dose of 500 microg twice daily",
+        "primary_efficacy_outcome": "Death from any cause",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "16424444",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.4,
+      "input_tokens": 2101,
+      "output_tokens": 257,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2006,
+        "phase": "N/A",
+        "design": "Randomized Controlled Trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 13,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 140,
+        "n_active": 67,
+        "n_placebo": 73,
+        "age_range_years": ">=64",
+        "intervention": "Salmeterol/Fluticasone propionate",
+        "dose": "50/500 microg",
+        "primary_efficacy_outcome": "Reduction in biopsy CD8+ cells and sputum neutrophils",
+        "outcomes_reported": [
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "19014549",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 9.49,
+      "input_tokens": 14364,
+      "output_tokens": 276,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2008,
+        "phase": "not_reported",
+        "design": "randomized double-blind, placebo-controlled, parallel-group study",
+        "blinding": "double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "11 countries",
+        "n_total": 911,
+        "n_active": 616,
+        "n_placebo": 295,
+        "age_range_years": ">=40",
+        "intervention": "Mometasone furoate",
+        "dose": "800 \u03bcg QD PM, 400 \u03bcg BID",
+        "primary_efficacy_outcome": "change from baseline in postbronchodilator FEV1",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "34210340",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 8.3,
+      "input_tokens": 15212,
+      "output_tokens": 271,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2021,
+        "phase": "IIIb",
+        "design": "randomized, double-blind, crossover",
+        "blinding": "double-blind",
+        "duration_weeks": 4,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 23,
+        "n_active": 23,
+        "n_placebo": 0,
+        "age_range_years": "40-80",
+        "intervention": "Budesonide",
+        "dose": "320/18/9.6 \u03bcg",
+        "primary_efficacy_outcome": "improvements in specific image-based airway volume (siVaw) and resistance (siRaw)",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "34464242",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.37,
+      "input_tokens": 2081,
+      "output_tokens": 263,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2021,
+        "phase": "N/A",
+        "design": "Randomized Controlled Trial",
+        "blinding": "not_reported",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 63,
+        "n_active": 63,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Budesonide",
+        "dose": "400/12 \u03bcg BID, 250/50 \u03bcg BID, 12 \u03bcg BID",
+        "primary_efficacy_outcome": "Comparison of changes in the airway microbiome",
+        "outcomes_reported": [
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "not_reported",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "28947039",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 3.76,
+      "input_tokens": 2000,
+      "output_tokens": 244,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2017,
+        "phase": "N/A",
+        "design": "Randomized controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 16590,
+        "n_active": 16590,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone furoate",
+        "dose": "100 \u03bcg",
+        "primary_efficacy_outcome": "Incidence of pneumonia",
+        "outcomes_reported": [
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "19734176",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.1,
+      "input_tokens": 2274,
+      "output_tokens": 284,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2009,
+        "phase": "N/A",
+        "design": "randomised, double-blind, multicentre, cross-over study",
+        "blinding": "Double-blind",
+        "duration_weeks": 1,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 442,
+        "n_active": 442,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Budesonide",
+        "dose": "320/9 microg, one inhalation twice daily",
+        "primary_efficacy_outcome": "morning PEF and FEV(1) shortly after rising from bed",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "32471423",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 14.39,
+      "input_tokens": 16994,
+      "output_tokens": 324,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2020,
+        "phase": "IV",
+        "design": "randomized, double-blind, triple-dummy, parallel-group, multicenter, non-inferiority trials",
+        "blinding": "double-blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1460,
+        "n_active": 729,
+        "n_placebo": 731,
+        "age_range_years": ">=40",
+        "intervention": "Fluticasone furoate",
+        "dose": "100/62.5/25 \u03bcg",
+        "primary_efficacy_outcome": "weighted mean change from baseline in 0\u201324-h FEV1 at Week 12",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "seizure_freedom_100",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "pharmacokinetics",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "low",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "33081606",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 14.12,
+      "input_tokens": 12741,
+      "output_tokens": 294,
+      "extraction": {
+        "first_author": "Maltais",
+        "year": 2020,
+        "phase": "N/A",
+        "design": "multicenter, randomized, double-blind, parallel-group, noninferiority study",
+        "blinding": "Double-blind",
+        "duration_weeks": 156,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "USA, The Netherlands, Germany, Spain, Canada",
+        "n_total": 283,
+        "n_active": 283,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Fluticasone furoate/vilanterol",
+        "dose": "100/25 \u00b5g, 25 \u00b5g",
+        "primary_efficacy_outcome": "change from baseline in total hip BMD per year",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation",
+          "COPD_exacerbations",
+          "bone_fractures"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "high",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "33757520",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 16.7,
+      "input_tokens": 15797,
+      "output_tokens": 283,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2021,
+        "phase": "N/A",
+        "design": "double-blind, randomised, active-controlled, parallel-group study",
+        "blinding": "double-blind",
+        "duration_weeks": 24,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "China, Republic of Korea, Taiwan",
+        "n_total": 708,
+        "n_active": 351,
+        "n_placebo": 355,
+        "age_range_years": ">=40",
+        "intervention": "Beclometasone dipropionate",
+        "dose": "100/6/10 \u00b5g",
+        "primary_efficacy_outcome": "change from baseline in pre-dose morning and 2-h post-dose FEV1 at Week 24",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "26659582",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.23,
+      "input_tokens": 11872,
+      "output_tokens": 255,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2015,
+        "phase": "N/A",
+        "design": "randomized, double blind, placebo-controlled",
+        "blinding": "double-blind",
+        "duration_weeks": 130,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 50,
+        "n_active": 26,
+        "n_placebo": 24,
+        "age_range_years": "45-75",
+        "intervention": "Fluticasone propionate",
+        "dose": "500 \u03bcg bid",
+        "primary_efficacy_outcome": "long-term decline in postbronchodilator FEV1",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "19644045",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.19,
+      "input_tokens": 2084,
+      "output_tokens": 271,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2009,
+        "phase": "N/A",
+        "design": "randomized, double-blind, parallel-group, multicenter study",
+        "blinding": "Double-blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 660,
+        "n_active": 329,
+        "n_placebo": 331,
+        "age_range_years": ">=40",
+        "intervention": "Budesonide/Formoterol",
+        "dose": "320/9 microg",
+        "primary_efficacy_outcome": "predose FEV(1)",
+        "outcomes_reported": [
+          "severe_exacerbations",
+          "health_status",
+          "morning symptoms and activities"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "23332861",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.78,
+      "input_tokens": 2120,
+      "output_tokens": 307,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2013,
+        "phase": "N/A",
+        "design": "Multicentre, randomised, double-blind, placebo-controlled, parallel-group study",
+        "blinding": "Double-blind",
+        "duration_weeks": 24,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1224,
+        "n_active": 1020,
+        "n_placebo": 204,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone furoate/vilanterol",
+        "dose": "100/25, 200/25 \u03bcg",
+        "primary_efficacy_outcome": "0-4 h weighted mean (wm) FEV(1) on day 168, and change from baseline in trough (23-24 h post-dose) FEV(1) on day 169",
+        "outcomes_reported": [
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "28137501",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.24,
+      "input_tokens": 2163,
+      "output_tokens": 269,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2017,
+        "phase": "III",
+        "design": "multicentre, randomised, double-blind, controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1620,
+        "n_active": 806,
+        "n_placebo": 814,
+        "age_range_years": ">=40",
+        "intervention": "Fluticasone furoate",
+        "dose": "100/25 \u03bcg",
+        "primary_efficacy_outcome": "change from baseline in trough FEV1 at day 84",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "29229103",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 3.93,
+      "input_tokens": 2154,
+      "output_tokens": 265,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2017,
+        "phase": "N/A",
+        "design": "randomized, double-blind, double-dummy, parallel-group, multicenter study",
+        "blinding": "Double-blind",
+        "duration_weeks": 26,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1219,
+        "n_active": 606,
+        "n_placebo": 613,
+        "age_range_years": ">=40",
+        "intervention": "Budesonide",
+        "dose": "320/9 \u03bcg BID",
+        "primary_efficacy_outcome": "annual rate of exacerbations",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "24429127",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 3.92,
+      "input_tokens": 2407,
+      "output_tokens": 255,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2013,
+        "phase": "N/A",
+        "design": "double-blind, parallel-group, randomized controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 3255,
+        "n_active": 3255,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Fluticasone furoate",
+        "dose": "50, 100, 200 \u03bcg",
+        "primary_efficacy_outcome": "yearly rate of moderate and severe exacerbations",
+        "outcomes_reported": [
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "25830381",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.47,
+      "input_tokens": 2087,
+      "output_tokens": 288,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2015,
+        "phase": "III",
+        "design": "randomized, double-blind, placebo-controlled, parallel-group, multicenter study",
+        "blinding": "Double-blind",
+        "duration_weeks": 26,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Asia",
+        "n_total": 643,
+        "n_active": 482,
+        "n_placebo": 161,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone furoate/vilanterol",
+        "dose": "50/25 mcg, 100/25 mcg, 200/25 mcg",
+        "primary_efficacy_outcome": "change from baseline in trough FEV1 at Week 24",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "24920884",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.49,
+      "input_tokens": 7656,
+      "output_tokens": 257,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2014,
+        "phase": "N/A",
+        "design": "prospective, randomized, nonblinded study",
+        "blinding": "not_reported",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 237,
+        "n_active": 237,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Fluticasone",
+        "dose": "500, 1000 \u03bcg/day",
+        "primary_efficacy_outcome": "lung function improvement and incidence of pneumonia",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "high",
+          "detection_bias": "not_reported",
+          "attrition_bias": "low",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "10095821",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 3.81,
+      "input_tokens": 1958,
+      "output_tokens": 260,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 1999,
+        "phase": "N/A",
+        "design": "Double-blind cross-over design",
+        "blinding": "Double-blind",
+        "duration_weeks": 18,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 168,
+        "n_active": 124,
+        "n_placebo": 44,
+        "age_range_years": "not_reported",
+        "intervention": "Budesonide",
+        "dose": "800 micrograms, 1600 micrograms, 40 mg",
+        "primary_efficacy_outcome": "Mean FEV1",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "19841453",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.04,
+      "input_tokens": 2241,
+      "output_tokens": 256,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2009,
+        "phase": "N/A",
+        "design": "Randomized, placebo-controlled trial",
+        "blinding": "not_reported",
+        "duration_weeks": 30,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "The Netherlands",
+        "n_total": 114,
+        "n_active": 85,
+        "n_placebo": 29,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone",
+        "dose": "500 microg twice daily",
+        "primary_efficacy_outcome": "Cell counts in bronchial biopsies and sputum",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "not_reported",
+          "detection_bias": "not_reported",
+          "attrition_bias": "high",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "18310480",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.14,
+      "input_tokens": 1972,
+      "output_tokens": 254,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2008,
+        "phase": "N/A",
+        "design": "Double-blind randomized placebo-controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 4,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "Canada",
+        "n_total": 289,
+        "n_active": 289,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone",
+        "dose": "not_reported",
+        "primary_efficacy_outcome": "C-reactive protein (CRP) level",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "20970351",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.34,
+      "input_tokens": 2201,
+      "output_tokens": 261,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2011,
+        "phase": "N/A",
+        "design": "prospective randomized trial",
+        "blinding": "not_reported",
+        "duration_weeks": 1,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 46,
+        "n_active": 24,
+        "n_placebo": 22,
+        "age_range_years": "not_reported",
+        "intervention": "Tiotropium",
+        "dose": "not_reported",
+        "primary_efficacy_outcome": "body plethysmography (FEV1, FVC, and RAW)",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "not_reported",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "26648706",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 15.18,
+      "input_tokens": 8521,
+      "output_tokens": 272,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2015,
+        "phase": "III",
+        "design": "randomized, parallel-group, double-blind",
+        "blinding": "double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1758,
+        "n_active": 1172,
+        "n_placebo": 586,
+        "age_range_years": ">=40",
+        "intervention": "Fluticasone propionate/Formoterol",
+        "dose": "250/10, 500/20 \u03bcg bid",
+        "primary_efficacy_outcome": "annualized rate of moderate and severe exacerbations",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "24998880",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.04,
+      "input_tokens": 2266,
+      "output_tokens": 266,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2014,
+        "phase": "N/A",
+        "design": "Randomized Controlled Trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1210,
+        "n_active": 931,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Fluticasone furoate/vilanterol",
+        "dose": "100/25 mcg",
+        "primary_efficacy_outcome": "change from baseline trough in 0-24 h weighted mean FEV(1) on Day 84",
+        "outcomes_reported": [
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "10421835",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 3.69,
+      "input_tokens": 1855,
+      "output_tokens": 251,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 1999,
+        "phase": "N/A",
+        "design": "double-blind placebo-controlled",
+        "blinding": "Double-blind",
+        "duration_weeks": 104,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 98,
+        "n_active": 98,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Beclomethasone",
+        "dose": "not_reported",
+        "primary_efficacy_outcome": "decline in FEV1",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "high",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "24114969",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.98,
+      "input_tokens": 2023,
+      "output_tokens": 294,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2014,
+        "phase": "N/A",
+        "design": "Randomized Controlled Trial",
+        "blinding": "Double-Blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 528,
+        "n_active": 528,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone furoate/vilanterol",
+        "dose": "100/25 \u03bcg once daily, 500/50 \u03bcg twice daily",
+        "primary_efficacy_outcome": "Change from baseline in 0-24 h weighted mean forced expiratory volume in 1 s (wmFEV\u2081) at 12 weeks",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "12583942",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.7,
+      "input_tokens": 2090,
+      "output_tokens": 362,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2003,
+        "phase": "N/A",
+        "design": "randomised, double-blind, parallel-group, placebo-controlled study",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "25 countries",
+        "n_total": 1465,
+        "n_active": 1104,
+        "n_placebo": 361,
+        "age_range_years": "not_reported",
+        "intervention": "Salmeterol and Fluticasone",
+        "dose": "50 microg salmeterol twice daily, 500 microg fluticasone twice daily, 50 microg salmeterol and 500 microg fluticasone twice daily",
+        "primary_efficacy_outcome": "pretreatment forced expiratory volume in 1s (FEV1) after 12 months treatment",
+        "outcomes_reported": [
+          "lung function measurements",
+          "symptoms and rescue treatment use",
+          "number of exacerbations",
+          "patient withdrawals",
+          "disease-specific health status",
+          "adverse events",
+          "serum cortisol concentrations",
+          "skin bruising",
+          "electrocardiograms"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "18778120",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.15,
+      "input_tokens": 2752,
+      "output_tokens": 339,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2008,
+        "phase": "N/A",
+        "design": "randomized, double-blind, double-dummy, placebo-controlled, parallel-group, multicentre study",
+        "blinding": "double-blind",
+        "duration_weeks": 26,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "US, Czech Republic, Netherlands, Poland, South Africa",
+        "n_total": 1704,
+        "n_active": 1704,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Budesonide/Formoterol",
+        "dose": "160/4.5, 320/9, 80/4.5, 160, 4.5",
+        "primary_efficacy_outcome": "pre-dose forced expiratory volume in 1 second (FEV(1)) and 1-hour post-dose FEV(1)",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events",
+          "treatment_discontinuation",
+          "cgic",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "22334769",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.54,
+      "input_tokens": 13224,
+      "output_tokens": 296,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2012,
+        "phase": "III",
+        "design": "multicenter, double-blind, placebo-controlled, double-dummy",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "North, Central, and South America, Europe, Africa, and Asia",
+        "n_total": 1196,
+        "n_active": 1196,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Mometasone furoate/formoterol fumarate",
+        "dose": "400/10, 200/10 \u03bcg BID",
+        "primary_efficacy_outcome": "mean changes from baseline in FEV1 AUC0\u201312 h",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "22334768",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.9,
+      "input_tokens": 12487,
+      "output_tokens": 301,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2012,
+        "phase": "III",
+        "design": "multicenter, double-blind, placebo-controlled, parallel-group",
+        "blinding": "double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "South America, Asia, Africa, Europe, North America",
+        "n_total": 1055,
+        "n_active": 1055,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Mometasone furoate/formoterol fumarate",
+        "dose": "400/10, 200/10, 400, 10",
+        "primary_efficacy_outcome": "mean changes from baseline in FEV1 AUC0\u201312 and morning predose FEV1",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "12379552",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.26,
+      "input_tokens": 1968,
+      "output_tokens": 268,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2002,
+        "phase": "N/A",
+        "design": "Randomized Controlled Trial",
+        "blinding": "Double-Blind",
+        "duration_weeks": 24,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 691,
+        "n_active": 691,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone propionate and salmeterol",
+        "dose": "50 mcg salmeterol, 500 mcg fluticasone",
+        "primary_efficacy_outcome": "predose FEV(1)",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "10807619",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.55,
+      "input_tokens": 1974,
+      "output_tokens": 272,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2000,
+        "phase": "N/A",
+        "design": "Double blind, placebo controlled study",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "UK",
+        "n_total": 751,
+        "n_active": 751,
+        "n_placebo": 0,
+        "age_range_years": "40-75",
+        "intervention": "Fluticasone",
+        "dose": "500 microgram twice daily",
+        "primary_efficacy_outcome": "rate of decline in FEV(1) after the bronchodilator and in health status, frequency of exacerbations, respiratory withdrawals",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "29266965",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 3.8,
+      "input_tokens": 2083,
+      "output_tokens": 272,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2018,
+        "phase": "N/A",
+        "design": "Multicenter, Randomized, Double-Blind, Placebo-controlled Trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 1,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 450,
+        "n_active": 450,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Inhaled corticosteroids and long-acting \u03b22-agonists",
+        "dose": "not_reported",
+        "primary_efficacy_outcome": "incidence of COPD exacerbation occurring within 21 days of the URTI",
+        "outcomes_reported": [
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "22653766",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 3.91,
+      "input_tokens": 1713,
+      "output_tokens": 269,
+      "extraction": {
+        "first_author": "Foster",
+        "year": 2013,
+        "phase": "N/A",
+        "design": "Randomized Controlled Trial",
+        "blinding": "Double-Blind",
+        "duration_weeks": 48,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 0,
+        "n_active": 0,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Beclomethasone",
+        "dose": "not_reported",
+        "primary_efficacy_outcome": "exacerbation rates over 48 weeks and improvement in forced expiratory volume in 1 s over 12 weeks",
+        "outcomes_reported": [
+          "exacerbation_response",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "25490706",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 3.7,
+      "input_tokens": 1996,
+      "output_tokens": 258,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2015,
+        "phase": "N/A",
+        "design": "Two replicate, 1-year, double-blind clinical trials",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "United States",
+        "n_total": 3255,
+        "n_active": 2455,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone furoate",
+        "dose": "50, 100, 200 \u03bcg",
+        "primary_efficacy_outcome": "Incidence of pneumonia",
+        "outcomes_reported": [
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "23352226",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 3.87,
+      "input_tokens": 2158,
+      "output_tokens": 275,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2013,
+        "phase": "N/A",
+        "design": "Multicentre, randomised, placebo-controlled, double-blind, parallel-group study",
+        "blinding": "Double-blind",
+        "duration_weeks": 24,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 1030,
+        "n_active": 1030,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone furoate/vilanterol",
+        "dose": "50/25, 100/25 \u03bcg",
+        "primary_efficacy_outcome": "weighted mean FEV1 and trough FEV1",
+        "outcomes_reported": [
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "28737971",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.8,
+      "input_tokens": 2044,
+      "output_tokens": 261,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2018,
+        "phase": "not_reported",
+        "design": "event-driven, randomized, placebo-controlled trial",
+        "blinding": "Double-Blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 16485,
+        "n_active": 15457,
+        "n_placebo": 0,
+        "age_range_years": "not_reported",
+        "intervention": "Fluticasone furoate",
+        "dose": "100 \u03bcg",
+        "primary_efficacy_outcome": "rate of decline in FEV1",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "12850128",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 5.74,
+      "input_tokens": 2430,
+      "output_tokens": 261,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2003,
+        "phase": "N/A",
+        "design": "Double-blind, controlled clinical trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 18,
+        "n_active": 12,
+        "n_placebo": 6,
+        "age_range_years": "53-77",
+        "intervention": "Salmeterol and Fluticasone",
+        "dose": "50/250 microg bid",
+        "primary_efficacy_outcome": "FEV(1) improvement",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "26394882",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 4.28,
+      "input_tokens": 2085,
+      "output_tokens": 284,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2016,
+        "phase": "N/A",
+        "design": "randomized, parallel-group, multicentre, open-label study",
+        "blinding": "not_reported",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "East Asia",
+        "n_total": 578,
+        "n_active": 287,
+        "n_placebo": 291,
+        "age_range_years": "not_reported",
+        "intervention": "Budesonide/Formoterol",
+        "dose": "160/4.5 \u03bcg 2 inhalations twice daily",
+        "primary_efficacy_outcome": "change from baseline in pre-dose forced expiratory volume in 1 s (FEV1)",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "not_reported",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "32363206",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 18.43,
+      "input_tokens": 16087,
+      "output_tokens": 282,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2020,
+        "phase": "III",
+        "design": "randomised, double-blind, parallel-group",
+        "blinding": "Double-blind",
+        "duration_weeks": 33,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "18 countries",
+        "n_total": 1876,
+        "n_active": 1864,
+        "n_placebo": 0,
+        "age_range_years": "40-80",
+        "intervention": "Budesonide/formoterol fumarate",
+        "dose": "320/10 \u00b5g, 160/10 \u00b5g, 10 \u00b5g",
+        "primary_efficacy_outcome": "change from baseline in morning pre-dose trough FEV1 at week 12",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "error": null
+    },
+    {
+      "pmid": "34322547",
+      "model": "gpt-4o-mini",
+      "latency_seconds": 16.48,
+      "input_tokens": 9883,
+      "output_tokens": 267,
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2021,
+        "phase": "III",
+        "design": "randomised, double-blind, active-control, parallel-group, noninferiority study",
+        "blinding": "double-blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "India",
+        "n_total": 396,
+        "n_active": 396,
+        "n_placebo": 0,
+        "age_range_years": ">=40",
+        "intervention": "Glycopyrronium",
+        "dose": "12.5 \u03bcg, 50 \u03bcg",
+        "primary_efficacy_outcome": "change from baseline in trough FEV1 at the end of 12 weeks",
+        "outcomes_reported": [
+          "seizure_response_50",
+          "adverse_events"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "review_id": "r02_ali_sglt2_hf",
+  "short_name": "Ali 2023",
+  "full_title": "Effect of Dapagliflozin in Patients with Heart Failure: A Systematic Review and Meta-Analysis",
+  "doi": "10.5334/gh.1258",
+  "pmid": "37636033",
+  "pmcid": "PMC10453961",
+  "domain": "Cardiovascular",
+  "search": {
+    "pubmed_query": "((\"dapagliflozin\"[MeSH Terms] OR \"dapagliflozin\"[Supplementary Concept] OR \"dapagliflozin\"[Title/Abstract] OR \"Forxiga\"[Title/Abstract] OR \"Farxiga\"[Title/Abstract] OR \"BMS-512148\"[Title/Abstract]) AND (\"Heart Failure\"[MeSH Terms] OR \"heart failure\"[Title/Abstract] OR \"cardiac failure\"[Title/Abstract] OR \"heart decompensation\"[Title/Abstract]) AND (\"Randomized Controlled Trial\"[Publication Type] OR \"randomized controlled trial\"[Title/Abstract] OR \"randomised controlled trial\"[Title/Abstract] OR \"randomized\"[Title/Abstract] OR \"randomised\"[Title/Abstract] OR \"placebo\"[Title/Abstract])) AND (\"2017/01/01\"[PDAT] : \"2022/09/10\"[PDAT])",
+    "search_date_end": "2022-09-10",
+    "max_results": 2000,
+    "notes": "Reconstructed from Ali 2023 supplement (gh-18-1-1258-s1.pdf) PubMed search strategy. Uses MeSH + free-text for dapagliflozin AND heart failure AND RCT filter. Date range matches paper's stated search period. Original also searched Scopus and ScienceDirect."
+  },
+  "inclusion_criteria": {
+    "study_design": "Randomized controlled trial",
+    "population": "Patients with heart failure (HFrEF, HFpEF, or HFmrEF), with or without type 2 diabetes",
+    "intervention": "Dapagliflozin (SGLT2 inhibitor)",
+    "comparator": "Placebo or standard of care",
+    "outcomes_required": ["all-cause mortality", "cardiovascular mortality", "hospitalization for heart failure", "MACE", "renal outcomes"]
+  },
+  "exclusion_criteria": [
+    "Non-randomized studies (observational, retrospective, case series)",
+    "Reviews, meta-analyses, editorials, commentaries",
+    "Animal or in vitro studies",
+    "Protocol-only publications",
+    "Studies not reporting heart failure outcomes",
+    "Studies using SGLT2 inhibitors other than dapagliflozin"
+  ],
+  "prisma_expected": {
+    "records_identified": 1567,
+    "records_screened": 1567,
+    "fulltext_assessed_expected": 22,
+    "studies_included_final": 9
+  },
+  "prompts": {
+    "screening_system": "reviews/r02_ali_sglt2_hf/prompts/screening_system.txt",
+    "fulltext_system": "reviews/r02_ali_sglt2_hf/prompts/fulltext_system.txt",
+    "dedup_system": "reviews/r02_ali_sglt2_hf/prompts/dedup_system.txt"
+  },
+  "paths": {
+    "base_dir": "reviews/r02_ali_sglt2_hf",
+    "ground_truth": "reviews/r02_ali_sglt2_hf/ground_truth.json",
+    "retrieved_dir": "reviews/r02_ali_sglt2_hf/retrieved",
+    "results_dir": "reviews/r02_ali_sglt2_hf/results",
+    "extractions_dir": "reviews/r02_ali_sglt2_hf/extractions"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "target_count": 9,
+  "found_count": 9,
+  "missed_count": 0,
+  "recall": 1.0,
+  "found_pmids": [
+    "21639810",
+    "28961465",
+    "25399552",
+    "25795410",
+    "28359784",
+    "27622997",
+    "25891173",
+    "28891423",
+    "28889792"
+  ],
+  "missed_pmids": [],
+  "included_studies_details": [
+    {
+      "pmid": "21639810",
+      "first_author": "Robert",
+      "year": 2011,
+      "short_name": "Robert 2011",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Ipilimumab + dacarbazine",
+      "dose": "Ipilimumab 10 mg/kg + dacarbazine 850 mg/m2"
+    },
+    {
+      "pmid": "28961465",
+      "first_author": "Hamid",
+      "year": 2017,
+      "short_name": "Hamid 2017",
+      "journal": "European Journal of Cancer",
+      "intervention": "Pembrolizumab",
+      "dose": "2 mg/kg or 10 mg/kg Q3W"
+    },
+    {
+      "pmid": "25399552",
+      "first_author": "Robert",
+      "year": 2015,
+      "short_name": "CheckMate 066",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Nivolumab",
+      "dose": "3 mg/kg Q2W"
+    },
+    {
+      "pmid": "25795410",
+      "first_author": "Weber",
+      "year": 2015,
+      "short_name": "CheckMate 037",
+      "journal": "Lancet Oncology",
+      "intervention": "Nivolumab",
+      "dose": "3 mg/kg Q2W"
+    },
+    {
+      "pmid": "28359784",
+      "first_author": "Ascierto",
+      "year": 2017,
+      "short_name": "Ascierto 2017",
+      "journal": "Lancet Oncology",
+      "intervention": "Ipilimumab 10 mg/kg vs 3 mg/kg",
+      "dose": "10 mg/kg vs 3 mg/kg Q3W"
+    },
+    {
+      "pmid": "27622997",
+      "first_author": "Hodi",
+      "year": 2016,
+      "short_name": "CheckMate 069",
+      "journal": "Lancet Oncology",
+      "intervention": "Nivolumab + ipilimumab",
+      "dose": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg"
+    },
+    {
+      "pmid": "25891173",
+      "first_author": "Robert",
+      "year": 2015,
+      "short_name": "KEYNOTE-006",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Pembrolizumab",
+      "dose": "10 mg/kg Q2W or Q3W"
+    },
+    {
+      "pmid": "28891423",
+      "first_author": "Weber",
+      "year": 2017,
+      "short_name": "CheckMate 238",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Nivolumab (adjuvant)",
+      "dose": "3 mg/kg Q2W"
+    },
+    {
+      "pmid": "28889792",
+      "first_author": "Wolchok",
+      "year": 2017,
+      "short_name": "CheckMate 067",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Nivolumab + ipilimumab",
+      "dose": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg"
+    }
+  ]
+}

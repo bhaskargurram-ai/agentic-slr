@@ -1,0 +1,2638 @@
+{
+  "field_scores": {
+    "first_author": {
+      "gpt-4o-mini": 0.0,
+      "llama-3.3-70b": 0.2857142857142857,
+      "qwen-3-235b": 0.5714285714285714,
+      "deepseek-v3": 0.2857142857142857
+    },
+    "year": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "phase": {
+      "gpt-4o-mini": 0.5714285714285714,
+      "llama-3.3-70b": 0.42857142857142855,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 0.5714285714285714
+    },
+    "n_total": {
+      "gpt-4o-mini": 0.8571428571428571,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 0.7142857142857143,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "n_active": {
+      "gpt-4o-mini": 0.7142857142857143,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "n_placebo": {
+      "gpt-4o-mini": 0.7142857142857143,
+      "llama-3.3-70b": 0.7142857142857143,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "age_range_years": {
+      "gpt-4o-mini": 0.5714285714285714,
+      "llama-3.3-70b": 0.7142857142857143,
+      "qwen-3-235b": 0.7142857142857143,
+      "deepseek-v3": 0.5714285714285714
+    },
+    "intervention": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "dose": {
+      "gpt-4o-mini": 0.8571428571428571,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "primary_efficacy_outcome": {
+      "gpt-4o-mini": 0.8571428571428571,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "maintenance_weeks_ge_12": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 0.8571428571428571
+    }
+  },
+  "overall_accuracy": {
+    "gpt-4o-mini": 0.7402597402597403,
+    "llama-3.3-70b": 0.7792207792207793,
+    "qwen-3-235b": 0.8571428571428571,
+    "deepseek-v3": 0.7792207792207793
+  },
+  "details_per_model": {
+    "gpt-4o-mini": {
+      "first_author": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Chiron",
+          "pred": "STICLO",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Devinsky",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Devinsky",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Miller",
+          "pred": "Devinsky",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Lagae",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Nabbout",
+          "pred": "Devinsky",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Hahn",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 2000,
+          "pred": 2000,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 2018,
+          "pred": 2018,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "III",
+          "pred": "N/A",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "III",
+          "pred": "N/A",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "III",
+          "pred": "N/A",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 41,
+          "pred": 41,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 34,
+          "pred": 34,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 120,
+          "pred": 120,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 198,
+          "pred": 198,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 119,
+          "pred": 119,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 87,
+          "pred": 87,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 51,
+          "pred": 141,
+          "match": false,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 21,
+          "pred": 21,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 27,
+          "pred": 27,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 61,
+          "pred": 120,
+          "match": false,
+          "note": "diff=59 tol=6"
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 133,
+          "pred": 133,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 79,
+          "pred": 79,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 43,
+          "pred": 43,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 26,
+          "pred": 71,
+          "match": false,
+          "note": "diff=45 tol=2"
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 20,
+          "pred": 20,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 7,
+          "pred": 7,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 59,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 65,
+          "pred": 65,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 40,
+          "pred": 40,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 44,
+          "pred": 44,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 25,
+          "pred": 70,
+          "match": false,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "3-18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "4-10",
+          "pred": "4-10",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "2-18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "2-18",
+          "pred": "2-18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "2-18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "2-18",
+          "pred": "2-18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "2-17",
+          "pred": "2-17",
+          "match": true,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Stiripentol",
+          "pred": "Stiripentol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Fenfluramine hydrochloride",
+          "pred": "Fenfluramine",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Fenfluramine hydrochloride",
+          "pred": "Fenfluramine",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Soticlestat",
+          "pred": "Soticlestat",
+          "match": true,
+          "note": null
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "50 mg/kg/day",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "5, 10, 20 mg/kg/day",
+          "pred": "5, 10, 20 mg/kg/d",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "20 mg/kg/day",
+          "pred": "20 mg/kg/day",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "10, 20 mg/kg/day",
+          "pred": "10, 20 mg/kg/day",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "0.2, 0.8 mg/kg/day",
+          "pred": "0.2, 0.7 mg/kg/day",
+          "match": true,
+          "note": "partial token match (2/3)"
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "0.4 mg/kg/day (maximum 17 mg/day)",
+          "pred": "0.4 mg/kg/d; maximum 17 mg/d",
+          "match": true,
+          "note": "partial token match (2/5)"
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Up to 300 mg twice daily (weight-adjusted)",
+          "pred": "\u2264300 mg twice daily, weight-adjusted",
+          "match": true,
+          "note": "partial token match (3/7)"
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Proportion of responders (>=50% reduction in clonic/tonic-clonic seizure frequency)",
+          "pred": "Reduction in the frequency of clonic (or tonic-clonic) seizures",
+          "match": false,
+          "note": "overlap=0.33"
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Safety and pharmacokinetics (dose-ranging)",
+          "pred": "safety and preliminary pharmacokinetics of CBD",
+          "match": true,
+          "note": "overlap=0.75"
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "change in convulsive-seizure frequency",
+          "match": true,
+          "note": "overlap=0.50"
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "change in convulsive seizure frequency during the 14-week treatment period compared with baseline",
+          "match": true,
+          "note": "overlap=0.83"
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Change in mean monthly convulsive seizure frequency",
+          "pred": "change in mean monthly frequency of convulsive seizures during the treatment period compared with baseline",
+          "match": true,
+          "note": "overlap=0.86"
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Change in mean monthly convulsive seizure frequency",
+          "pred": "change in mean monthly convulsive seizure frequency from baseline to the combined titration and maintenance periods",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "change from baseline in frequency of convulsive seizures (DS) or drop seizures (LGS)",
+          "match": true,
+          "note": "overlap=0.67"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": false,
+          "pred": false,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": false,
+          "pred": false,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        }
+      ]
+    },
+    "llama-3.3-70b": {
+      "first_author": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Chiron",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Devinsky",
+          "pred": "Devinsky",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Devinsky",
+          "pred": "Devinsky",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Miller",
+          "pred": "Devinsky",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Lagae",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Nabbout",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Hahn",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 2000,
+          "pred": 2000,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 2018,
+          "pred": 2018,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "III",
+          "pred": "I",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "III",
+          "pred": "N/A",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "III",
+          "pred": "N/A",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "III",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 41,
+          "pred": 41,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 34,
+          "pred": 34,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 120,
+          "pred": 120,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 198,
+          "pred": 198,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 119,
+          "pred": 119,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 87,
+          "pred": 87,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 51,
+          "pred": 141,
+          "match": false,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 21,
+          "pred": 21,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 27,
+          "pred": 27,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 61,
+          "pred": 60,
+          "match": true,
+          "note": "diff=1 tol=6"
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 133,
+          "pred": 133,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 79,
+          "pred": 79,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 43,
+          "pred": 43,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 26,
+          "pred": 71,
+          "match": false,
+          "note": "diff=45 tol=2"
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 20,
+          "pred": 20,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 7,
+          "pred": 7,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 59,
+          "pred": 60,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 65,
+          "pred": 65,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 40,
+          "pred": 40,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 44,
+          "pred": 44,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 25,
+          "pred": 70,
+          "match": false,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "3-18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "4-10",
+          "pred": "4-10",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "2-18",
+          "pred": "2-18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "2-18",
+          "pred": "2-18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "2-18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "2-18",
+          "pred": "2-18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "2-17",
+          "pred": "2-17",
+          "match": true,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Stiripentol",
+          "pred": "Stiripentol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Fenfluramine hydrochloride",
+          "pred": "Fenfluramine hydrochloride",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Fenfluramine hydrochloride",
+          "pred": "Fenfluramine",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Soticlestat",
+          "pred": "Soticlestat",
+          "match": true,
+          "note": null
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "50 mg/kg/day",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "5, 10, 20 mg/kg/day",
+          "pred": "5, 10, 20 mg/kg/d",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "20 mg/kg/day",
+          "pred": "20 mg per kilogram of body weight per day",
+          "match": true,
+          "note": "partial token match (1/2)"
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "10, 20 mg/kg/day",
+          "pred": "10, 20 mg/kg/d",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "0.2, 0.8 mg/kg/day",
+          "pred": "0.2, 0.7 mg/kg per day",
+          "match": true,
+          "note": "partial token match (1/3)"
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "0.4 mg/kg/day (maximum 17 mg/day)",
+          "pred": "0.4 mg/kg/d; maximum 17 mg/d",
+          "match": true,
+          "note": "partial token match (2/5)"
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Up to 300 mg twice daily (weight-adjusted)",
+          "pred": "\u2264300 mg twice daily, weight-adjusted",
+          "match": true,
+          "note": "partial token match (3/7)"
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Proportion of responders (>=50% reduction in clonic/tonic-clonic seizure frequency)",
+          "pred": "more than 50% reduction in the frequency of clonic (or tonic-clonic) seizures",
+          "match": false,
+          "note": "overlap=0.33"
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Safety and pharmacokinetics (dose-ranging)",
+          "pred": "Safety and pharmacokinetics",
+          "match": true,
+          "note": "overlap=0.75"
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "Change in convulsive-seizure frequency over a 14-week treatment period",
+          "match": true,
+          "note": "overlap=0.50"
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "Change in convulsive seizure frequency during the 14-week treatment period",
+          "match": true,
+          "note": "overlap=0.83"
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Change in mean monthly convulsive seizure frequency",
+          "pred": "change in mean monthly frequency of convulsive seizures",
+          "match": true,
+          "note": "overlap=0.86"
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Change in mean monthly convulsive seizure frequency",
+          "pred": "Change in mean monthly convulsive seizure frequency (MCSF) from baseline to the combined titration and maintenance periods",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "Change from baseline in frequency of convulsive seizures (DS) or drop seizures (LGS) in patients receiving soticlestat in the combined patient population during the maintenance period, compared with those receiving placebo",
+          "match": true,
+          "note": "overlap=0.67"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": false,
+          "pred": false,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": false,
+          "pred": false,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        }
+      ]
+    },
+    "qwen-3-235b": {
+      "first_author": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Chiron",
+          "pred": "Chiron",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Devinsky",
+          "pred": "Devinsky",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Devinsky",
+          "pred": "Devinsky",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Miller",
+          "pred": "Devinsky",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Lagae",
+          "pred": "Lagae",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Nabbout",
+          "pred": "Devinsky",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Hahn",
+          "pred": "Scheffer",
+          "match": false,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 2000,
+          "pred": 2000,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 2018,
+          "pred": 2018,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "II",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "III",
+          "pred": "II",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 41,
+          "pred": 41,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 34,
+          "pred": 34,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 120,
+          "pred": 120,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 198,
+          "pred": 199,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 119,
+          "pred": 119,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 87,
+          "pred": 87,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 51,
+          "pred": 141,
+          "match": false,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 21,
+          "pred": 21,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 27,
+          "pred": 27,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 61,
+          "pred": 61,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 133,
+          "pred": 133,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 79,
+          "pred": 79,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 43,
+          "pred": 43,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 26,
+          "pred": 71,
+          "match": false,
+          "note": "diff=45 tol=2"
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 20,
+          "pred": 20,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 7,
+          "pred": 7,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 59,
+          "pred": 59,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 65,
+          "pred": 65,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 40,
+          "pred": 40,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 44,
+          "pred": 44,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 25,
+          "pred": 70,
+          "match": false,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "3-18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "4-10",
+          "pred": "4-10",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "2-18",
+          "pred": "2 to 18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "2-18",
+          "pred": "2-18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "2-18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "2-18",
+          "pred": "2-18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "2-17",
+          "pred": "2-17",
+          "match": true,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Stiripentol",
+          "pred": "Stiripentol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Fenfluramine hydrochloride",
+          "pred": "Fenfluramine hydrochloride",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Fenfluramine hydrochloride",
+          "pred": "Fenfluramine hydrochloride",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Soticlestat",
+          "pred": "Soticlestat",
+          "match": true,
+          "note": null
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "50 mg/kg/day",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "5, 10, 20 mg/kg/day",
+          "pred": "5, 10, or 20 mg/kg/d",
+          "match": true,
+          "note": "partial token match (3/4)"
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "20 mg/kg/day",
+          "pred": "20 mg/kg/day",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "10, 20 mg/kg/day",
+          "pred": "10, 20 mg/kg/day",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "0.2, 0.8 mg/kg/day",
+          "pred": "0.2, 0.7 mg/kg/day",
+          "match": true,
+          "note": "partial token match (2/3)"
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "0.4 mg/kg/day (maximum 17 mg/day)",
+          "pred": "0.4 mg/kg/d (maximum 17 mg/d)",
+          "match": true,
+          "note": "partial token match (3/5)"
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Up to 300 mg twice daily (weight-adjusted)",
+          "pred": "\u2264300 mg twice daily, weight-adjusted",
+          "match": true,
+          "note": "partial token match (3/7)"
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Proportion of responders (>=50% reduction in clonic/tonic-clonic seizure frequency)",
+          "pred": "Proportion of responders defined as having more than 50% reduction in the frequency of clonic or tonic-clonic seizures during the second month of the double-blind period compared with baseline",
+          "match": true,
+          "note": "overlap=0.56"
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Safety and pharmacokinetics (dose-ranging)",
+          "pred": "Not explicitly stated; primary focus was safety and pharmacokinetics",
+          "match": true,
+          "note": "overlap=0.75"
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "Change in convulsive-seizure frequency over a 14-week treatment period compared to a 4-week baseline period",
+          "match": true,
+          "note": "overlap=0.50"
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "change in convulsive seizure frequency during the 14-week treatment period compared with baseline",
+          "match": true,
+          "note": "overlap=0.83"
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Change in mean monthly convulsive seizure frequency",
+          "pred": "Change in mean monthly frequency of convulsive seizures during the treatment period compared with baseline in the 0.7 mg/kg per day group versus placebo",
+          "match": true,
+          "note": "overlap=0.86"
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Change in mean monthly convulsive seizure frequency",
+          "pred": "Change in mean monthly convulsive seizure frequency (MCSF) from baseline to the combined titration and maintenance (T + M) periods",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "Change from baseline in frequency of convulsive seizures (DS) or drop seizures (LGS) in the combined patient population during the maintenance period, compared with placebo",
+          "match": true,
+          "note": "overlap=0.67"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": false,
+          "pred": false,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": false,
+          "pred": false,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        }
+      ]
+    },
+    "deepseek-v3": {
+      "first_author": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Chiron",
+          "pred": "STICLO",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Devinsky",
+          "pred": "Devinsky",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Devinsky",
+          "pred": "Devinsky",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Miller",
+          "pred": "Devinsky",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Lagae",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Nabbout",
+          "pred": "Devinsky",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Hahn",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 2000,
+          "pred": 2000,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 2018,
+          "pred": 2018,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 2017,
+          "pred": 2017,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "III",
+          "pred": "N/A",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "III",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "III",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "II",
+          "pred": "II",
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 41,
+          "pred": 41,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 34,
+          "pred": 34,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 120,
+          "pred": 120,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 198,
+          "pred": 198,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 119,
+          "pred": 119,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 87,
+          "pred": 87,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 51,
+          "pred": 141,
+          "match": false,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 21,
+          "pred": 21,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 27,
+          "pred": 27,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 61,
+          "pred": 61,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 133,
+          "pred": 133,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 79,
+          "pred": 79,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 43,
+          "pred": 43,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 26,
+          "pred": 71,
+          "match": false,
+          "note": "diff=45 tol=2"
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": 20,
+          "pred": 20,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": 7,
+          "pred": 7,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": 59,
+          "pred": 59,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": 65,
+          "pred": 65,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": 40,
+          "pred": 40,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": 44,
+          "pred": 44,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": 25,
+          "pred": 70,
+          "match": false,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "3-18",
+          "pred": "Infant-Preschool",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "4-10",
+          "pred": "4-10",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "2-18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "2-18",
+          "pred": "2-18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "2-18",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "2-18",
+          "pred": "2-18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "2-17",
+          "pred": "2-17",
+          "match": true,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Stiripentol",
+          "pred": "Stiripentol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Pharmaceutical-grade cannabidiol",
+          "pred": "Cannabidiol",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Fenfluramine hydrochloride",
+          "pred": "Fenfluramine hydrochloride",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Fenfluramine hydrochloride",
+          "pred": "Fenfluramine",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Soticlestat",
+          "pred": "Soticlestat",
+          "match": true,
+          "note": null
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "50 mg/kg/day",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "5, 10, 20 mg/kg/day",
+          "pred": "5, 10, 20 mg/kg/d",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "20 mg/kg/day",
+          "pred": "20 mg/kg/day",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "10, 20 mg/kg/day",
+          "pred": "10, 20 mg/kg/day",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "0.2, 0.8 mg/kg/day",
+          "pred": "0.2, 0.7 mg/kg/day",
+          "match": true,
+          "note": "partial token match (2/3)"
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "0.4 mg/kg/day (maximum 17 mg/day)",
+          "pred": "0.4 mg/kg/day (maximum 17 mg/day)",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Up to 300 mg twice daily (weight-adjusted)",
+          "pred": "weight-adjusted \u2264300 mg twice daily",
+          "match": true,
+          "note": "partial token match (3/7)"
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": "Proportion of responders (>=50% reduction in clonic/tonic-clonic seizure frequency)",
+          "pred": ">50% reduction in frequency of clonic (or tonic-clonic) seizures during second month of double-blind period compared with baseline",
+          "match": false,
+          "note": "overlap=0.33"
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": "Safety and pharmacokinetics (dose-ranging)",
+          "pred": "Safety and pharmacokinetics (no formal efficacy outcome specified)",
+          "match": true,
+          "note": "overlap=0.75"
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "Change in convulsive-seizure frequency over a 14-week treatment period compared with a 4-week baseline period",
+          "match": true,
+          "note": "overlap=0.50"
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "Change in convulsive seizure frequency during the 14-week treatment period compared with baseline",
+          "match": true,
+          "note": "overlap=0.83"
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": "Change in mean monthly convulsive seizure frequency",
+          "pred": "Change in mean monthly frequency of convulsive seizures during treatment period compared with baseline",
+          "match": true,
+          "note": "overlap=0.86"
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": "Change in mean monthly convulsive seizure frequency",
+          "pred": "Change in mean monthly convulsive seizure frequency from baseline to combined titration and maintenance periods",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": "Percentage change in convulsive seizure frequency",
+          "pred": "Change from baseline in frequency of convulsive seizures (Dravet syndrome) or drop seizures (Lennox-Gastaut syndrome) during the maintenance period",
+          "match": true,
+          "note": "overlap=0.67"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "11089822",
+          "study": "STICLO-France",
+          "gt": false,
+          "pred": true,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "29540584",
+          "study": "GWPCARE1 Part A",
+          "gt": false,
+          "pred": false,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "28538134",
+          "study": "GWPCARE1 Part B",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32119035",
+          "study": "GWPCARE2",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31862249",
+          "study": "Lagae 2019",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31790543",
+          "study": "Nabbout 2020",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35841234",
+          "study": "ELEKTRA",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        }
+      ]
+    }
+  }
+}

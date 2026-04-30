@@ -1,0 +1,159 @@
+{
+  "review_id": "r01_lattanzi_dravet",
+  "description": "evaluation_v2 with post-processing normalizations and PubMed author injection",
+  "fixes_applied": [
+    "Phase normalization: arabic numerals -> roman numerals (e.g., '2' -> 'II')",
+    "Phase matching: strict equality (no substring matching)",
+    "Dose normalization: mg/kg/d -> mg/kg/day, BID -> twice daily, <= -> up to",
+    "Author metadata injection: first_author from PubMed authors[0] instead of LLM extraction",
+    "Ground-truth corrections (if any) are defined per-review in the review's ground_truth.json"
+  ],
+  "baseline_accuracy": {
+    "gpt-4o-mini": 0.7402597402597403,
+    "llama-3.3-70b": 0.7662337662337663,
+    "qwen-3-235b": 0.8441558441558441,
+    "deepseek-v3": 0.7792207792207793
+  },
+  "fixed_accuracy": {
+    "gpt-4o-mini": 0.8311688311688312,
+    "llama-3.3-70b": 0.8311688311688312,
+    "qwen-3-235b": 0.8831168831168831,
+    "deepseek-v3": 0.8441558441558441
+  },
+  "baseline_field_scores": {
+    "first_author": {
+      "gpt-4o-mini": 0.0,
+      "llama-3.3-70b": 0.2857142857142857,
+      "qwen-3-235b": 0.5714285714285714,
+      "deepseek-v3": 0.2857142857142857
+    },
+    "year": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "phase": {
+      "gpt-4o-mini": 0.5714285714285714,
+      "llama-3.3-70b": 0.2857142857142857,
+      "qwen-3-235b": 0.7142857142857143,
+      "deepseek-v3": 0.5714285714285714
+    },
+    "n_total": {
+      "gpt-4o-mini": 0.8571428571428571,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 0.7142857142857143,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "n_active": {
+      "gpt-4o-mini": 0.7142857142857143,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "n_placebo": {
+      "gpt-4o-mini": 0.7142857142857143,
+      "llama-3.3-70b": 0.7142857142857143,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "age_range_years": {
+      "gpt-4o-mini": 0.5714285714285714,
+      "llama-3.3-70b": 0.7142857142857143,
+      "qwen-3-235b": 0.7142857142857143,
+      "deepseek-v3": 0.5714285714285714
+    },
+    "intervention": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "dose": {
+      "gpt-4o-mini": 0.8571428571428571,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "primary_efficacy_outcome": {
+      "gpt-4o-mini": 0.8571428571428571,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "maintenance_weeks_ge_12": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 0.8571428571428571
+    }
+  },
+  "fixed_field_scores": {
+    "first_author": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "year": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "phase": {
+      "gpt-4o-mini": 0.5714285714285714,
+      "llama-3.3-70b": 0.2857142857142857,
+      "qwen-3-235b": 0.7142857142857143,
+      "deepseek-v3": 0.5714285714285714
+    },
+    "n_total": {
+      "gpt-4o-mini": 0.8571428571428571,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 0.7142857142857143,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "n_active": {
+      "gpt-4o-mini": 0.7142857142857143,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "n_placebo": {
+      "gpt-4o-mini": 0.7142857142857143,
+      "llama-3.3-70b": 0.7142857142857143,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "age_range_years": {
+      "gpt-4o-mini": 0.5714285714285714,
+      "llama-3.3-70b": 0.7142857142857143,
+      "qwen-3-235b": 0.7142857142857143,
+      "deepseek-v3": 0.5714285714285714
+    },
+    "intervention": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "dose": {
+      "gpt-4o-mini": 0.8571428571428571,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "primary_efficacy_outcome": {
+      "gpt-4o-mini": 0.8571428571428571,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "maintenance_weeks_ge_12": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 0.8571428571428571
+    }
+  }
+}

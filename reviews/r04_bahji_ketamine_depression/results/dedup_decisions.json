@@ -1,0 +1,726 @@
+{
+  "model": "gpt-4o",
+  "approach": "embedding-cluster-v2",
+  "clustering_summary": {
+    "n_clusters": 1,
+    "singletons": 0,
+    "multi_paper_clusters": 1,
+    "cluster_sizes": [
+      94
+    ],
+    "llm_calls": 1,
+    "embedding_cost_usd": 0.000737
+  },
+  "classifications": [
+    {
+      "pmid": "10686270",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the first placebo-controlled, double-blinded trial of ketamine in depressed patients, indicating it is a primary publication of a unique RCT."
+    },
+    {
+      "pmid": "31109201",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper describes a unique phase 3, double-blind, active-controlled, multicenter study with its own patient cohort, making it a primary publication."
+    },
+    {
+      "pmid": "16894061",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a randomized, placebo-controlled, double-blind crossover study with a unique patient cohort, indicating it is a primary publication."
+    },
+    {
+      "pmid": "29282469",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a phase 2, double-blind, doubly randomized, placebo-controlled study with a unique patient cohort, making it a primary publication."
+    },
+    {
+      "pmid": "31290965",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper describes the TRANSFORM-1 trial, a unique phase 3, double-blind, multicenter study with its own patient cohort, making it a primary publication."
+    },
+    {
+      "pmid": "30283029",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a double-blind, placebo-controlled, dose-ranging trial with a unique patient cohort, indicating it is a primary publication."
+    },
+    {
+      "pmid": "30922101",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper describes a single-site randomized double-blind crossover trial with a unique patient cohort, making it a primary publication."
+    },
+    {
+      "pmid": "23982301",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a two-site, parallel-arm, randomized controlled trial with a unique patient cohort, indicating it is a primary publication."
+    },
+    {
+      "pmid": "31734084",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper describes the TRANSFORM-3 trial, a unique phase 3, double-blind study with its own patient cohort, making it a primary publication."
+    },
+    {
+      "pmid": "29656663",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a double-blind, multicenter study with a unique patient cohort, indicating it is a primary publication."
+    },
+    {
+      "pmid": "31928949",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "10686270",
+      "reasoning": "This paper is a secondary analysis focusing on neuroimaging correlates from a previously reported trial (PMID 10686270)."
+    },
+    {
+      "pmid": "25539512",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique open-label trial with a specific focus on family history of alcohol use disorder, indicating it is a primary publication."
+    },
+    {
+      "pmid": "25122038",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on hippocampal volume from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "23803871",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on psychotomimetic effects from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "30153752",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on opioid receptor antagonism from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "30312839",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on anti-fatigue effects from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "31467392",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on antisuicidal effects from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "30094160",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on brain activity during emotional processing from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "29668918",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on glutamatergic signaling from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "25400146",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on anxious bipolar depression from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "25295436",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on anxious depression from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "25169854",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on suicidal ideation from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "24103187",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on neural correlates from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "30826253",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on brain activity during emotional processing from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "12088953",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized trial on ketamine in postoperative depression, indicating it is a primary publication."
+    },
+    {
+      "pmid": "25451430",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on Shank3 as a biomarker from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "25592045",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on depression rating scales from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "24701015",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized trial comparing intramuscular and intravenous ketamine, indicating it is a primary publication."
+    },
+    {
+      "pmid": "30369433",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on EEG responses from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "24684390",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on metabolomic patterns from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "22978511",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on family history of alcohol dependence from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "24821196",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial of intranasal ketamine, indicating it is a primary publication."
+    },
+    {
+      "pmid": "27604568",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on glutamine cycling from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "30597688",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on anxious versus nonanxious depression from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "26707087",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique double-blind, placebo-controlled study of intravenous esketamine, indicating it is a primary publication."
+    },
+    {
+      "pmid": "24910102",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique pilot dose-response trial of intravenous ketamine, indicating it is a primary publication."
+    },
+    {
+      "pmid": "26266877",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial of ketamine for suicidal ideation, indicating it is a primary publication."
+    },
+    {
+      "pmid": "29149755",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized clinical trial of ketamine anesthesia in ECT, indicating it is a primary publication."
+    },
+    {
+      "pmid": "31494365",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on time to relapse from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "31759333",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on suicidal ideation from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "28492279",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial of ketamine in Taiwanese patients, indicating it is a primary publication."
+    },
+    {
+      "pmid": "31843628",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on EEG/fMRI from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "30246667",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized, double-blind, placebo-controlled study of oral ketamine, indicating it is a primary publication."
+    },
+    {
+      "pmid": "30081380",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on cognitive function from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "28739263",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique pilot randomized controlled trial of subcutaneous ketamine, indicating it is a primary publication."
+    },
+    {
+      "pmid": "31495712",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on visual sensory evoked potential from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "29580569",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on default mode connectivity from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "30641350",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on sex differences from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "31508531",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique Bayesian adaptive randomization trial of ketamine for veterans, indicating it is a primary publication."
+    },
+    {
+      "pmid": "30197765",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique double-blind clinical controlled trial of ketamine doses, indicating it is a primary publication."
+    },
+    {
+      "pmid": "27056608",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique double-blind, randomized, placebo-controlled study of ketamine dose frequency, indicating it is a primary publication."
+    },
+    {
+      "pmid": "29202655",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized clinical trial of ketamine for suicidal thoughts, indicating it is a primary publication."
+    },
+    {
+      "pmid": "31733088",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized, double-blind, placebo-controlled trial of ketamine for acute suicidal ideation, indicating it is a primary publication."
+    },
+    {
+      "pmid": "25313512",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on anhedonia from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "30286416",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized, double-blind, placebo-controlled trial of repeat-dose ketamine, indicating it is a primary publication."
+    },
+    {
+      "pmid": "27926528",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial of ketamine in cancer patients, indicating it is a primary publication."
+    },
+    {
+      "pmid": "31123668",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial comparing ketamine and ECT, indicating it is a primary publication."
+    },
+    {
+      "pmid": "27028832",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique placebo-controlled pilot trial of ketamine routes, indicating it is a primary publication."
+    },
+    {
+      "pmid": "26137324",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on lithium and valproate levels from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "24103211",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on BDNF from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "27718369",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on cytokine levels from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "31786030",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized, double-blind, non-inferiority study of esketamine versus ketamine, indicating it is a primary publication."
+    },
+    {
+      "pmid": "26919405",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique pilot randomized controlled trial of 96-hour ketamine infusion, indicating it is a primary publication."
+    },
+    {
+      "pmid": "26228403",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on suicidal ideation measures from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "20679587",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized add-on trial of ketamine in bipolar depression, indicating it is a primary publication."
+    },
+    {
+      "pmid": "30925267",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on BDNF polymorphism from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "31437695",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on functional connectivity from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "30685564",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "29282469",
+      "reasoning": "This paper is a secondary analysis focusing on remote assessments from a previously reported trial (PMID 29282469)."
+    },
+    {
+      "pmid": "28452409",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique pilot randomized clinical trial of ketamine in bipolar depression, indicating it is a primary publication."
+    },
+    {
+      "pmid": "24668760",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial of ketamine on suicidal cognition, indicating it is a primary publication."
+    },
+    {
+      "pmid": "22676966",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on BDNF and sleep from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "30858635",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique double-blind, placebo-controlled trial of ketamine and ECT, indicating it is a primary publication."
+    },
+    {
+      "pmid": "30153598",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on inflammation modulation from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "22297150",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled add-on trial of ketamine in bipolar depression, indicating it is a primary publication."
+    },
+    {
+      "pmid": "29542371",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique pilot randomized controlled trial of intranasal ketamine, indicating it is a primary publication."
+    },
+    {
+      "pmid": "26821769",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on prefrontal cortex and amygdala from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "29660637",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique double-blind controlled trial of oral ketamine, indicating it is a primary publication."
+    },
+    {
+      "pmid": "28922734",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on supplementary motor area and anterior cingulate cortex from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "25374095",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on neurocognitive effects from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "24374115",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial comparing ketamine and ECT, indicating it is a primary publication."
+    },
+    {
+      "pmid": "22622291",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial of ketamine and propofol in ECT, indicating it is a primary publication."
+    },
+    {
+      "pmid": "27828927",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial of ketamine in ECT, indicating it is a primary publication."
+    },
+    {
+      "pmid": "27929610",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on antisuicidal response and sleep from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "23475029",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized pilot study of S-ketamine in ECT, indicating it is a primary publication."
+    },
+    {
+      "pmid": "31586838",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial of intermittent ketamine in ECT, indicating it is a primary publication."
+    },
+    {
+      "pmid": "24091902",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized, double-blind study comparing ketamine and thiopental in ECT, indicating it is a primary publication."
+    },
+    {
+      "pmid": "30263977",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on prefrontal global connectivity from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "26478208",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial of ketamine augmentation of escitalopram, indicating it is a primary publication."
+    },
+    {
+      "pmid": "27753551",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial of ketamine in a military setting, indicating it is a primary publication."
+    },
+    {
+      "pmid": "22298121",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique randomized controlled trial of ketamine versus riluzole, indicating it is a primary publication."
+    },
+    {
+      "pmid": "28359862",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique multicentre, double-blind, randomized trial of ketamine and ECT, indicating it is a primary publication."
+    },
+    {
+      "pmid": "27886522",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "16894061",
+      "reasoning": "This paper is a secondary analysis focusing on neuroplasticity from a previously reported trial (PMID 16894061)."
+    },
+    {
+      "pmid": "30336852",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a unique international, multicentre, double-blind, randomized clinical trial of ketamine in surgery, indicating it is a primary publication."
+    },
+    {
+      "pmid": "32015715",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "29656663",
+      "reasoning": "This paper is a secondary analysis focusing on suicidality from a previously reported trial (PMID 29656663)."
+    }
+  ],
+  "final_included_pmids": [
+    "10686270",
+    "31109201",
+    "16894061",
+    "29282469",
+    "31290965",
+    "30283029",
+    "30922101",
+    "23982301",
+    "31734084",
+    "29656663",
+    "25539512",
+    "12088953",
+    "24701015",
+    "24821196",
+    "26707087",
+    "24910102",
+    "26266877",
+    "29149755",
+    "28492279",
+    "30246667",
+    "28739263",
+    "31508531",
+    "30197765",
+    "27056608",
+    "29202655",
+    "31733088",
+    "30286416",
+    "27926528",
+    "31123668",
+    "27028832",
+    "31786030",
+    "26919405",
+    "20679587",
+    "28452409",
+    "24668760",
+    "30858635",
+    "22297150",
+    "29542371",
+    "29660637",
+    "24374115",
+    "22622291",
+    "27828927",
+    "23475029",
+    "31586838",
+    "24091902",
+    "26478208",
+    "27753551",
+    "22298121",
+    "28359862",
+    "30336852"
+  ]
+}

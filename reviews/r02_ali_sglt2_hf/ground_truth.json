@@ -1,0 +1,358 @@
+{
+  "review_id": "r02_ali_sglt2_hf",
+  "source": "Ali et al. 2023, Global Heart, PMC10453961",
+  "inclusion_pmids": ["33426003", "31535829", "34446370", "31524498", "34711976", "35604416", "32245746", "36027570", "30415602"],
+  "inclusion_pmids_count": 9,
+  "included_studies": [
+    {
+      "pmid": "33426003",
+      "first_author": "Ibrahim",
+      "year": 2020,
+      "short_name": "Ibrahim 2020",
+      "journal": "Cardiovascular Diabetology",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "31535829",
+      "first_author": "McMurray",
+      "year": 2019,
+      "short_name": "DAPA-HF",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "34446370",
+      "first_author": "McMurray",
+      "year": 2021,
+      "short_name": "DAPA-CKD HF subanalysis",
+      "journal": "European Heart Journal",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "31524498",
+      "first_author": "Nassif",
+      "year": 2019,
+      "short_name": "DEFINE-HF",
+      "journal": "Circulation",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "34711976",
+      "first_author": "Nassif",
+      "year": 2021,
+      "short_name": "Nassif 2021 HFpEF",
+      "journal": "Nature Medicine",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "35604416",
+      "first_author": "Palau",
+      "year": 2022,
+      "short_name": "DAPA-VO2",
+      "journal": "European Journal of Heart Failure",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "32245746",
+      "first_author": "Singh",
+      "year": 2020,
+      "short_name": "REFORM",
+      "journal": "European Heart Journal - Cardiovascular Pharmacotherapy",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "36027570",
+      "first_author": "Solomon",
+      "year": 2022,
+      "short_name": "DELIVER",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "30415602",
+      "first_author": "Wiviott",
+      "year": 2019,
+      "short_name": "DECLARE-TIMI 58",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    }
+  ],
+  "extraction_ground_truth": [
+    {
+      "pmid": "33426003",
+      "short_name": "Ibrahim 2020",
+      "first_author": "Ibrahim",
+      "year": 2020,
+      "phase": "N/A",
+      "design": "Single-center randomized controlled trial",
+      "blinding": "Not reported",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": false,
+      "country_region": "Egypt",
+      "n_total": 100,
+      "n_active": 50,
+      "n_placebo": 50,
+      "age_range_years": "not reported",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day",
+      "outcomes_reported": ["weight_loss", "dyspnea_improvement", "urine_output", "fluid_balance", "electrolytes", "kidney_function"],
+      "primary_efficacy_outcome": "Weight loss and dyspnea improvement with dapagliflozin added to furosemide",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "The study included 100 type 2 diabetic patients who were admitted with decompensated heart failure. The study population was randomly divided into two arms.",
+          "With dapagliflozin, there was a statistically significant difference between the two groups regarding the change in body weight and body mass index."
+        ],
+        "notes": "Paper indexed as 'Case Reports' by PubMed. Duration of hospital stay not explicitly stated in weeks. Phase not reported. Blinding not described. Age range not specified in abstract."
+      }
+    },
+    {
+      "pmid": "31535829",
+      "short_name": "DAPA-HF",
+      "first_author": "McMurray",
+      "year": 2019,
+      "phase": "III",
+      "design": "Multinational parallel-group randomized placebo-controlled trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 78,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multinational)",
+      "n_total": 4744,
+      "n_active": 2373,
+      "n_placebo": 2371,
+      "age_range_years": "≥18",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg once daily",
+      "outcomes_reported": ["composite_worsening_HF_or_CV_death", "HF_hospitalization", "CV_death", "all_cause_mortality", "KCCQ", "renal_composite", "adverse_events"],
+      "primary_efficacy_outcome": "Composite of worsening heart failure (hospitalization or urgent visit for IV therapy) or cardiovascular death",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "In this phase 3, placebo-controlled trial, we randomly assigned 4744 patients with New York Heart Association class II, III, or IV heart failure and an ejection fraction of 40% or less to receive either dapagliflozin (at a dose of 10 mg once daily) or placebo",
+          "Over a median of 18.2 months, the primary outcome occurred in 386 of 2373 patients (16.3%) in the dapagliflozin group and in 502 of 2371 patients (21.2%) in the placebo group"
+        ]
+      }
+    },
+    {
+      "pmid": "34446370",
+      "short_name": "DAPA-CKD HF subanalysis",
+      "first_author": "McMurray",
+      "year": 2021,
+      "phase": "III",
+      "design": "Pre-specified subgroup analysis of multinational randomized placebo-controlled trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multinational)",
+      "n_total": 4304,
+      "n_active": 2152,
+      "n_placebo": 2152,
+      "age_range_years": "≥18",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg daily",
+      "outcomes_reported": ["primary_kidney_composite", "CV_death_or_HF_hospitalization", "all_cause_death", "kidney_failure"],
+      "primary_efficacy_outcome": "Composite of ≥50% decline in eGFR, end-stage kidney disease, or kidney/cardiovascular death",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "A total of 4,304 participants were randomized to dapagliflozin 10 mg daily or placebo.",
+          "HF patients (n = 468; 11%) were older and had more coronary disease",
+          "Dapagliflozin reduced the risk of the primary outcome equally in patients with HF (HR: 0.58) and without HF (HR: 0.62)"
+        ],
+        "notes": "N_total/N_active/N_placebo are for the parent DAPA-CKD trial. The HF subgroup was 468 patients (n not split by arm in abstract). Ali 2023 used total trial N (2,152/2,152)."
+      }
+    },
+    {
+      "pmid": "31524498",
+      "short_name": "DEFINE-HF",
+      "first_author": "Nassif",
+      "year": 2019,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Multi-center randomized placebo-controlled trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 12,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "USA, Canada",
+      "n_total": 263,
+      "n_active": 131,
+      "n_placebo": 132,
+      "age_range_years": "≥18",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg daily",
+      "outcomes_reported": ["NT_proBNP", "KCCQ", "6MWT", "adverse_events"],
+      "primary_efficacy_outcome": "Dual primary: (1) mean NT-proBNP at 6 and 12 weeks; (2) proportion with ≥5-point KCCQ increase or ≥20% NT-proBNP decrease",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "DEFINE-HF was an investigator-initiated, multi-center, randomized controlled trial of HF patients with left ventricular ejection fraction ≤40%, NYHA class II-III, eGFR ≥30",
+          "263 patients were randomized to dapagliflozin 10 mg daily or placebo for 12 weeks",
+          "Dual primary outcomes were (1) mean NT-proBNP and (2) proportion of patients with ≥5-point increase in KCCQ-OS or ≥20% decrease in NT-proBNP"
+        ],
+        "notes": "N per arm estimated as 131/132 (263 total, 1:1 randomization). NCT02653482."
+      }
+    },
+    {
+      "pmid": "34711976",
+      "short_name": "Nassif 2021 HFpEF",
+      "first_author": "Nassif",
+      "year": 2021,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Multi-center randomized placebo-controlled trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 12,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "USA",
+      "n_total": 324,
+      "n_active": 162,
+      "n_placebo": 162,
+      "age_range_years": "≥18",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg daily",
+      "outcomes_reported": ["KCCQ_CS", "KCCQ_OS", "KCCQ_TS", "6MWT", "weight", "NT_proBNP", "HbA1c", "SBP", "adverse_events"],
+      "primary_efficacy_outcome": "Change in Kansas City Cardiomyopathy Questionnaire Clinical Summary Score (KCCQ-CS) at 12 weeks",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "In this multicenter, randomized trial of patients with HFpEF (NCT03030235), we evaluated whether dapagliflozin improves the primary endpoint of KCCQ-CS at 12 weeks",
+          "324 patients were randomized to dapagliflozin or placebo",
+          "Dapagliflozin improved KCCQ-CS (effect size, 5.8 points, 95% CI 2.3-9.2, P = 0.001)"
+        ]
+      }
+    },
+    {
+      "pmid": "35604416",
+      "short_name": "DAPA-VO2",
+      "first_author": "Palau",
+      "year": 2022,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Multi-center randomized double-blind placebo-controlled trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 12,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "Spain",
+      "n_total": 90,
+      "n_active": 45,
+      "n_placebo": 45,
+      "age_range_years": "≥18",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg daily",
+      "outcomes_reported": ["peak_VO2", "6MWT", "MLHFQ", "echocardiographic_parameters", "adverse_events"],
+      "primary_efficacy_outcome": "Change in peak oxygen consumption (peakVO2) at 1 and 3 months",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "In this multicentre, randomized, double-blind clinical trial, 90 stable patients with HFrEF were randomly assigned to receive either dapagliflozin (n = 45) or placebo (n = 45)",
+          "The primary outcome was a change in peak oxygen consumption (peakVO2) at 1 and 3 months",
+          "The mean age was 67.1 ± 10.7 years, 69 (76.7%) were men"
+        ],
+        "notes": "Duration is 3 months (~12 weeks). Age eligibility criteria not explicitly stated in abstract but mean age 67.1 years. Ali 2023 does not specify dose for this study."
+      }
+    },
+    {
+      "pmid": "32245746",
+      "short_name": "REFORM",
+      "first_author": "Singh",
+      "year": 2020,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Single-center randomized placebo-controlled trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 52,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "UK",
+      "n_total": 56,
+      "n_active": 28,
+      "n_placebo": 28,
+      "age_range_years": "≥18",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg daily",
+      "outcomes_reported": ["LVESV", "LV_remodeling", "diastolic_BP", "loop_diuretic_requirements", "hemoglobin", "hematocrit", "ketone_bodies", "weight"],
+      "primary_efficacy_outcome": "Change in left ventricular end-systolic volume (LVESV) by cardiac MRI",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "We randomized 56 patients with T2DM and HF with LV systolic dysfunction to dapagliflozin 10 mg daily or placebo for 1 year",
+          "The primary end point was difference in LV end-systolic volume (LVESV) using cardiac MRI"
+        ]
+      }
+    },
+    {
+      "pmid": "36027570",
+      "short_name": "DELIVER",
+      "first_author": "Solomon",
+      "year": 2022,
+      "phase": "III",
+      "design": "Multinational parallel-group randomized placebo-controlled trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 120,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multinational)",
+      "n_total": 6263,
+      "n_active": 3131,
+      "n_placebo": 3132,
+      "age_range_years": "≥40",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg once daily",
+      "outcomes_reported": ["composite_worsening_HF_or_CV_death", "HF_hospitalization", "CV_death", "all_cause_mortality", "KCCQ", "renal_composite", "adverse_events"],
+      "primary_efficacy_outcome": "Composite of worsening heart failure (unplanned hospitalization or urgent visit for HF) or cardiovascular death",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "We randomly assigned 6263 patients with heart failure and a left ventricular ejection fraction of more than 40% to receive dapagliflozin (at a dose of 10 mg once daily) or matching placebo",
+          "Over a median of 2.3 years, the primary outcome occurred in 512 of 3131 patients (16.4%) in the dapagliflozin group and in 610 of 3132 patients (19.5%) in the placebo group"
+        ],
+        "notes": "Duration ~120 weeks (median 2.3 years). Age eligibility ≥40 per trial design (NCT03619213)."
+      }
+    },
+    {
+      "pmid": "30415602",
+      "short_name": "DECLARE-TIMI 58",
+      "first_author": "Wiviott",
+      "year": 2019,
+      "phase": "III",
+      "design": "Multinational parallel-group randomized placebo-controlled trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 218,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multinational)",
+      "n_total": 17160,
+      "n_active": 8582,
+      "n_placebo": 8578,
+      "age_range_years": "≥40",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg daily",
+      "outcomes_reported": ["MACE", "CV_death_or_HF_hospitalization", "HF_hospitalization", "renal_composite", "all_cause_death", "adverse_events"],
+      "primary_efficacy_outcome": "Co-primary: (1) MACE (noninferiority); (2) composite of cardiovascular death or hospitalization for heart failure (superiority)",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "We randomly assigned patients with type 2 diabetes who had or were at risk for atherosclerotic cardiovascular disease to receive either dapagliflozin or placebo",
+          "We evaluated 17,160 patients, including 10,186 without atherosclerotic cardiovascular disease, who were followed for a median of 4.2 years",
+          "dapagliflozin did result in a lower rate of cardiovascular death or hospitalization for heart failure (4.9% vs. 5.8%; HR 0.83, 95% CI 0.73-0.95, P=0.005)"
+        ],
+        "notes": "Duration ~218 weeks (median 4.2 years). This is a T2DM cardiovascular outcomes trial, not a dedicated HF trial. Ali 2023 included it for HF hospitalization outcomes. N_total is total trial N, not HF subgroup."
+      }
+    }
+  ],
+  "extraction_fields_for_evaluation": [
+    "first_author",
+    "year",
+    "phase",
+    "n_total",
+    "n_active",
+    "n_placebo",
+    "age_range_years",
+    "intervention",
+    "dose",
+    "primary_efficacy_outcome",
+    "maintenance_weeks_ge_12"
+  ]
+}

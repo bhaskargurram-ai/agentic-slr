@@ -1,0 +1,44 @@
+{
+  "target_review": "Lattanzi et al. 2023, Drugs, DOI: 10.1007/s40265-023-01936-y",
+  "pipeline_stages": {
+    "stage_1_retrieval": {
+      "candidates_retrieved": 124,
+      "ground_truth_recall": 1.0,
+      "notes": "PubMed-only search reproduced 7/7 included primary studies; original paper searched 4 databases and identified 652 records."
+    },
+    "stage_2_abstract_screening": {
+      "model": "gpt-4o-mini",
+      "papers_screened": 124,
+      "sensitivity": 1.0,
+      "specificity": 0.8034,
+      "cohen_kappa": 0.3157,
+      "work_saved_over_sampling": 0.76,
+      "notes": "100% sensitivity; 23 false positives retained as acceptable over-inclusion at abstract stage per SLR best practice."
+    },
+    "stage_3_fulltext_assessment": {
+      "model": "gpt-4o-mini",
+      "papers_assessed": 30,
+      "sensitivity": 1.0,
+      "specificity": 0.7826,
+      "precision": 0.5833,
+      "notes": "All 5 remaining false positives were post-hoc analyses of true-positive trials - a characterized failure mode."
+    },
+    "stage_4_deduplication": {
+      "model": "gpt-4o-mini",
+      "papers_classified": 12,
+      "final_inclusion_count": 7,
+      "sensitivity": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "notes": "Batched classification of all candidates enables cross-paper detection of secondary publications."
+    }
+  },
+  "end_to_end_performance": {
+    "ground_truth_included_studies": 7,
+    "pipeline_included_studies": 7,
+    "exact_match": true,
+    "total_human_effort_replaced": "~3-6 months of 2-reviewer SLR screening",
+    "total_pipeline_cost_usd": "~0.25",
+    "total_pipeline_runtime_minutes": "~12"
+  }
+}

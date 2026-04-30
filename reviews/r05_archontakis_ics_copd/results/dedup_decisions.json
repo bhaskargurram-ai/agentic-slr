@@ -1,0 +1,582 @@
+{
+  "model": "gpt-4o",
+  "approach": "embedding-cluster-v2",
+  "clustering_summary": {
+    "n_clusters": 1,
+    "singletons": 0,
+    "multi_paper_clusters": 1,
+    "cluster_sizes": [
+      72
+    ],
+    "llm_calls": 1,
+    "embedding_cost_usd": 0.000746
+  },
+  "classifications": [
+    {
+      "pmid": "32579807",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the ETHOS trial, a 52-week, phase 3, randomized trial with its own NCT number, focusing on the primary endpoint of COPD exacerbations."
+    },
+    {
+      "pmid": "33252985",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: child title/methods has trial name(s) absent from parent: {'deliver'}. Original: This paper is a secondary analysis of the ETHOS trial, focusing on all-cause mortality, a secondary endpoint, and uses the same patient cohort as the primary ETHOS publication."
+    },
+    {
+      "pmid": "28375647",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The FULFIL trial is a separate RCT with its own NCT number, reporting primary endpoints of lung function and quality of life for the first time."
+    },
+    {
+      "pmid": "30232048",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The KRONOS trial is a separate RCT with its own NCT number, reporting primary endpoints of lung function and exacerbations."
+    },
+    {
+      "pmid": "32162970",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "32579807",
+      "reasoning": "This paper is a secondary analysis of the ETHOS trial, focusing on mortality outcomes, a secondary endpoint, and uses the same patient cohort as the primary ETHOS publication."
+    },
+    {
+      "pmid": "30680975",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The IMPACT study is a separate RCT with its own NCT number, reporting primary endpoints of exacerbation rates and lung function."
+    },
+    {
+      "pmid": "27598678",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The TRILOGY trial is a separate RCT with its own NCT number, reporting primary endpoints of lung function and exacerbations."
+    },
+    {
+      "pmid": "30220648",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The TELOS study is a separate RCT with its own NCT number, reporting primary endpoints of lung function and exacerbations."
+    },
+    {
+      "pmid": "22383665",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: different NCTs: child={'NCT00206167', 'NCT00206154'}, parent={'NCT00419744'}. Original: This paper is a secondary analysis focusing on genetic polymorphisms in the same patient cohort as the primary trial reported by PMID 22033040."
+    },
+    {
+      "pmid": "22033040",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of a 12-month RCT on budesonide/formoterol, focusing on exacerbation rates, a primary endpoint."
+    },
+    {
+      "pmid": "24953015",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The FORWARD study is a separate RCT with its own NCT number, reporting primary endpoints of exacerbation rates and lung function."
+    },
+    {
+      "pmid": "33108212",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "30680975",
+      "reasoning": "This paper is a secondary analysis of the IMPACT trial, focusing on pneumonia risk, a secondary endpoint, and uses the same patient cohort as the primary IMPACT publication."
+    },
+    {
+      "pmid": "32152869",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "30232048",
+      "reasoning": "This paper is a subgroup analysis of the KRONOS trial, focusing on Chinese patients, and uses the same patient cohort as the primary KRONOS publication."
+    },
+    {
+      "pmid": "34428980",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: child title/methods has trial name(s) absent from parent: {'KRONOS', 'deliver'}. Original: This paper is a sub-study of the ETHOS trial, focusing on lung function, a secondary endpoint, and uses the same patient cohort as the primary ETHOS publication."
+    },
+    {
+      "pmid": "33124900",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "30680975",
+      "reasoning": "This paper is a subgroup analysis of the IMPACT trial, focusing on the China cohort, and uses the same patient cohort as the primary IMPACT publication."
+    },
+    {
+      "pmid": "9925060",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on high-dose beclomethasone in COPD, focusing on lung function, a primary endpoint."
+    },
+    {
+      "pmid": "33121372",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "30680975",
+      "reasoning": "This paper is a subgroup analysis of the IMPACT trial, focusing on the Spain cohort, and uses the same patient cohort as the primary IMPACT publication."
+    },
+    {
+      "pmid": "29773947",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on budesonide/formoterol, focusing on pharmacokinetics and lung function, primary endpoints."
+    },
+    {
+      "pmid": "31839705",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "30680975",
+      "reasoning": "This paper is a subgroup analysis of the IMPACT trial, focusing on the Japanese population, and uses the same patient cohort as the primary IMPACT publication."
+    },
+    {
+      "pmid": "12970006",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on fluticasone/salmeterol, focusing on lung function and safety, primary endpoints."
+    },
+    {
+      "pmid": "20692140",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on budesonide/formoterol, focusing on exercise tolerance, a primary endpoint."
+    },
+    {
+      "pmid": "12391509",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on fluticasone propionate in COPD, focusing on lung function, a primary endpoint."
+    },
+    {
+      "pmid": "14680078",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on budesonide/formoterol, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "20965712",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on beclomethasone/formoterol, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "28982774",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on ICS effects on bacterial loads in COPD, focusing on microbiome changes, a primary endpoint."
+    },
+    {
+      "pmid": "17314337",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on salmeterol/fluticasone, focusing on survival and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "16424444",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on salmeterol/fluticasone, focusing on inflammation, a primary endpoint."
+    },
+    {
+      "pmid": "19014549",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on mometasone furoate in COPD, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "34171789",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "32579807",
+      "reasoning": "This paper is a secondary analysis of the ETHOS trial, focusing on symptoms and quality of life, secondary endpoints, using the same patient cohort."
+    },
+    {
+      "pmid": "34210340",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: child title/methods has trial name(s) absent from parent: {'KRONOS', 'deliver'}. Original: This paper is a secondary analysis of the ETHOS trial, focusing on functional respiratory imaging, a secondary endpoint, using the same patient cohort."
+    },
+    {
+      "pmid": "34464242",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on ICS/LABA effects on the airway microbiome, focusing on microbiome changes, a primary endpoint."
+    },
+    {
+      "pmid": "28947039",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The SUMMIT trial is a separate RCT with its own NCT number, focusing on pneumonia risk and lung function, primary endpoints."
+    },
+    {
+      "pmid": "19734176",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on budesonide/formoterol vs. salmeterol/fluticasone, focusing on lung function and morning activities, primary endpoints."
+    },
+    {
+      "pmid": "32471423",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports two replicate RCTs comparing single vs. multiple inhaler triple therapy, focusing on lung function and health status, primary endpoints."
+    },
+    {
+      "pmid": "33081606",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on fluticasone furoate/vilanterol, focusing on bone mineral density, a primary endpoint."
+    },
+    {
+      "pmid": "32584168",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "30680975",
+      "reasoning": "This paper is a secondary analysis of the IMPACT trial, focusing on ICS withdrawal effects, a secondary endpoint, using the same patient cohort."
+    },
+    {
+      "pmid": "33757520",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The TRIVERSYTI trial is a separate RCT with its own NCT number, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "26659582",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on ICS effects on lung function decline, focusing on phenotypic markers, a primary endpoint."
+    },
+    {
+      "pmid": "31281061",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "30680975",
+      "reasoning": "This paper is a secondary analysis of the IMPACT trial, focusing on blood eosinophils and treatment response, a secondary endpoint, using the same patient cohort."
+    },
+    {
+      "pmid": "19644045",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on budesonide/formoterol added to tiotropium, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "23332861",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on fluticasone furoate/vilanterol, focusing on lung function, a primary endpoint."
+    },
+    {
+      "pmid": "28137501",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on fluticasone furoate/vilanterol, focusing on lung function, a primary endpoint."
+    },
+    {
+      "pmid": "29229103",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The RISE study is a separate RCT with its own NCT number, focusing on exacerbations, a primary endpoint."
+    },
+    {
+      "pmid": "24429127",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports two replicate RCTs on fluticasone furoate/vilanterol, focusing on exacerbations, a primary endpoint."
+    },
+    {
+      "pmid": "25830381",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on fluticasone furoate/vilanterol in Asian patients, focusing on lung function, a primary endpoint."
+    },
+    {
+      "pmid": "24920884",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on medium vs. high-dose ICS in COPD, focusing on clinical efficacy and pneumonia risk, primary endpoints."
+    },
+    {
+      "pmid": "10095821",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on inhaled and oral steroids in COPD, focusing on lung function, a primary endpoint."
+    },
+    {
+      "pmid": "19841453",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on fluticasone with and without salmeterol, focusing on pulmonary outcomes, a primary endpoint."
+    },
+    {
+      "pmid": "18310480",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on fluticasone/salmeterol, focusing on systemic biomarkers of inflammation, a primary endpoint."
+    },
+    {
+      "pmid": "20970351",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on tiotropium/formoterol/budesonide, focusing on short-term effects, a primary endpoint."
+    },
+    {
+      "pmid": "26648706",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The EFFECT trial is a separate RCT with its own NCT number, focusing on exacerbations and biomarkers, primary endpoints."
+    },
+    {
+      "pmid": "24998880",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports three separate RCTs comparing FF/VI and FP/SAL, focusing on lung function, a primary endpoint."
+    },
+    {
+      "pmid": "10421835",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on beclomethasone dipropionate, focusing on lung function and symptoms, primary endpoints."
+    },
+    {
+      "pmid": "24114969",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT comparing FF/VI and FP/SAL, focusing on lung function, a primary endpoint."
+    },
+    {
+      "pmid": "12583942",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on salmeterol/fluticasone, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "18778120",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on budesonide/formoterol, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "22334769",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on mometasone furoate/formoterol, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "22334768",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on mometasone furoate/formoterol, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "12379552",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on fluticasone/salmeterol, focusing on lung function and dyspnea, primary endpoints."
+    },
+    {
+      "pmid": "10807619",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The ISOLDE trial is a separate RCT with its own NCT number, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "29266965",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on intensified ICS/LABA therapy, focusing on exacerbations, a primary endpoint."
+    },
+    {
+      "pmid": "22653766",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The FORWARD trial is a separate RCT with its own NCT number, focusing on exacerbations and lung function, primary endpoints."
+    },
+    {
+      "pmid": "25490706",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports two replicate RCTs on fluticasone furoate/vilanterol, focusing on pneumonia risk, a primary endpoint."
+    },
+    {
+      "pmid": "23352226",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on fluticasone furoate/vilanterol, focusing on lung function, a primary endpoint."
+    },
+    {
+      "pmid": "28737971",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The SUMMIT trial is a separate RCT with its own NCT number, focusing on lung function decline, a primary endpoint."
+    },
+    {
+      "pmid": "12850128",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on salmeterol/fluticasone, focusing on long-term control, a primary endpoint."
+    },
+    {
+      "pmid": "26394882",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on budesonide/formoterol added to tiotropium, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "32503599",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "30680975",
+      "reasoning": "This paper is a secondary analysis of the IMPACT trial, focusing on cardiovascular safety, a secondary endpoint, using the same patient cohort."
+    },
+    {
+      "pmid": "30302335",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "28375647",
+      "reasoning": "This paper is a secondary analysis of the FULFIL trial, focusing on clinically important deterioration, a secondary endpoint, using the same patient cohort."
+    },
+    {
+      "pmid": "32363206",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "The SOPHOS trial is a separate RCT with its own NCT number, focusing on lung function and exacerbations, primary endpoints."
+    },
+    {
+      "pmid": "33156982",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "30680975",
+      "reasoning": "This paper is a secondary analysis of the IMPACT trial, focusing on regional differences, a secondary endpoint, using the same patient cohort."
+    },
+    {
+      "pmid": "34322547",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports a separate RCT on glycopyrronium/formoterol/fluticasone, focusing on lung function, a primary endpoint."
+    }
+  ],
+  "final_included_pmids": [
+    "32579807",
+    "33252985",
+    "28375647",
+    "30232048",
+    "30680975",
+    "27598678",
+    "30220648",
+    "22383665",
+    "22033040",
+    "24953015",
+    "34428980",
+    "9925060",
+    "29773947",
+    "12970006",
+    "20692140",
+    "12391509",
+    "14680078",
+    "20965712",
+    "28982774",
+    "17314337",
+    "16424444",
+    "19014549",
+    "34210340",
+    "34464242",
+    "28947039",
+    "19734176",
+    "32471423",
+    "33081606",
+    "33757520",
+    "26659582",
+    "19644045",
+    "23332861",
+    "28137501",
+    "29229103",
+    "24429127",
+    "25830381",
+    "24920884",
+    "10095821",
+    "19841453",
+    "18310480",
+    "20970351",
+    "26648706",
+    "24998880",
+    "10421835",
+    "24114969",
+    "12583942",
+    "18778120",
+    "22334769",
+    "22334768",
+    "12379552",
+    "10807619",
+    "29266965",
+    "22653766",
+    "25490706",
+    "23352226",
+    "28737971",
+    "12850128",
+    "26394882",
+    "32363206",
+    "34322547"
+  ]
+}

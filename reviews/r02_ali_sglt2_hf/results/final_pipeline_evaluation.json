@@ -1,0 +1,23 @@
+{
+  "ground_truth_count": 9,
+  "final_included_count": 14,
+  "true_positives": 7,
+  "false_positives": 7,
+  "false_negatives": 2,
+  "sensitivity": 0.7778,
+  "precision": 0.5,
+  "f1": 0.6087,
+  "missed_pmids": [
+    "30415602",
+    "33426003"
+  ],
+  "extra_pmids": [
+    "30895697",
+    "31843945",
+    "33040613",
+    "33615642",
+    "34766424",
+    "35629062",
+    "38559420"
+  ]
+}

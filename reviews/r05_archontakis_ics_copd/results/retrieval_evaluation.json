@@ -1,0 +1,142 @@
+{
+  "target_count": 13,
+  "found_count": 12,
+  "missed_count": 1,
+  "recall": 0.9230769230769231,
+  "found_pmids": [
+    "24920884",
+    "22334769",
+    "24429127",
+    "30232048",
+    "32363206",
+    "23332861",
+    "32579807",
+    "19368417",
+    "22033040",
+    "18778120",
+    "22334768",
+    "25830381"
+  ],
+  "missed_pmids": [
+    "28740376"
+  ],
+  "included_studies_details": [
+    {
+      "pmid": "24920884",
+      "first_author": "Cheng",
+      "year": 2014,
+      "short_name": "Cheng 2014",
+      "journal": "Drug Design, Development and Therapy",
+      "intervention": "Fluticasone/salmeterol",
+      "dose": "Medium vs high dose"
+    },
+    {
+      "pmid": "22334769",
+      "first_author": "Doherty",
+      "year": 2012,
+      "short_name": "Doherty 2012",
+      "journal": "Respiratory Medicine",
+      "intervention": "Mometasone furoate/formoterol",
+      "dose": "200/10 mcg or 400/10 mcg"
+    },
+    {
+      "pmid": "24429127",
+      "first_author": "Dransfield",
+      "year": 2013,
+      "short_name": "Dransfield 2013",
+      "journal": "Lancet Respiratory Medicine",
+      "intervention": "Fluticasone furoate/vilanterol",
+      "dose": "50/25, 100/25, or 200/25 mcg"
+    },
+    {
+      "pmid": "30232048",
+      "first_author": "Ferguson",
+      "year": 2018,
+      "short_name": "KRONOS",
+      "journal": "Lancet Respiratory Medicine",
+      "intervention": "Budesonide/glycopyrrolate/formoterol",
+      "dose": "320/18/9.6 or 160/18/9.6 mcg"
+    },
+    {
+      "pmid": "32363206",
+      "first_author": "Hanania",
+      "year": 2020,
+      "short_name": "Hanania 2020",
+      "journal": "Chest",
+      "intervention": "Budesonide/formoterol MDI",
+      "dose": "320/9.6 or 160/9.6 mcg"
+    },
+    {
+      "pmid": "23332861",
+      "first_author": "Martinez",
+      "year": 2013,
+      "short_name": "Martinez 2013",
+      "journal": "Respiratory Medicine",
+      "intervention": "Fluticasone furoate/vilanterol",
+      "dose": "50/25, 100/25, or 200/25 mcg"
+    },
+    {
+      "pmid": "28740376",
+      "first_author": "Papi",
+      "year": 2017,
+      "short_name": "Papi 2017",
+      "journal": "European Respiratory Journal",
+      "intervention": "Fluticasone propionate/formoterol",
+      "dose": "250/10 or 500/10 mcg"
+    },
+    {
+      "pmid": "32579807",
+      "first_author": "Rabe",
+      "year": 2020,
+      "short_name": "ETHOS",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Budesonide/glycopyrrolate/formoterol",
+      "dose": "320/18/9.6 or 160/18/9.6 mcg"
+    },
+    {
+      "pmid": "19368417",
+      "first_author": "Rennard",
+      "year": 2009,
+      "short_name": "Rennard 2009",
+      "journal": "Respiratory Medicine",
+      "intervention": "Budesonide/formoterol pMDI",
+      "dose": "320/9 or 160/9 mcg"
+    },
+    {
+      "pmid": "22033040",
+      "first_author": "Sharafkhaneh",
+      "year": 2012,
+      "short_name": "Sharafkhaneh 2012",
+      "journal": "Respiratory Medicine",
+      "intervention": "Budesonide/formoterol pMDI",
+      "dose": "320/9 or 160/9 mcg"
+    },
+    {
+      "pmid": "18778120",
+      "first_author": "Tashkin",
+      "year": 2008,
+      "short_name": "Tashkin 2008",
+      "journal": "Respiratory Research",
+      "intervention": "Budesonide/formoterol pMDI",
+      "dose": "320/9 or 160/9 mcg"
+    },
+    {
+      "pmid": "22334768",
+      "first_author": "Tashkin",
+      "year": 2012,
+      "short_name": "Tashkin 2012",
+      "journal": "Respiratory Medicine",
+      "intervention": "Mometasone furoate/formoterol",
+      "dose": "200/10 or 400/10 mcg"
+    },
+    {
+      "pmid": "25830381",
+      "first_author": "Zheng",
+      "year": 2015,
+      "short_name": "Zheng 2015",
+      "journal": "Respirology",
+      "intervention": "Fluticasone furoate/vilanterol",
+      "dose": "100/25 or 200/25 mcg"
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "model": "deepseek-v3",
+  "provider": "together_ai",
+  "together_model": "deepseek-ai/DeepSeek-V3",
+  "n_studies": 14,
+  "wall_time_seconds": 144.84,
+  "total_model_latency_seconds": 144.68,
+  "total_input_tokens": 105560,
+  "total_output_tokens": 4506,
+  "estimated_cost_usd": 0.1376,
+  "errors": 0,
+  "extractions": [
+    {
+      "extraction": {
+        "first_author": "McMurray",
+        "year": 2019,
+        "phase": "III",
+        "design": "Phase 3, placebo-controlled, randomized trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 4744,
+        "n_active": 2373,
+        "n_placebo": 2371,
+        "age_range_years": "not_reported",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg once daily",
+        "primary_efficacy_outcome": "Composite of worsening heart failure (hospitalization or urgent visit resulting in intravenous therapy for heart failure) or cardiovascular death",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 10.22,
+      "input_tokens": 2698,
+      "output_tokens": 288,
+      "error": null,
+      "pmid": "31535829",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Solomon",
+        "year": 2022,
+        "phase": "III",
+        "design": "Randomized, double-blind, placebo-controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 120,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Multiple countries",
+        "n_total": 6263,
+        "n_active": 3131,
+        "n_placebo": 3132,
+        "age_range_years": "not_reported",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg once daily",
+        "primary_efficacy_outcome": "Composite of worsening heart failure (unplanned hospitalization for heart failure or urgent visit for heart failure) or cardiovascular death",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 10.13,
+      "input_tokens": 2584,
+      "output_tokens": 282,
+      "error": null,
+      "pmid": "36027570",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2021,
+        "phase": "N/A",
+        "design": "Randomized, double-blind, placebo-controlled, multicenter trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "United States",
+        "n_total": 324,
+        "n_active": 162,
+        "n_placebo": 162,
+        "age_range_years": ">=18",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg once daily",
+        "primary_efficacy_outcome": "Kansas City Cardiomyopathy Questionnaire Clinical Summary Score (KCCQ-CS) at 12 weeks",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 8.9,
+      "input_tokens": 15273,
+      "output_tokens": 281,
+      "error": null,
+      "pmid": "34711976",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2021,
+        "phase": "N/A",
+        "design": "Randomized, double-blind, placebo-controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 4304,
+        "n_active": 2152,
+        "n_placebo": 2152,
+        "age_range_years": "not_reported",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg daily",
+        "primary_efficacy_outcome": "\u226550% decline in estimated glomerular filtration rate, end-stage kidney disease, or kidney/cardiovascular death",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 9.83,
+      "input_tokens": 2625,
+      "output_tokens": 282,
+      "error": null,
+      "pmid": "34446370",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Nassif",
+        "year": 2019,
+        "phase": "N/A",
+        "design": "Investigator-initiated, multi-center, randomized controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "United States",
+        "n_total": 263,
+        "n_active": 131,
+        "n_placebo": 132,
+        "age_range_years": "not_reported",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg daily",
+        "primary_efficacy_outcome": "Mean NT-proBNP and proportion of patients with \u22655-point increase in Kansas City Cardiomyopathy Questionnaire overall summary score or \u226520% decrease in NT-proBNP",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "unclear",
+          "attrition_bias": "low",
+          "reporting_bias": "low"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 11.15,
+      "input_tokens": 2798,
+      "output_tokens": 293,
+      "error": null,
+      "pmid": "31524498",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2021,
+        "phase": "N/A",
+        "design": "prospective, randomized, double-blind, placebo-controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "Multinational",
+        "n_total": 4744,
+        "n_active": 2373,
+        "n_placebo": 2371,
+        "age_range_years": ">=18",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg once daily",
+        "primary_efficacy_outcome": "composite of worsening heart failure (hospitalization or urgent visit requiring intravenous therapy) or cardiovascular death",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 20.9,
+      "input_tokens": 16361,
+      "output_tokens": 662,
+      "error": null,
+      "pmid": "33615642",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2022,
+        "phase": "N/A",
+        "design": "Randomized controlled trial",
+        "blinding": "not_reported",
+        "duration_weeks": 26,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 40,
+        "n_active": 20,
+        "n_placebo": 20,
+        "age_range_years": ">=18",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg",
+        "primary_efficacy_outcome": "6 month peak oxygen uptake (pVO2) variation",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "unclear",
+          "detection_bias": "unclear",
+          "attrition_bias": "low",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 7.75,
+      "input_tokens": 2344,
+      "output_tokens": 266,
+      "error": null,
+      "pmid": "35629062",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2020,
+        "phase": "not_reported",
+        "design": "Randomized controlled trial assessing cardiac and renal outcomes of dapagliflozin versus placebo in patients with type 2 diabetes",
+        "blinding": "not_reported",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "not_reported",
+        "n_total": 17160,
+        "n_active": 8580,
+        "n_placebo": 8580,
+        "age_range_years": ">=65",
+        "intervention": "Dapagliflozin",
+        "dose": "not_reported",
+        "primary_efficacy_outcome": "Composite of cardiovascular death or hospitalization for heart failure",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "not_reported",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 8.81,
+      "input_tokens": 2784,
+      "output_tokens": 295,
+      "error": null,
+      "pmid": "31843945",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Liu",
+        "year": 2022,
+        "phase": "N/A",
+        "design": "Multi-center, randomized, single-blind, controlled trial",
+        "blinding": "Single-blind",
+        "duration_weeks": 4,
+        "maintenance_weeks_ge_12": false,
+        "country_region": "China",
+        "n_total": 360,
+        "n_active": 180,
+        "n_placebo": 180,
+        "age_range_years": "18-80",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg once daily",
+        "primary_efficacy_outcome": "Changes of NT-proBNP levels in 30 days of acute anterior STEMI",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation",
+          "safety"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "high",
+          "detection_bias": "unclear",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 9.35,
+      "input_tokens": 7629,
+      "output_tokens": 278,
+      "error": null,
+      "pmid": "38559420",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2022,
+        "phase": "not_reported",
+        "design": "Randomized, double-blind, placebo-controlled trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "20 countries",
+        "n_total": 4744,
+        "n_active": 2373,
+        "n_placebo": 2371,
+        "age_range_years": ">=18",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg once daily",
+        "primary_efficacy_outcome": "Composite of worsening HF (HF hospitalization or urgent HF visit requiring intravenous therapy) or cardiovascular death",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "unclear",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 12.99,
+      "input_tokens": 16504,
+      "output_tokens": 458,
+      "error": null,
+      "pmid": "34766424",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2022,
+        "phase": "N/A",
+        "design": "Multicenter, randomized, double-blind clinical trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 12,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 90,
+        "n_active": 45,
+        "n_placebo": 45,
+        "age_range_years": "not_reported",
+        "intervention": "Dapagliflozin",
+        "dose": "not_reported",
+        "primary_efficacy_outcome": "Change in peak oxygen consumption (peakVO\u2082) at 1 and 3 months",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 9.04,
+      "input_tokens": 2687,
+      "output_tokens": 279,
+      "error": null,
+      "pmid": "35604416",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "Jhund",
+        "year": 2021,
+        "phase": "III",
+        "design": "Randomized, double-blind, placebo-controlled, event-driven trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "20 countries",
+        "n_total": 4743,
+        "n_active": 2371,
+        "n_placebo": 2372,
+        "age_range_years": ">=18",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg once daily",
+        "primary_efficacy_outcome": "Composite of worsening heart failure (HF hospitalization or urgent visit for HF requiring intravenous therapy) or cardiovascular death",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "unclear",
+          "allocation_concealment": "unclear",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 8.77,
+      "input_tokens": 13696,
+      "output_tokens": 281,
+      "error": null,
+      "pmid": "33040613",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "not_reported",
+        "year": 2020,
+        "phase": "N/A",
+        "design": "single-center, placebo-controlled clinical trial",
+        "blinding": "Double-blind",
+        "duration_weeks": 52,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "not_reported",
+        "n_total": 56,
+        "n_active": 28,
+        "n_placebo": 28,
+        "age_range_years": "not_reported",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg daily",
+        "primary_efficacy_outcome": "difference in LV end-systolic volume (LVESV) using cardiac MRI",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "not_reported",
+          "allocation_concealment": "not_reported",
+          "performance_bias": "not_reported",
+          "detection_bias": "not_reported",
+          "attrition_bias": "not_reported",
+          "reporting_bias": "not_reported"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 7.63,
+      "input_tokens": 5268,
+      "output_tokens": 281,
+      "error": null,
+      "pmid": "32245746",
+      "model": "deepseek-v3"
+    },
+    {
+      "extraction": {
+        "first_author": "McMurray",
+        "year": 2019,
+        "phase": "III",
+        "design": "International, multicentre, parallel group, randomized, double-blind, event-driven trial",
+        "blinding": "Double-blind",
+        "duration_weeks": null,
+        "maintenance_weeks_ge_12": true,
+        "country_region": "International",
+        "n_total": 4744,
+        "n_active": 2372,
+        "n_placebo": 2372,
+        "age_range_years": ">=18",
+        "intervention": "Dapagliflozin",
+        "dose": "10 mg once daily",
+        "primary_efficacy_outcome": "Composite of worsening heart failure event (hospitalization or urgent heart failure visit) or cardiovascular death",
+        "outcomes_reported": [
+          "adverse_events",
+          "treatment_discontinuation"
+        ],
+        "risk_of_bias": {
+          "random_sequence_generation": "low",
+          "allocation_concealment": "low",
+          "performance_bias": "low",
+          "detection_bias": "low",
+          "attrition_bias": "unclear",
+          "reporting_bias": "unclear"
+        }
+      },
+      "raw_output": null,
+      "parse_error": null,
+      "latency_seconds": 9.21,
+      "input_tokens": 12309,
+      "output_tokens": 280,
+      "error": null,
+      "pmid": "30895697",
+      "model": "deepseek-v3"
+    }
+  ]
+}

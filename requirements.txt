@@ -1,0 +1,19 @@
+# Core API clients
+openai>=1.30.0
+together>=1.2.0
+
+# Pipeline plumbing
+pydantic>=2.0
+python-dotenv>=1.0
+requests>=2.31
+tqdm>=4.65
+
+# PubMed retrieval
+biopython>=1.83
+
+# Scientific stack (figure regeneration)
+matplotlib>=3.7
+numpy>=1.24
+
+# Optional: Modal-backed inference (legacy)
+modal>=0.62

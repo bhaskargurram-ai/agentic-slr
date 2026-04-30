@@ -1,0 +1,49 @@
+{
+  "review_id": "r03_chang_ici_melanoma",
+  "short_name": "Chang 2020",
+  "full_title": "Immune Checkpoint Inhibitors and Immune-Related Adverse Events in Patients With Advanced Melanoma: A Systematic Review and Network Meta-analysis",
+  "doi": "10.1001/jamanetworkopen.2020.1611",
+  "pmid": "32211869",
+  "pmcid": "PMC7097702",
+  "domain": "Oncology",
+  "search": {
+    "pubmed_query": "((\"immune checkpoint inhibitors\"[Title/Abstract] OR \"checkpoint inhibitor\"[Title/Abstract] OR \"ipilimumab\"[MeSH Terms] OR \"ipilimumab\"[Title/Abstract] OR \"nivolumab\"[MeSH Terms] OR \"nivolumab\"[Title/Abstract] OR \"pembrolizumab\"[MeSH Terms] OR \"pembrolizumab\"[Title/Abstract] OR \"anti-PD-1\"[Title/Abstract] OR \"anti-PD-L1\"[Title/Abstract] OR \"anti-CTLA-4\"[Title/Abstract]) AND (\"melanoma\"[MeSH Terms] OR \"melanoma\"[Title/Abstract] OR \"advanced melanoma\"[Title/Abstract] OR \"metastatic melanoma\"[Title/Abstract]) AND (\"Randomized Controlled Trial\"[Publication Type] OR \"randomized\"[Title/Abstract] OR \"randomised\"[Title/Abstract] OR \"phase II\"[Title/Abstract] OR \"phase III\"[Title/Abstract])) AND (\"2010/01/01\"[PDAT] : \"2019/06/30\"[PDAT])",
+    "search_date_end": "2019-06-30",
+    "max_results": 2000,
+    "notes": "Reconstructed from Chang 2020 eTable 1 (supplement). Original search used controlled vocabulary (MeSH, Emtree) and text words developed with a research librarian. Also searched Embase, Web of Science, Scopus. This PubMed query is a conservative reproduction."
+  },
+  "inclusion_criteria": {
+    "study_design": "Randomized controlled trial (phase II or III)",
+    "population": "Patients with advanced (unresectable or metastatic) melanoma",
+    "intervention": "Immune checkpoint inhibitor (ipilimumab, nivolumab, pembrolizumab) alone or in combination",
+    "comparator": "Another ICI, chemotherapy, or placebo",
+    "outcomes_required": ["overall survival", "progression-free survival", "immune-related adverse events"]
+  },
+  "exclusion_criteria": [
+    "Non-randomized studies",
+    "Observational studies, case reports, case series",
+    "Reviews, meta-analyses, editorials, commentaries",
+    "Animal or in vitro studies",
+    "Studies not reporting ICI as primary intervention",
+    "Studies exclusively in non-melanoma cancers",
+    "Dose-finding phase I studies"
+  ],
+  "prisma_expected": {
+    "records_identified": 4458,
+    "records_screened": 2497,
+    "fulltext_assessed_expected": 1256,
+    "studies_included_final": 9
+  },
+  "prompts": {
+    "screening_system": "reviews/r03_chang_ici_melanoma/prompts/screening_system.txt",
+    "fulltext_system": "reviews/r03_chang_ici_melanoma/prompts/fulltext_system.txt",
+    "dedup_system": "reviews/r03_chang_ici_melanoma/prompts/dedup_system.txt"
+  },
+  "paths": {
+    "base_dir": "reviews/r03_chang_ici_melanoma",
+    "ground_truth": "reviews/r03_chang_ici_melanoma/ground_truth.json",
+    "retrieved_dir": "reviews/r03_chang_ici_melanoma/retrieved",
+    "results_dir": "reviews/r03_chang_ici_melanoma/results",
+    "extractions_dir": "reviews/r03_chang_ici_melanoma/extractions"
+  }
+}

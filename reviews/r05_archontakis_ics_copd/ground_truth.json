@@ -1,0 +1,456 @@
+{
+  "review_id": "r05_archontakis_ics_copd",
+  "source": "Archontakis Barakakis et al. 2023, Int J Chron Obstruct Pulmon Dis, PMC10086393",
+  "inclusion_pmids": [
+    "24920884", "22334769", "24429127", "30232048", "32363206",
+    "23332861", "28740376", "32579807", "19368417", "22033040",
+    "18778120", "22334768", "25830381"
+  ],
+  "inclusion_pmids_count": 13,
+  "included_studies": [
+    {
+      "pmid": "24920884",
+      "first_author": "Cheng",
+      "year": 2014,
+      "short_name": "Cheng 2014",
+      "journal": "Drug Design, Development and Therapy",
+      "intervention": "Fluticasone/salmeterol",
+      "dose": "Medium vs high dose"
+    },
+    {
+      "pmid": "22334769",
+      "first_author": "Doherty",
+      "year": 2012,
+      "short_name": "Doherty 2012",
+      "journal": "Respiratory Medicine",
+      "intervention": "Mometasone furoate/formoterol",
+      "dose": "200/10 mcg or 400/10 mcg"
+    },
+    {
+      "pmid": "24429127",
+      "first_author": "Dransfield",
+      "year": 2013,
+      "short_name": "Dransfield 2013",
+      "journal": "Lancet Respiratory Medicine",
+      "intervention": "Fluticasone furoate/vilanterol",
+      "dose": "50/25, 100/25, or 200/25 mcg"
+    },
+    {
+      "pmid": "30232048",
+      "first_author": "Ferguson",
+      "year": 2018,
+      "short_name": "KRONOS",
+      "journal": "Lancet Respiratory Medicine",
+      "intervention": "Budesonide/glycopyrrolate/formoterol",
+      "dose": "320/18/9.6 or 160/18/9.6 mcg"
+    },
+    {
+      "pmid": "32363206",
+      "first_author": "Hanania",
+      "year": 2020,
+      "short_name": "Hanania 2020",
+      "journal": "Chest",
+      "intervention": "Budesonide/formoterol MDI",
+      "dose": "320/9.6 or 160/9.6 mcg"
+    },
+    {
+      "pmid": "23332861",
+      "first_author": "Martinez",
+      "year": 2013,
+      "short_name": "Martinez 2013",
+      "journal": "Respiratory Medicine",
+      "intervention": "Fluticasone furoate/vilanterol",
+      "dose": "50/25, 100/25, or 200/25 mcg"
+    },
+    {
+      "pmid": "28740376",
+      "first_author": "Papi",
+      "year": 2017,
+      "short_name": "Papi 2017",
+      "journal": "European Respiratory Journal",
+      "intervention": "Fluticasone propionate/formoterol",
+      "dose": "250/10 or 500/10 mcg"
+    },
+    {
+      "pmid": "32579807",
+      "first_author": "Rabe",
+      "year": 2020,
+      "short_name": "ETHOS",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Budesonide/glycopyrrolate/formoterol",
+      "dose": "320/18/9.6 or 160/18/9.6 mcg"
+    },
+    {
+      "pmid": "19368417",
+      "first_author": "Rennard",
+      "year": 2009,
+      "short_name": "Rennard 2009",
+      "journal": "Respiratory Medicine",
+      "intervention": "Budesonide/formoterol pMDI",
+      "dose": "320/9 or 160/9 mcg"
+    },
+    {
+      "pmid": "22033040",
+      "first_author": "Sharafkhaneh",
+      "year": 2012,
+      "short_name": "Sharafkhaneh 2012",
+      "journal": "Respiratory Medicine",
+      "intervention": "Budesonide/formoterol pMDI",
+      "dose": "320/9 or 160/9 mcg"
+    },
+    {
+      "pmid": "18778120",
+      "first_author": "Tashkin",
+      "year": 2008,
+      "short_name": "Tashkin 2008",
+      "journal": "Respiratory Research",
+      "intervention": "Budesonide/formoterol pMDI",
+      "dose": "320/9 or 160/9 mcg"
+    },
+    {
+      "pmid": "22334768",
+      "first_author": "Tashkin",
+      "year": 2012,
+      "short_name": "Tashkin 2012",
+      "journal": "Respiratory Medicine",
+      "intervention": "Mometasone furoate/formoterol",
+      "dose": "200/10 or 400/10 mcg"
+    },
+    {
+      "pmid": "25830381",
+      "first_author": "Zheng",
+      "year": 2015,
+      "short_name": "Zheng 2015",
+      "journal": "Respirology",
+      "intervention": "Fluticasone furoate/vilanterol",
+      "dose": "100/25 or 200/25 mcg"
+    }
+  ],
+  "extraction_ground_truth": [
+    {
+      "pmid": "24920884",
+      "short_name": "Cheng 2014",
+      "first_author": "Cheng",
+      "year": 2014,
+      "phase": "N/A (investigator-initiated)",
+      "design": "Prospective, randomized, parallel-group trial across three tertiary medical centers",
+      "blinding": "Not explicitly described",
+      "duration_weeks": 52,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "Taiwan (3 tertiary centers)",
+      "n_total": 237,
+      "n_active": 115,
+      "n_placebo": 122,
+      "age_range_years": "not_reported",
+      "intervention": "Fluticasone propionate",
+      "dose": "Fluticasone 1000 mcg/day + salmeterol 100 mcg/day (high-dose) vs fluticasone 500 mcg/day + salmeterol 100 mcg/day (medium-dose)",
+      "outcomes_reported": ["lung_function_FEV1", "exacerbations", "pneumonia"],
+      "primary_efficacy_outcome": "FEV1 improvement and pneumonia incidence over 1 year",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract+fulltext",
+        "key_quotes": [
+          "237 COPD patients were randomized into the two treatment arms (115 in the HD group, 122 in the MD group)",
+          "The duration of the study period was 1 year"
+        ],
+        "notes": "n_active = high-dose (HD) ICS arm (115 randomized to fluticasone 1000 mcg). n_placebo holds the medium-dose comparator (122 randomized to fluticasone 500 mcg). Same convention used throughout r05."
+      }
+    },
+    {
+      "pmid": "22334769",
+      "short_name": "Doherty 2012 (MF/F P3 52w)",
+      "first_author": "Doherty",
+      "year": 2012,
+      "phase": "III",
+      "design": "Multicenter, double-blind, placebo-controlled, parallel-group, 52-week phase 3 trial (26-week treatment + 26-week safety extension)",
+      "blinding": "Double-blind",
+      "duration_weeks": 52,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 1196,
+      "n_active": 239,
+      "n_placebo": 239,
+      "age_range_years": ">=40",
+      "intervention": "Mometasone furoate",
+      "dose": "Mometasone furoate/formoterol (MF/F) 400/10 mcg twice daily (high-dose) vs MF/F 200/10 mcg twice daily (medium-dose); other arms: MF 400 monotherapy, formoterol 10, placebo",
+      "outcomes_reported": ["lung_function_FEV1", "respiratory_health_SGRQ"],
+      "primary_efficacy_outcome": "Mean change from baseline in AUC0-12h FEV1 (MF/F vs MF) and AM pre-dose trough FEV1 (MF/F vs F) at week 13",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract+fulltext",
+        "key_quotes": [
+          "Subjects (n = 1196), at least 40 years old, were current or ex-smokers randomized to twice-daily inhaled MF/F 400/10 μg, MF/F 200/10 μg, MF 400 μg, F 10 μg, or placebo",
+          "26-week treatment period and a 26-week safety extension"
+        ],
+        "notes": "5-arm 1:1:1:1:1 randomization of 1196 → ~239 per arm. Per Archontakis high-vs-medium framing, n_active = MF/F 400/10 (high-dose ICS, ~239) and n_placebo = MF/F 200/10 (medium-dose comparator, ~239). The MF 400 monotherapy, formoterol monotherapy, and placebo arms are not represented in n_active/n_placebo per the dose-comparison framing."
+      }
+    },
+    {
+      "pmid": "24429127",
+      "short_name": "Dransfield 2013 (FF/VI exacerbations)",
+      "first_author": "Dransfield",
+      "year": 2013,
+      "phase": "III",
+      "design": "Two replicate double-blind, parallel-group, randomized, 1-year trials",
+      "blinding": "Double-blind",
+      "duration_weeks": 52,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 3255,
+      "n_active": 814,
+      "n_placebo": 814,
+      "age_range_years": ">=40",
+      "intervention": "Fluticasone furoate",
+      "dose": "Fluticasone furoate/vilanterol (FF/VI) 200/25 mcg once daily (high-dose) vs FF/VI 100/25 mcg once daily (medium-dose); other arms: FF/VI 50/25 and vilanterol 25 alone",
+      "outcomes_reported": ["exacerbations", "pneumonia"],
+      "primary_efficacy_outcome": "Yearly rate of moderate and severe exacerbations",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "1622 patients in study 1 and 1633 patients in study 2 were randomly assigned",
+          "patients were aged 40 years or older",
+          "Patients were randomly assigned (1:1:1:1) … to 25 μg vilanterol alone or 25 μg vilanterol combined with either 50 μg, 100 μg, or 200 μg fluticasone furoate once daily",
+          "two replicate double-blind parallel-group 1 year trials"
+        ],
+        "notes": "Combined two replicate trials: 1622 + 1633 = 3255 total. 1:1:1:1 across 4 arms → ~814 per arm. Per Archontakis high-vs-medium framing, n_active = FF/VI 200/25 (high-dose ICS, ~814) and n_placebo = FF/VI 100/25 (medium-dose comparator, ~814). The FF/VI 50/25 and VI-alone arms are not represented."
+      }
+    },
+    {
+      "pmid": "30232048",
+      "short_name": "KRONOS (Ferguson 2018)",
+      "first_author": "Ferguson",
+      "year": 2018,
+      "phase": "III",
+      "design": "Double-blind, parallel-group, multicentre, phase 3 randomised controlled trial",
+      "blinding": "Double-blind (with open-label BUD/FORM DPI arm)",
+      "duration_weeks": 24,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (Canada, China, Japan, USA)",
+      "n_total": 1902,
+      "n_active": 640,
+      "n_placebo": 319,
+      "age_range_years": "40-80",
+      "intervention": "Budesonide",
+      "dose": "Budesonide/glycopyrrolate/formoterol (BGF) MDI 320/18/9.6 mcg twice daily (triple therapy with high-dose ICS); comparator: open-label budesonide/formoterol DPI 400/12 mcg (alternative ICS formulation/delivery); other arms: GFF MDI (no ICS) and BFF MDI 320/9.6 (no LAMA)",
+      "outcomes_reported": ["lung_function_FEV1"],
+      "primary_efficacy_outcome": "FEV1 AUC0-4h and morning pre-dose trough FEV1 over 24 weeks",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "1902 were randomly assigned to receive BGF MDI (n=640), GFF MDI (n=627), BFF MDI (n=316), or BUD/FORM DPI (n=319)",
+          "Eligible patients were 40-80 years of age"
+        ],
+        "notes": "4-arm 2:2:1:1 randomization. Per Archontakis high-vs-medium ICS dose framing, n_active = BGF MDI 320 mcg budesonide (640) and n_placebo holds the BUD/FORM DPI 400 mcg open-label comparator (319) — these are the two budesonide-containing arms with different ICS doses. The other two arms (GFF MDI no-ICS, BFF MDI no-LAMA at the same 320 mcg budesonide) are not represented in n_active/n_placebo. KRONOS is the most ambiguous fit for the high-vs-medium framing in this set; the chosen comparison is the cleanest dose-difference within the trial."
+      }
+    },
+    {
+      "pmid": "32363206",
+      "short_name": "Hanania 2020 (SOPHOS)",
+      "first_author": "Hanania",
+      "year": 2020,
+      "phase": "III",
+      "design": "Phase 3, randomised, double-blind, parallel-group, 12-52 week variable-length study",
+      "blinding": "Double-blind",
+      "duration_weeks": 52,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 1843,
+      "n_active": 619,
+      "n_placebo": 617,
+      "age_range_years": ">=40",
+      "intervention": "Budesonide",
+      "dose": "Budesonide/formoterol (BFF) MDI 320/10 mcg twice daily (high-dose) vs BFF MDI 160/10 mcg twice daily (medium-dose); third arm: formoterol 10 mcg alone (no ICS)",
+      "outcomes_reported": ["lung_function_FEV1", "exacerbations"],
+      "primary_efficacy_outcome": "Change from baseline in morning pre-dose trough FEV1 at week 12",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract+fulltext",
+        "key_quotes": [
+          "patients received twice-daily BFF MDI 320/10 µg or 160/10 µg, or FF MDI 10 µg",
+          "1843 patients (BFF MDI 320/10 µg, n=619; BFF MDI 160/10 µg, n=617; and FF MDI, n=607)",
+          "moderate-to-very severe COPD"
+        ],
+        "notes": "3-arm trial. n_active = BFF 320/10 high-dose (619); n_placebo = BFF 160/10 medium-dose comparator (617). FF MDI (n=607, no ICS) is the third arm, not represented in n_active/n_placebo. Age criterion ≥40 typical for adult COPD trials; not in abstract directly."
+      }
+    },
+    {
+      "pmid": "23332861",
+      "short_name": "Martinez 2013 (FF/VI lung function)",
+      "first_author": "Martinez",
+      "year": 2013,
+      "phase": "III",
+      "design": "Multicenter, randomised, 24-week, double-blind, placebo-controlled, parallel-group study",
+      "blinding": "Double-blind",
+      "duration_weeks": 24,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 1224,
+      "n_active": 204,
+      "n_placebo": 204,
+      "age_range_years": ">=40",
+      "intervention": "Fluticasone furoate",
+      "dose": "FF/VI 200/25 mcg once daily (high-dose) vs FF/VI 100/25 mcg once daily (medium-dose); other arms: FF 200, FF 100, VI 25, placebo",
+      "outcomes_reported": ["lung_function_FEV1"],
+      "primary_efficacy_outcome": "0-4h weighted-mean FEV1 (day 168) and trough FEV1 (day 169)",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Multicentre, randomised, 24-week, double-blind, placebo-controlled, parallel-group study in stable, moderate-to-severe COPD subjects (N = 1224)",
+          "Subjects were randomised to FF/VI (200/25 μg; 100/25 μg), FF (200 μg; 100 μg), VI 25 μg, or placebo, once daily in the morning"
+        ],
+        "notes": "6-arm randomization of 1224 → ~204 per arm. n_active = FF/VI 200/25 (high-dose ICS); n_placebo = FF/VI 100/25 (medium-dose ICS). The four other arms (FF monotherapy 200 and 100, VI 25, placebo) are not represented per Archontakis dose-comparison framing."
+      }
+    },
+    {
+      "pmid": "32579807",
+      "short_name": "ETHOS (Rabe 2020)",
+      "first_author": "Rabe",
+      "year": 2020,
+      "phase": "III",
+      "design": "52-week phase 3, randomized, double-blind, parallel-group, 4-arm trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 52,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 8509,
+      "n_active": 2137,
+      "n_placebo": 2121,
+      "age_range_years": ">=40",
+      "intervention": "Budesonide",
+      "dose": "Triple therapy with budesonide 320/18/9.6 mcg (high-dose ICS triple) vs budesonide 160/18/9.6 mcg (medium-dose ICS triple); other arms: glycopyrrolate-formoterol (no ICS) and budesonide-formoterol 320 (no LAMA)",
+      "outcomes_reported": ["exacerbations", "pneumonia"],
+      "primary_efficacy_outcome": "Annual rate of moderate or severe COPD exacerbations",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "patients in a 1:1:1:1 ratio … (inhaled glucocorticoid [320 μg or 160 μg of budesonide], a LAMA [18 μg of glycopyrrolate], and a LABA [9.6 μg of formoterol]) or one of two dual therapies",
+          "modified intention-to-treat population comprised 8509 patients",
+          "1.08 in the 320-μg-budesonide triple-therapy group (2137 patients), 1.07 in the 160-μg-budesonide triple-therapy group (2121 patients)"
+        ],
+        "notes": "4-arm 1:1:1:1 randomization of 8509 patients. Per Archontakis high-vs-medium ICS dose framing, n_active = 320 mcg budesonide triple (2137); n_placebo = 160 mcg budesonide triple (2121). The two non-triple arms (GFF dual no-ICS, BFF dual no-LAMA) are not represented. ETHOS is the largest trial in r05's set."
+      }
+    },
+    {
+      "pmid": "22033040",
+      "short_name": "Sharafkhaneh 2012",
+      "first_author": "Sharafkhaneh",
+      "year": 2012,
+      "phase": "III",
+      "design": "Randomized, double-blind, double-dummy, parallel-group, 12-month multicenter study",
+      "blinding": "Double-blind",
+      "duration_weeks": 52,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 1219,
+      "n_active": 406,
+      "n_placebo": 407,
+      "age_range_years": ">=40",
+      "intervention": "Budesonide",
+      "dose": "Budesonide/formoterol pMDI 320/9 mcg twice daily (high-dose) vs BFF pMDI 160/9 mcg twice daily (medium-dose); third arm: formoterol DPI 9 mcg (no ICS)",
+      "outcomes_reported": ["exacerbations"],
+      "primary_efficacy_outcome": "COPD exacerbation rate (number per patient-treatment year)",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "1219 patients were randomized 1:1:1 to twice-daily budesonide/formoterol pMDI 320/9 μg, budesonide/formoterol pMDI 160/9 μg, or formoterol dry powder inhaler 9 μg",
+          "COPD patients aged ≥40 years"
+        ],
+        "notes": "3-arm 1:1:1 randomization of 1219 → ~406 per arm. n_active = BFF 320/9 (high-dose ICS); n_placebo = BFF 160/9 (medium-dose ICS comparator). Formoterol-alone arm (no ICS, ~406) is not represented per Archontakis framing. Age ≥40 explicit in abstract."
+      }
+    },
+    {
+      "pmid": "18778120",
+      "short_name": "Tashkin 2008 (BFF pMDI 6mo)",
+      "first_author": "Tashkin",
+      "year": 2008,
+      "phase": "III",
+      "design": "6-month, randomized, double-blind, double-dummy, placebo-controlled, parallel-group, multicentre study",
+      "blinding": "Double-blind",
+      "duration_weeks": 26,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (US, Czech Republic, Netherlands, Poland, South Africa)",
+      "n_total": 1704,
+      "n_active": 284,
+      "n_placebo": 284,
+      "age_range_years": ">=40",
+      "intervention": "Budesonide",
+      "dose": "Budesonide/formoterol pMDI 320/9 mcg twice daily (high-dose) vs BFF pMDI 160/9 mcg twice daily (medium-dose); other arms: BUD+FORM monotherapy combined, BUD alone, formoterol alone, placebo",
+      "outcomes_reported": ["lung_function_FEV1", "exacerbations"],
+      "primary_efficacy_outcome": "Pre-dose FEV1 and 1-hour post-dose FEV1 (co-primary)",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "1704 patients aged > or =40 years with moderate to very severe COPD",
+          "budesonide/formoterol pMDI 160/4.5 microg x two inhalations (320/9 microg); budesonide/formoterol pMDI 80/4.5 microg x two inhalations (160/9 microg); ... or placebo"
+        ],
+        "notes": "6-arm randomization of 1704 → ~284 per arm. n_active = BFF pMDI 320/9 (high-dose ICS); n_placebo = BFF pMDI 160/9 (medium-dose ICS comparator). The 4 other arms (combined-monotherapy, BUD alone, formoterol alone, placebo) not represented. Age ≥40 explicit in abstract."
+      }
+    },
+    {
+      "pmid": "22334768",
+      "short_name": "Tashkin 2012 (MF/F P3 52w)",
+      "first_author": "Tashkin",
+      "year": 2012,
+      "phase": "III",
+      "design": "Multicenter, double-blind, placebo-controlled, parallel-group, 52-week phase 3 trial (26-week treatment + 26-week safety extension)",
+      "blinding": "Double-blind",
+      "duration_weeks": 52,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 1055,
+      "n_active": 211,
+      "n_placebo": 211,
+      "age_range_years": ">=40",
+      "intervention": "Mometasone furoate",
+      "dose": "Mometasone furoate/formoterol (MF/F) 400/10 mcg twice daily (high-dose) vs MF/F 200/10 mcg twice daily (medium-dose); other arms: MF 400, formoterol 10, placebo",
+      "outcomes_reported": ["lung_function_FEV1", "respiratory_health_SGRQ", "exacerbations"],
+      "primary_efficacy_outcome": "FEV1 AUC0-12 (MF/F vs MF) and morning pre-dose FEV1 (MF/F vs F) at endpoint",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract+fulltext",
+        "key_quotes": [
+          "Subjects (n = 1055; ≥40 years) were current or ex- smokers randomized to twice-daily treatment with inhaled MF/F 400/10 μg, MF/F 200/10 μg, MF 400 μg, F 10 μg, or placebo",
+          "26-week treatment period and a 26-week safety extension"
+        ],
+        "notes": "5-arm randomization of 1055 → ~211 per arm. n_active = MF/F 400/10 (high-dose ICS, ~211); n_placebo = MF/F 200/10 (medium-dose ICS, ~211). MF monotherapy, formoterol, and placebo arms not represented per dose-comparison framing. Same-design replicate of Doherty 2012; both included in Archontakis 2023."
+      }
+    },
+    {
+      "pmid": "25830381",
+      "short_name": "Zheng 2015 (FF/VI Asian)",
+      "first_author": "Zheng",
+      "year": 2015,
+      "phase": "III",
+      "design": "Randomized, double-blind, placebo-controlled, parallel-group, 24-week multicenter study in Asian COPD patients",
+      "blinding": "Double-blind",
+      "duration_weeks": 24,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "Asia (multicenter)",
+      "n_total": 643,
+      "n_active": 161,
+      "n_placebo": 161,
+      "age_range_years": ">=40",
+      "intervention": "Fluticasone furoate",
+      "dose": "FF/VI 200/25 mcg once daily (high-dose) vs FF/VI 100/25 mcg once daily (medium-dose); other arms: FF/VI 50/25 and placebo",
+      "outcomes_reported": ["lung_function_FEV1"],
+      "primary_efficacy_outcome": "Change from baseline in trough FEV1 at week 24",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "643 patients",
+          "randomized (1:1:1:1) to placebo, FF/VI 50/25 mcg, 100/25 mcg or 200/25 mcg once daily"
+        ],
+        "notes": "4-arm 1:1:1:1 randomization of 643 → ~161 per arm. n_active = FF/VI 200/25 (high-dose ICS); n_placebo = FF/VI 100/25 (medium-dose ICS comparator). FF/VI 50/25 and placebo arms not represented per dose-comparison framing. Age ≥40 typical for COPD; not in abstract directly."
+      }
+    }
+  ],
+  "extraction_fields_for_evaluation": [
+    "first_author",
+    "year",
+    "phase",
+    "n_total",
+    "n_active",
+    "n_placebo",
+    "age_range_years",
+    "intervention",
+    "dose",
+    "primary_efficacy_outcome",
+    "maintenance_weeks_ge_12"
+  ]
+}

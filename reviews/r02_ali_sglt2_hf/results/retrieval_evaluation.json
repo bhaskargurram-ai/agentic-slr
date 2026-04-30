@@ -1,0 +1,102 @@
+{
+  "target_count": 9,
+  "found_count": 8,
+  "missed_count": 1,
+  "recall": 0.8888888888888888,
+  "found_pmids": [
+    "31535829",
+    "34446370",
+    "31524498",
+    "34711976",
+    "35604416",
+    "32245746",
+    "36027570",
+    "30415602"
+  ],
+  "missed_pmids": [
+    "33426003"
+  ],
+  "included_studies_details": [
+    {
+      "pmid": "33426003",
+      "first_author": "Ibrahim",
+      "year": 2020,
+      "short_name": "Ibrahim 2020",
+      "journal": "Cardiovascular Diabetology",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "31535829",
+      "first_author": "McMurray",
+      "year": 2019,
+      "short_name": "DAPA-HF",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "34446370",
+      "first_author": "McMurray",
+      "year": 2021,
+      "short_name": "DAPA-CKD HF subanalysis",
+      "journal": "European Heart Journal",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "31524498",
+      "first_author": "Nassif",
+      "year": 2019,
+      "short_name": "DEFINE-HF",
+      "journal": "Circulation",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "34711976",
+      "first_author": "Nassif",
+      "year": 2021,
+      "short_name": "Nassif 2021 HFpEF",
+      "journal": "Nature Medicine",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "35604416",
+      "first_author": "Palau",
+      "year": 2022,
+      "short_name": "DAPA-VO2",
+      "journal": "European Journal of Heart Failure",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "32245746",
+      "first_author": "Singh",
+      "year": 2020,
+      "short_name": "REFORM",
+      "journal": "European Heart Journal - Cardiovascular Pharmacotherapy",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "36027570",
+      "first_author": "Solomon",
+      "year": 2022,
+      "short_name": "DELIVER",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    },
+    {
+      "pmid": "30415602",
+      "first_author": "Wiviott",
+      "year": 2019,
+      "short_name": "DECLARE-TIMI 58",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Dapagliflozin",
+      "dose": "10 mg/day"
+    }
+  ]
+}

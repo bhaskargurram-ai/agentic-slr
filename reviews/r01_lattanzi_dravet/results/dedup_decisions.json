@@ -1,0 +1,74 @@
+{
+  "model": "gpt-4o",
+  "approach": "embedding-cluster-v2",
+  "clustering_summary": {
+    "n_clusters": 1,
+    "singletons": 0,
+    "multi_paper_clusters": 1,
+    "cluster_sizes": [
+      7
+    ],
+    "llm_calls": 1,
+    "embedding_cost_usd": 5.7e-05
+  },
+  "classifications": [
+    {
+      "pmid": "28538134",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary endpoint of a randomized controlled trial with a newly randomized cohort (N=120) and has a unique trial registration number (NCT02091375)."
+    },
+    {
+      "pmid": "31862249",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper describes a randomized controlled trial with its own patient cohort and trial registration numbers (NCT02682927, NCT02826863), indicating it is a primary publication."
+    },
+    {
+      "pmid": "31790543",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports on a separate randomized controlled trial with its own cohort and trial registration numbers (NCT02682927, NCT02826863, NCT02926898), making it a primary publication."
+    },
+    {
+      "pmid": "29540584",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports on a dose-ranging safety trial with a unique cohort and trial registration number (NCT02091206), indicating it is a primary publication."
+    },
+    {
+      "pmid": "11089822",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper describes a randomized controlled trial with a unique cohort and is the primary publication for the STICLO study."
+    },
+    {
+      "pmid": "35841234",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports on the ELEKTRA trial with its own cohort and trial registration numbers (NCT03635073, NCT03650452), indicating it is a primary publication."
+    },
+    {
+      "pmid": "32119035",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: child title/methods has trial name(s) absent from parent: {'GWPCARE2'}. Original: This paper appears to be a secondary analysis focusing on dose-ranging effects of cannabidiol, likely derived from the primary trial reported in PMID 29540584."
+    }
+  ],
+  "final_included_pmids": [
+    "28538134",
+    "31862249",
+    "31790543",
+    "29540584",
+    "11089822",
+    "35841234",
+    "32119035"
+  ]
+}

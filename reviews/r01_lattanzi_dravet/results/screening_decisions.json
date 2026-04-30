@@ -1,0 +1,1602 @@
+{
+  "model": "gpt-4o-mini",
+  "total": 124,
+  "decisions": [
+    {
+      "pmid": "35503712",
+      "title": "ILAE classification and definition of epilepsy syndromes with onset in neonates and infants: Position statement by the ILAE Task Force on Nosology and Definitions.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a consensus statement and does not report on a randomized controlled trial or any specific study results related to pharmacotherapy for Dravet syndrome.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "28538134",
+      "title": "Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome.",
+      "decision": "INCLUDE",
+      "confidence": 1.0,
+      "reasoning": "This study is a randomized controlled trial investigating the efficacy of cannabidiol in children with Dravet syndrome, meeting all inclusion criteria for the systematic review.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "33559102",
+      "title": "Cannabidiol in the Treatment of Epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research data from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "27264138",
+      "title": "Treatment of Dravet Syndrome.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not report on a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "26724101",
+      "title": "Cannabidiol in patients with treatment-resistant epilepsy: an open-label interventional trial.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This study is an open-label trial and does not meet the inclusion criteria for randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "31617141",
+      "title": "Stiripentol: A Review in Dravet Syndrome.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research data from randomized controlled trials, which does not meet the inclusion criteria for the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "30402932",
+      "title": "Efficacy of cannabinoids in paediatric epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review and does not present original research data from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "36206805",
+      "title": "Clinical efficacy and safety of cannabidiol for pediatric refractory epilepsy indications: A systematic review and meta-analysis.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and meta-analysis, which does not meet the inclusion criteria for primary studies. Although it discusses RCTs involving Dravet syndrome, it does not present original research data from a randomized controlled trial itself.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "28188044",
+      "title": "Cannabinoids in treatment-resistant epilepsy: A review.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review article and does not present original research or results from a randomized controlled trial (RCT).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "36124778",
+      "title": "Current and promising therapeutic options for Dravet syndrome.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not report on a specific randomized controlled trial, which is a key requirement for inclusion. It summarizes therapeutic options rather than presenting original research data.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32966640",
+      "title": "Potential role of brivaracetam in pediatric epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research or randomized controlled trial results, which does not meet the inclusion criteria for the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "30194563",
+      "title": "Cannabis for the Treatment of Epilepsy: an Update.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review article and does not present original research data from a randomized controlled trial (RCT). It summarizes existing studies rather than reporting new findings from an RCT, which does not meet the inclusion criteria for the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "31372958",
+      "title": "Pharmacological and Therapeutic Properties of Cannabidiol for Epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review article and does not present original research data from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "33565102",
+      "title": "Fenfluramine as antiseizure medication for epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review and does not present original research data from a randomized controlled trial, which is a requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "28799513",
+      "title": "Ketogenic Diets in the Treatment of Epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research or randomized controlled trial results, which does not meet the inclusion criteria for the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32799683",
+      "title": "Therapeutic advances in Dravet syndrome: a targeted literature review.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review article and does not present original research or results from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "24955329",
+      "title": "Seizure Reduction with Fluoxetine in Dravet Syndrome.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a case report, which does not meet the inclusion criteria for randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "33754312",
+      "title": "Highly Purified Cannabidiol for Epilepsy Treatment: A Systematic Review of Epileptic Conditions Beyond Dravet Syndrome and Lennox-Gastaut Syndrome.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and does not report original RCT results; it focuses on various epilepsy conditions beyond Dravet syndrome and Lennox-Gastaut syndrome without including specific RCT data for Dravet syndrome patients.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32986848",
+      "title": "Development of cannabidiol as a treatment for severe childhood epilepsies.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research results from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "30482063",
+      "title": "Emerging drugs for the treatment of Dravet syndrome.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research or randomized controlled trial results, which does not meet the inclusion criteria for the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "21463285",
+      "title": "The pharmacologic treatment of Dravet syndrome.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research or randomized controlled trial results, which does not meet the inclusion criteria for the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "31862249",
+      "title": "Fenfluramine hydrochloride for the treatment of seizures in Dravet syndrome: a randomised, double-blind, placebo-controlled trial.",
+      "decision": "INCLUDE",
+      "confidence": 1.0,
+      "reasoning": "This paper reports a randomized, double-blind, placebo-controlled trial specifically assessing the efficacy and safety of fenfluramine in patients with Dravet syndrome, meeting all inclusion criteria.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "24488598",
+      "title": "Stiripentol for focal refractory epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a systematic review that evaluates the efficacy of stiripentol for focal refractory epilepsy, which does not meet the inclusion criteria as it does not focus on Dravet syndrome specifically. Additionally, it does not report on a randomized controlled trial of Dravet syndrome patients, as it only includes a study on focal epilepsy.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "26488459",
+      "title": "Stiripentol for focal refractory epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a systematic review that does not report any new randomized controlled trial results, and it focuses on focal refractory epilepsy rather than Dravet syndrome specifically. It does not meet the inclusion criteria for primary studies.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "31790543",
+      "title": "Fenfluramine for Treatment-Resistant Seizures in Patients With Dravet Syndrome Receiving Stiripentol-Inclusive Regimens: A Randomized Clinical Trial.",
+      "decision": "INCLUDE",
+      "confidence": 1.0,
+      "reasoning": "This paper reports a randomized controlled trial evaluating fenfluramine in patients with Dravet syndrome, meeting all inclusion criteria including study design, population, intervention, comparator, and relevant outcomes.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "36066395",
+      "title": "Stiripentol add-on therapy for drug-resistant focal epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a systematic review and does not report original RCT results, which is a key exclusion criterion. It focuses on drug-resistant focal epilepsy and does not provide data specifically on Dravet syndrome patients.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32452532",
+      "title": "Cannabidiol efficacy and clobazam status: A systematic review and meta-analysis.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and meta-analysis, which does not meet the inclusion criteria for primary randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "36471511",
+      "title": "Cannabidiol reveals a disruptive strategy for 21st century epilepsy drug discovery.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article discussing the historical context and implications of cannabidiol's approval for epilepsy, rather than presenting original research or results from a randomized controlled trial (RCT).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "36301414",
+      "title": "Fenfluramine for Treating Dravet Syndrome: An Evidence Review Group Perspective of a NICE Single Technology Appraisal.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and evidence summary of a NICE appraisal process rather than a primary research study reporting original RCT results. It does not present new data from randomized trials but rather summarizes existing evidence.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "29747241",
+      "title": "Stiripentol add-on therapy for focal refractory epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a systematic review and does not report original RCT results, which is a key exclusion criterion. It focuses on focal refractory epilepsy and does not provide data specifically on Dravet syndrome patients.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32468572",
+      "title": "Stiripentol add-on therapy for drug-resistant focal epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a systematic review that does not report new primary results from an RCT, and it focuses on drug-resistant focal epilepsy rather than Dravet syndrome specifically.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "33645379",
+      "title": "Safety considerations selecting antiseizure medications for the treatment of individuals with Dravet syndrome.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not report on a randomized controlled trial, which is a key requirement for inclusion in the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "29438649",
+      "title": "Cannabis for paediatric epilepsy: challenges and conundrums.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper describes a randomized controlled trial involving children with Dravet syndrome and discusses the use of cannabidiol as an antiseizure medication, which meets the inclusion criteria.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "33979451",
+      "title": "Effect of fenfluramine on convulsive seizures in CDKL5 deficiency disorder.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study focuses on CDKL5 deficiency disorder and does not include participants with Dravet syndrome, which is a requirement for inclusion. Although fenfluramine is mentioned as an ASM for Dravet syndrome, the population studied does not meet the inclusion criteria.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "31833952",
+      "title": "The cannabidiol conundrum: potential benefits and risks of cannabidiol products for children.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review article and does not present original research or results from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "33515191",
+      "title": "Cannabidiol Interactions with Medications, Illicit Substances, and Alcohol: a Comprehensive Review.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review and does not present original research or randomized controlled trial results, which does not meet the inclusion criteria for the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "22695038",
+      "title": "Stiripentol: an example of antiepileptic drug development in childhood epilepsies.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review and does not present original research data from randomized controlled trials, which is a requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "31941643",
+      "title": "Source of cannabinoids: what is available, what is used, and where does it come from?",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article discussing the sources and regulations of cannabinoids, rather than presenting original research or results from a randomized controlled trial. It does not meet the inclusion criteria for study design.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "31167540",
+      "title": "Stiripentol: A Novel Antiseizure Medication for the Management of Dravet Syndrome.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper describes a randomized controlled trial evaluating stiripentol for patients with Dravet syndrome, meeting all inclusion criteria. It reports on seizure-related efficacy and safety outcomes, making it relevant for the systematic review.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "OUTCOMER"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "25963534",
+      "title": "Treatment of infants with epilepsy: Common practices around the world.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is a survey of clinical practices and does not report on a randomized controlled trial or any specific intervention outcomes for Dravet syndrome. It lacks the necessary RCT design and does not provide results from a primary study.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)",
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients (e.g., a trial exclusively on focal epilepsy in adults)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "21792306",
+      "title": "Update on rufinamide in childhood epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article that summarizes existing literature on rufinamide and does not present new randomized controlled trial results. It does mention Dravet syndrome, but it does not meet the inclusion criteria as it does not report primary RCT data.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "10565591",
+      "title": "Stiripentol: efficacy and tolerability in children with epilepsy.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study reports on a randomized, controlled trial assessing stiripentol in children with epilepsy, including patients with severe myoclonic epilepsy in infancy (Dravet syndrome). It meets the inclusion criteria for study design, population, intervention, comparator, and outcomes.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "24725808",
+      "title": "Reassessment of stiripentol pharmacokinetics in healthy adult volunteers.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study focuses on the pharmacokinetics of stiripentol in healthy volunteers and does not involve participants with Dravet syndrome, which is a key requirement for inclusion. Although it mentions Dravet syndrome, it does not report any data on patients with the condition.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients (e.g., a trial exclusively on focal epilepsy in adults)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "31179531",
+      "title": "Purified Cannabidiol for Treatment of Refractory Epilepsies in Pediatric Patients with Developmental and Epileptic Encephalopathy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is a single-center, prospective, open-label study, which does not meet the requirement for a randomized controlled trial (RCT).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "35211946",
+      "title": "Use of cannabidiol in the treatment of epilepsy.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The abstract mentions that cannabidiol (CBD) has been proven effective in patients with drug-resistant epilepsy, including Dravet syndrome, and discusses completed clinical trials, indicating that it likely includes RCT data relevant to the review topic.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "23345029",
+      "title": "A revisited strategy for antiepileptic drug development in children: designing an initial exploratory step.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review discussing strategies for drug development in pediatric epilepsy and does not report on a specific randomized controlled trial (RCT) with results. It does mention Dravet syndrome but does not present original research data or outcomes from an RCT.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32656346",
+      "title": "Anticonvulsive Properties of Cannabidiol in a Model of Generalized Seizure Are Transient Receptor Potential Vanilloid 1 Dependent.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study focuses on a mouse model and does not involve human participants with Dravet syndrome, thus failing to meet the population criteria for inclusion. It is an animal study, which is explicitly excluded.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Animal or in vitro studies",
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "34988433",
+      "title": "A review of fenfluramine for the treatment of Dravet syndrome patients.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review article and does not present original research or results from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "29314377",
+      "title": "Cannabidiol for drug-resistant seizures in the Dravet syndrome.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a randomized controlled trial focusing on cannabidiol for drug-resistant seizures in patients with Dravet syndrome, meeting all inclusion criteria.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "33908026",
+      "title": "New therapeutic approach in Dravet syndrome and Lennox-Gastaut syndrome with cannabidiol.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research data from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "30390221",
+      "title": "Efficacy and Safety of Cannabidiol in Epilepsy: A Systematic Review and Meta-Analysis.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and meta-analysis, which does not meet the inclusion criteria for primary randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "30910443",
+      "title": "Safety, efficacy, and mechanisms of action of cannabinoids in neurological disorders.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research data from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "36463826",
+      "title": "Fenfluramine treatment is associated with improvement in everyday executive function in preschool-aged children (<5 years) with Dravet syndrome: A critical period for early neurodevelopment.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is a randomized controlled trial evaluating fenfluramine in preschool-aged children with Dravet syndrome, reporting on seizure-related outcomes and executive function improvements. It meets all inclusion criteria, including the population, intervention, and outcomes.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "33336426",
+      "title": "Efficacy and safety of fenfluramine in patients with Dravet syndrome: A meta-analysis.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a meta-analysis and does not present original randomized controlled trial (RCT) data itself, which violates the inclusion criteria for study design. It summarizes findings from other studies rather than reporting on a primary RCT.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "15542383",
+      "title": "Behavioural and neuropsychological problems in refractory paediatric epilepsies.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study does not focus on pharmacotherapy or report on any antiseizure medication interventions, and it primarily discusses behavioral and neuropsychological problems in children with refractory epilepsy without specific data on Dravet syndrome or treatment outcomes.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients (e.g., a trial exclusively on focal epilepsy in adults)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "26933940",
+      "title": "Stiripentol and vigabatrin current roles in the treatment of epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research or randomized controlled trial results, which does not meet the inclusion criteria for the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32103958",
+      "title": "Cannabinoids in the Treatment of Epilepsy: Current Status and Future Prospects.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review article and does not present original research data from a randomized controlled trial (RCT).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "8869188",
+      "title": "Focal abnormalities detected by 18FDG PET in epileptic encephalopathies.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study includes children with severe myoclonic epilepsy in infancy (Dravet syndrome) among other epileptic encephalopathies, which meets the inclusion criteria. It is a prospective study that suggests a randomized controlled trial design, and the outcomes relate to seizure characteristics.",
+      "matched_criteria": [
+        "POPULATION: Participants with a confirmed diagnosis of Dravet syndrome",
+        "STUDY DESIGN: Randomized, controlled, double- or single-blinded, parallel-group study"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "33347884",
+      "title": "Cannabidiol in the treatment of epilepsy: Current evidence and perspectives for further research.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research or results from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "34268532",
+      "title": "Fenfluramine for treatment-resistant epilepsy in Dravet syndrome and other genetically mediated epilepsies.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is primarily a review article and does not present original research results from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "21569025",
+      "title": "Ketogenic diet also benefits Dravet syndrome patients receiving stiripentol: a prospective pilot study.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study evaluates the ketogenic diet in Dravet syndrome patients but does not involve a randomized controlled trial design, which is a requirement for inclusion. It is a prospective pilot study without a control group.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "12495878",
+      "title": "Deep brain stimulation in epilepsy with particular reference to the subthalamic nucleus.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study does not meet the inclusion criteria as it describes a non-randomized clinical trial involving deep brain stimulation, which is not an antiseizure medication (ASM).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)",
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients (e.g., a trial exclusively on focal epilepsy in adults)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32969022",
+      "title": "Cannabidiol in conjunction with clobazam: analysis of four randomized controlled trials.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study reports on four randomized controlled trials that include patients with Dravet syndrome and assess the efficacy of cannabidiol as an add-on treatment, meeting all inclusion criteria.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "32592183",
+      "title": "Cannabidiol efficacy independent of clobazam: Meta-analysis of four randomized controlled trials.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a meta-analysis and does not present original RCT results, which is a key exclusion criterion. Although it discusses RCTs involving Dravet syndrome, it does not meet the requirement of being a primary study.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "35830160",
+      "title": "Cannabidiol for the treatment of refractory epilepsy in children: a critical review of the literature.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research or results from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "23018548",
+      "title": "Stiripentol : in severe myoclonic epilepsy of infancy (dravet syndrome).",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research data from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32053110",
+      "title": "The proposed mechanisms of action of CBD in epilepsy.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The abstract mentions randomized controlled trials involving patients with Dravet syndrome, which meets the inclusion criteria for study design and population. Although the paper focuses on mechanisms of action, it is relevant to the pharmacotherapy of Dravet syndrome.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "33078386",
+      "title": "Fenfluramine HCl (Fintepla<sup>\u00ae</sup> ) provides long-term clinically meaningful reduction in seizure frequency: Analysis of an ongoing open-label extension study.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper describes an ongoing open-label extension study without reporting the results of the primary randomized controlled trial, which is a standalone analysis of the extension phase only. Therefore, it does not meet the inclusion criteria for the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Standalone open-label extension papers (where the paper is ONLY about the extension and the original RCT was published separately)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "24854329",
+      "title": "Cannabidiol: pharmacology and potential therapeutic role in epilepsy and other neuropsychiatric disorders.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review article that summarizes existing evidence and does not present original research data from a randomized controlled trial (RCT).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "34873203",
+      "title": "Efficacy and safety of medical cannabinoids in children: a systematic review and meta-analysis.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a systematic review and meta-analysis that includes randomized controlled trials evaluating the efficacy and safety of medical cannabinoids in children, specifically reporting outcomes related to Dravet syndrome. It meets the inclusion criteria for study design, population, intervention, comparator, and outcomes.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "28521067",
+      "title": "Antiepileptic drugs for the treatment of infants with severe myoclonic epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and meta-analysis, which does not meet the inclusion criteria for primary studies. It does not report original RCT results but rather summarizes findings from previously published trials.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "33461030",
+      "title": "Efficacy and tolerability of fenfluramine in patients with Dravet syndrome: A systematic review and meta-analysis.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and meta-analysis, which does not meet the inclusion criteria for primary studies. It does not report original RCT results but rather summarizes findings from other studies.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "35802036",
+      "title": "Effect of fenfluramine on seizures and comorbidities in SCN8A-developmental and epileptic encephalopathy: A case series.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is a case series and does not report a randomized controlled trial, which is a requirement for inclusion. It focuses on SCN8A-developmental and epileptic encephalopathy rather than Dravet syndrome specifically.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)",
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients (e.g., a trial exclusively on focal epilepsy in adults)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "26482210",
+      "title": "Antiepileptic drugs for the treatment of infants with severe myoclonic epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and meta-analysis, which does not meet the inclusion criteria for primary studies. It summarizes findings from previously published RCTs rather than presenting new RCT data.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "36120377",
+      "title": "Efficacy and safety of adjunctive antiseizure medications for dravet syndrome: A systematic review and network meta-analysis.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and meta-analysis, which does not meet the inclusion criteria for primary studies. It does not report original RCT results but rather synthesizes data from multiple studies.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "36206806",
+      "title": "Therapeutic and clinical foundations of cannabidiol therapy for difficult-to-treat seizures in children and adults with refractory epilepsies.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article and does not present original research or results from a randomized controlled trial, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "18028411",
+      "title": "Severe myoclonic epilepsy in infancy: a systematic review and a meta-analysis of individual patient data.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and meta-analysis, which does not meet the inclusion criteria for primary studies. Although it discusses RCTs, it does not present original research data from a randomized controlled trial itself.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "31916540",
+      "title": "The role of cannabinoids in epilepsy treatment: a critical review of efficacy results from clinical trials.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review article and does not present original research data from a randomized controlled trial (RCT).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "29511052",
+      "title": "Evidence for cannabis and cannabinoids for epilepsy: a systematic review of controlled and observational evidence.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and does not present original RCT results, which is a key exclusion criterion. It summarizes findings from multiple studies rather than reporting on a specific RCT itself.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "27746737",
+      "title": "\u03949-THC Intoxication by Cannabidiol-Enriched Cannabis Extract in Two Children with Refractory Epilepsy: Full Remission after Switching to Purified Cannabidiol.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper describes case reports of two children with epilepsy, one of whom has Dravet syndrome, but it does not present a randomized controlled trial. It focuses on individual cases rather than a systematic RCT design, which is a requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "24254932",
+      "title": "Antiepileptic drugs for the treatment of severe myoclonic epilepsy in infancy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and meta-analysis, which does not meet the inclusion criteria for primary studies. It does not report original RCT results but rather summarizes findings from previously published trials.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "33736884",
+      "title": "A patient centered view of randomized control trial data: An example with fenfluramine for Dravet syndrome.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is classified as an editorial, which does not meet the inclusion criteria for randomized controlled trials. It does not report original research results from an RCT.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "29540584",
+      "title": "Randomized, dose-ranging safety trial of cannabidiol in Dravet syndrome.",
+      "decision": "INCLUDE",
+      "confidence": 1.0,
+      "reasoning": "The study is a randomized controlled trial evaluating the safety and pharmacokinetics of cannabidiol in children with Dravet syndrome, meeting all inclusion criteria.",
+      "matched_criteria": [
+        "STUDY DESIGN: Randomized, controlled, double- or single-blinded, parallel-group study",
+        "POPULATION: Participants with a confirmed diagnosis of Dravet syndrome",
+        "INTERVENTION: At least one antiseizure medication (ASM)",
+        "COMPARATOR: Placebo",
+        "OUTCOMES: Must report seizure-related efficacy or safety outcomes"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "36417631",
+      "title": "Use of cannabidiol in the treatment of epilepsy: Lennox-Gastaut syndrome, Dravet syndrome, and tuberous sclerosis complex.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and meta-analysis, which does not meet the inclusion criteria for primary studies. It summarizes findings from multiple RCTs rather than presenting original research data from a randomized controlled trial.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32040850",
+      "title": "Adjunctive Cannabidiol in Patients with Dravet Syndrome: A Systematic Review and Meta-Analysis of Efficacy and Safety.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a systematic review and meta-analysis, which does not meet the inclusion criteria for primary randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32452568",
+      "title": "Does cannabidiol have antiseizure activity independent of its interactions with clobazam? An appraisal of the evidence from randomized controlled trials.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review article that appraises evidence from randomized controlled trials but does not present original research or results from a primary RCT itself. Therefore, it does not meet the inclusion criteria for the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32918835",
+      "title": "Clinical implications of trials investigating drug-drug interactions between cannabidiol and enzyme inducers or inhibitors or common antiseizure drugs.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a review of trials rather than a report of a primary randomized controlled trial (RCT) itself, which does not meet the inclusion criteria for study design.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "34274891",
+      "title": "Comparative short-term efficacy and safety of add-on anti-seizure medications in Dravet syndrome: An indirect treatment comparison.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review that summarizes findings from multiple randomized controlled trials rather than presenting original RCT data. It does not report new results from a primary study, which is a key requirement for inclusion.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "11089822",
+      "title": "Stiripentol in severe myoclonic epilepsy in infancy: a randomised placebo-controlled syndrome-dedicated trial. STICLO study group.",
+      "decision": "INCLUDE",
+      "confidence": 0.95,
+      "reasoning": "The study is a randomized, placebo-controlled trial specifically focused on children with severe myoclonic epilepsy in infancy (SMEI), evaluating the efficacy of stiripentol as an add-on treatment. It meets all inclusion criteria, including the study design, population, intervention, comparator, and relevant outcomes.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "30582156",
+      "title": "Long-term cannabidiol treatment in patients with Dravet syndrome: An open-label extension trial.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper describes a randomized controlled trial (RCT) of cannabidiol treatment for patients with Dravet syndrome, and although it focuses on an open-label extension, it includes data from the original RCT phase, which meets the inclusion criteria.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "OUTCOMPARISON",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "32514751",
+      "title": "Cannabidiol for Adjuvant Treatment of Seizures Associated with Lennox-Gastaut Syndrome and Dravet Syndrome: An Evidence Review Group Perspective of a NICE Single Technology Appraisal.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a review and does not present original research results from randomized controlled trials, which is a key requirement for inclusion. It discusses methodological issues related to submissions for NICE but does not report primary RCT results itself.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "30353809",
+      "title": "Randomized Controlled Trial of Melatonin for Sleep Disturbance in Dravet Syndrome: The DREAMS Study.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This study is a randomized controlled trial specifically focused on patients with Dravet syndrome, evaluating the effects of melatonin on sleep disturbance, which meets all inclusion criteria. It reports on seizure-related outcomes and includes a placebo comparator.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "33538404",
+      "title": "Ataluren for drug-resistant epilepsy in nonsense variant-mediated Dravet syndrome and CDKL5 deficiency disorder.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is a randomized controlled trial investigating the efficacy and safety of ataluren in children with Dravet syndrome, meeting all inclusion criteria. It reports on seizure-related outcomes and includes a population with a confirmed diagnosis of Dravet syndrome.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "34406656",
+      "title": "Add-on cannabidiol in patients with Dravet syndrome: Results of a long-term open-label extension trial.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper reports on a randomized controlled trial of cannabidiol for patients with Dravet syndrome and includes data on seizure-related efficacy and safety outcomes. Although it primarily discusses an open-label extension, it references the original RCTs and provides relevant data for the systematic review.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "31926846",
+      "title": "Response to cannabidiol in epilepsy of infancy with migrating focal seizures associated with KCNT1 mutations: An open-label, prospective, interventional study.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study focuses on Epilepsy of Infancy with Migrating Focal Seizures (EIMFS) and does not include participants with Dravet syndrome, which is a specific requirement for inclusion. Although it mentions Dravet syndrome in the context of other studies, it does not report any data on Dravet syndrome patients.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients (e.g., a trial exclusively on focal epilepsy in adults)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "34676542",
+      "title": "Fenfluramine significantly reduces day-to-day seizure burden by increasing number of seizure-free days and time between seizures in patients with Dravet syndrome: A time-to-event analysis.",
+      "decision": "INCLUDE",
+      "confidence": 0.95,
+      "reasoning": "The study is a randomized controlled trial evaluating fenfluramine in patients with Dravet syndrome, reporting seizure-related efficacy outcomes. It meets all inclusion criteria and provides relevant data for the systematic review.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "32809271",
+      "title": "Cardiovascular safety of fenfluramine in the treatment of Dravet syndrome: Analysis of an ongoing long-term open-label safety extension study.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper describes an ongoing long-term open-label safety extension study without reporting the results of the primary randomized controlled trial, which is a standalone open-label extension. Therefore, it does not meet the inclusion criteria for the systematic review.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Standalone open-label extension papers (where the paper is ONLY about the extension and the original RCT was published separately)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "16420982",
+      "title": "Levetiracetam in patients with generalised epilepsy and myoclonic seizures: an open label study.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is an open-label study and does not report a randomized controlled trial, which is a requirement for inclusion. Additionally, it focuses on various types of generalized epilepsy without a clear emphasis on Dravet syndrome, despite mentioning SMEI.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)",
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients (e.g., a trial exclusively on focal epilepsy in adults)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "33940389",
+      "title": "A phase 1b/2a study of soticlestat as adjunctive therapy in participants with developmental and/or epileptic encephalopathies.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is a randomized controlled trial evaluating soticlestat in participants with developmental and/or epileptic encephalopathies, which may include Dravet syndrome. It reports seizure-related efficacy outcomes, satisfying the inclusion criteria.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "17636062",
+      "title": "An open-label trial of levetiracetam in severe myoclonic epilepsy of infancy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is an open-label trial, which does not meet the inclusion criteria for randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "16417859",
+      "title": "Efficacy and safety of topiramate in refractory epilepsy of childhood: long-term follow-up study.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is a retrospective, open-label study and does not meet the inclusion criteria for randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "32945537",
+      "title": "Efficacy and safety of Fenfluramine hydrochloride for the treatment of seizures in Dravet syndrome: A real-world study.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is described as a 'real-world study' which typically indicates a non-randomized design, thus it does not meet the inclusion criteria for randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "35841234",
+      "title": "A phase 2, randomized, double-blind, placebo-controlled study to evaluate the efficacy and safety of soticlestat as adjunctive therapy in pediatric patients with Dravet syndrome or Lennox-Gastaut syndrome (ELEKTRA).",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is a phase 2 randomized controlled trial that includes participants with Dravet syndrome and reports seizure-related efficacy and safety outcomes. It meets all inclusion criteria and is relevant to the systematic review topic.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "34265088",
+      "title": "Time to onset of cannabidiol treatment effects in Dravet syndrome: Analysis from two randomized controlled trials.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper reports on two randomized controlled trials involving patients with Dravet syndrome and evaluates the efficacy and safety of cannabidiol treatment, meeting all inclusion criteria. Although it is a post hoc analysis, it still discusses the results of the original RCTs.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "34687005",
+      "title": "Effect of Cannabidiol on Interictal Epileptiform Activity and Sleep Architecture in Children with Intractable Epilepsy: A Prospective Open-Label Study.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is an open-label trial and does not meet the inclusion criteria for randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "30955420",
+      "title": "Don't Fear the Reefer-Evidence Mounts for Plant-Based Cannabidiol as Treatment for Epilepsy.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper is a commentary and does not present original research data from a randomized controlled trial. It discusses a study on Lennox-Gastaut syndrome and does not focus on Dravet syndrome as the primary population.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "33540241",
+      "title": "Fenfluramine responder analyses and numbers needed to treat: Translating epilepsy trial data into clinical practice.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper reports on a randomized controlled trial involving patients with Dravet syndrome and evaluates the efficacy of fenfluramine, meeting all inclusion criteria. It provides seizure-related outcomes and includes responder analyses, which are relevant for clinical practice.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "32119035",
+      "title": "Dose-Ranging Effect of Adjunctive Oral Cannabidiol vs Placebo on Convulsive Seizure Frequency in Dravet Syndrome: A Randomized Clinical Trial.",
+      "decision": "INCLUDE",
+      "confidence": 1.0,
+      "reasoning": "This paper describes a randomized controlled trial evaluating the efficacy and safety of cannabidiol for convulsive seizures in patients with Dravet syndrome, meeting all inclusion criteria.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "12503502",
+      "title": "[Long-term efficacy and tolerance of stiripentaol in severe myoclonic epilepsy of infancy (Dravet's syndrome)].",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study describes a clinical trial involving patients with Dravet syndrome and reports on the efficacy and safety of stiripentol, which meets the inclusion criteria for a randomized controlled trial. Although the abstract focuses on long-term outcomes, it indicates that the treatment was previously demonstrated in a placebo-controlled trial, suggesting a randomized phase exists.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "32350749",
+      "title": "A Phase II Randomized Trial to Explore the Potential for Pharmacokinetic Drug-Drug Interactions with Stiripentol or Valproate when Combined with Cannabidiol in Patients with Epilepsy.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is a randomized controlled trial that includes patients with epilepsy, specifically mentioning Dravet syndrome among other syndromes. It evaluates the pharmacokinetics and safety of cannabidiol in combination with stiripentol or valproate, which are antiseizure medications, thus meeting the inclusion criteria.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "COMPARATOR",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "22310062",
+      "title": "Efficacy of the ketogenic diet: which epilepsies respond?",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study focuses on the ketogenic diet's efficacy in various epilepsy syndromes but does not report on a randomized controlled trial (RCT) design, as it appears to be a prospective observational study without randomization.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "25666511",
+      "title": "The European patient with Dravet syndrome: results from a parent-reported survey on antiepileptic drug use in the European population with Dravet syndrome.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper reports on a parent-reported survey and does not describe a randomized controlled trial (RCT) or any clinical trial results. It does not meet the inclusion criteria for study design.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "30368788",
+      "title": "Progress report on new antiepileptic drugs: A summary of the Fourteenth Eilat Conference on New Antiepileptic Drugs and Devices (EILAT XIV). II. Drugs in more advanced clinical development.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "This paper is a progress report summarizing findings from a conference and does not present original research data from a randomized controlled trial. It does not meet the inclusion criteria for study design.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Reviews, meta-analyses, editorials, commentaries, letters, conference abstracts"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "31022635",
+      "title": "Long-term safety and efficacy of cannabidiol in children and adults with treatment resistant Lennox-Gastaut syndrome or Dravet syndrome: Expanded access program results.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study includes participants with Dravet syndrome and reports on the efficacy and safety of cannabidiol as an add-on treatment, meeting the inclusion criteria for a randomized controlled trial with relevant outcomes. Although it is an expanded access program, it provides data on seizure-related outcomes for Dravet syndrome patients.",
+      "matched_criteria": [
+        "STUDY DESIGN: Randomized, controlled study",
+        "POPULATION: Participants with a confirmed diagnosis of Dravet syndrome",
+        "INTERVENTION: At least one antiseizure medication (ASM)",
+        "OUTCOMES: Must report seizure-related efficacy or safety outcomes"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "29941151",
+      "title": "The Lack of Effect of Food on the Pharmacokinetics of ZX008 (Fenfluramine Oral Solution): Results of a Single-dose, Two-period Crossover Study.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is a Phase I pharmacokinetic trial conducted on healthy subjects, not on patients with Dravet syndrome, and does not report any outcomes related to seizure efficacy or safety in the target population.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients (e.g., a trial exclusively on focal epilepsy in adults)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "11948006",
+      "title": "Topiramate as add-on drug in severe myoclonic epilepsy in infancy: an Italian multicenter open trial.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is an open-label trial, which does not meet the inclusion criteria for randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "30336805",
+      "title": "A phase I, randomized, open-label, single-dose, 3-period crossover study to evaluate the\u00a0drug-drug interaction between ZX008 (fenfluramine HCl oral solution) and a regimen of stiripentol, clobazam, and valproate in healthy subjects\u2029.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is a Phase I trial conducted on healthy subjects, not on patients with Dravet syndrome, which does not meet the population criteria for inclusion. Although it involves ZX008 for Dravet syndrome, the absence of Dravet patients in the study disqualifies it.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients (e.g., a trial exclusively on focal epilepsy in adults)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "24630050",
+      "title": "Effectiveness of add-on stiripentol to clobazam and valproate in Japanese patients with Dravet syndrome: additional supportive evidence.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is an open-label trial, which does not meet the inclusion criteria for randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "21256770",
+      "title": "A prospective open-labeled trial with levetiracetam in pediatric epilepsy syndromes: continuous spikes and waves during sleep is definitely a target.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is an open-labeled trial and does not meet the requirement for a randomized controlled trial (RCT).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "25986195",
+      "title": "Long-term safety and efficacy of stiripentol for the treatment of Dravet syndrome: A multicenter, open-label study in Japan.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study is an open-label study and does not meet the inclusion criteria for randomized controlled trials (RCTs).",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Non-randomized studies (observational, retrospective, case series, case reports)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "30146701",
+      "title": "A pilot, open-label study of the effectiveness and tolerability of low-dose ZX008 (fenfluramine HCl) in Lennox-Gastaut syndrome.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study focuses exclusively on Lennox-Gastaut syndrome and does not include any participants with Dravet syndrome, which violates the inclusion criteria for population.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "28036350",
+      "title": "Clinical Utility of a Comprehensive, Whole Genome CMA Testing Platform in Pediatrics: A Prospective Randomized Controlled Trial of Simulated Patients in Physician Practices.",
+      "decision": "EXCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The study focuses on the impact of a genetic testing platform on the quality of care for developmental disorders, including Dravet syndrome, but does not involve a randomized controlled trial of pharmacotherapy or antiseizure medications specifically for Dravet syndrome patients.",
+      "matched_criteria": [],
+      "violated_criteria": [
+        "Studies on epilepsy populations that definitively DO NOT include any Dravet syndrome patients (e.g., a trial exclusively on focal epilepsy in adults)"
+      ],
+      "error": null
+    },
+    {
+      "pmid": "34023810",
+      "title": "Improved everyday executive functioning following profound reduction in seizure frequency with fenfluramine: Analysis from a phase 3 long-term extension study in children/young adults with Dravet syndrome.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper describes a phase 3 randomized controlled trial involving children with Dravet syndrome and reports on seizure-related efficacy outcomes, specifically the reduction in convulsive seizure frequency and its association with executive functioning improvements. It meets all inclusion criteria.",
+      "matched_criteria": [
+        "STUDY DESIGN",
+        "POPULATION",
+        "INTERVENTION",
+        "OUTCOMES"
+      ],
+      "violated_criteria": [],
+      "error": null
+    },
+    {
+      "pmid": "15508933",
+      "title": "Ketogenic diet in patients with Dravet syndrome and myoclonic epilepsies in infancy and early childhood.",
+      "decision": "INCLUDE",
+      "confidence": 0.9,
+      "reasoning": "The paper discusses a clinical trial involving patients with Dravet syndrome, which meets the inclusion criteria for study design and population. Although the abstract does not provide detailed information, the title indicates a focus on Dravet syndrome, warranting inclusion for further review.",
+      "matched_criteria": [
+        "STUDY DESIGN: Randomized, controlled, double- or single-blinded, parallel-group study",
+        "POPULATION: Participants with a confirmed diagnosis of Dravet syndrome",
+        "INTERVENTION: At least one antiseizure medication (ASM)"
+      ],
+      "violated_criteria": [],
+      "error": null
+    }
+  ]
+}

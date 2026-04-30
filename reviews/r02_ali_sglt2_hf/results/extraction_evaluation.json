@@ -1,0 +1,2638 @@
+{
+  "field_scores": {
+    "first_author": {
+      "gpt-4o-mini": 0.0,
+      "llama-3.3-70b": 0.0,
+      "qwen-3-235b": 0.2857142857142857,
+      "deepseek-v3": 0.42857142857142855
+    },
+    "year": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "phase": {
+      "gpt-4o-mini": 0.7142857142857143,
+      "llama-3.3-70b": 0.14285714285714285,
+      "qwen-3-235b": 0.7142857142857143,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "n_total": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "n_active": {
+      "gpt-4o-mini": 0.7142857142857143,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "n_placebo": {
+      "gpt-4o-mini": 0.7142857142857143,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 1.0
+    },
+    "age_range_years": {
+      "gpt-4o-mini": 0.0,
+      "llama-3.3-70b": 0.42857142857142855,
+      "qwen-3-235b": 0.14285714285714285,
+      "deepseek-v3": 0.14285714285714285
+    },
+    "intervention": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "dose": {
+      "gpt-4o-mini": 0.8571428571428571,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 0.8571428571428571,
+      "deepseek-v3": 0.8571428571428571
+    },
+    "primary_efficacy_outcome": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 0.8571428571428571,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "maintenance_weeks_ge_12": {
+      "gpt-4o-mini": 0.7142857142857143,
+      "llama-3.3-70b": 0.5714285714285714,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 0.8571428571428571
+    }
+  },
+  "overall_accuracy": {
+    "gpt-4o-mini": 0.7012987012987013,
+    "llama-3.3-70b": 0.7012987012987013,
+    "qwen-3-235b": 0.8051948051948052,
+    "deepseek-v3": 0.8311688311688312
+  },
+  "details_per_model": {
+    "gpt-4o-mini": {
+      "first_author": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "McMurray",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "McMurray",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Nassif",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Nassif",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Palau",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Singh",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Solomon",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2021,
+          "pred": 2021,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 2021,
+          "pred": 2021,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "III",
+          "pred": "N/A",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "III",
+          "pred": "N/A",
+          "match": false,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 4744,
+          "pred": 4744,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 4304,
+          "pred": 4304,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 263,
+          "pred": 263,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 324,
+          "pred": 324,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 90,
+          "pred": 90,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 56,
+          "pred": 56,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 6263,
+          "pred": 6263,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2373,
+          "pred": 2373,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2152,
+          "pred": 4304,
+          "match": false,
+          "note": "diff=2152 tol=215"
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 131,
+          "pred": 263,
+          "match": false,
+          "note": "diff=132 tol=13"
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 162,
+          "pred": 162,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 45,
+          "pred": 45,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 28,
+          "pred": 28,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 3131,
+          "pred": 3131,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2371,
+          "pred": 2371,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2152,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 132,
+          "pred": 0,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 162,
+          "pred": 162,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 45,
+          "pred": 45,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 28,
+          "pred": 28,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 3132,
+          "pred": 3132,
+          "match": true,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "\u226518",
+          "pred": ">=45",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "\u226540",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "10 mg once daily",
+          "pred": "10 mg once daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "10 mg daily",
+          "pred": "10 mg daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "10 mg daily",
+          "pred": "10 mg daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "10 mg daily",
+          "pred": "10 mg once daily",
+          "match": true,
+          "note": "partial token match (3/3)"
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "10 mg daily",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "10 mg daily",
+          "pred": "10 mg/day",
+          "match": true,
+          "note": "partial token match (1/3)"
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "10 mg once daily",
+          "pred": "10 mg once daily",
+          "match": true,
+          "note": null
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "Composite of worsening heart failure (hospitalization or urgent visit for IV therapy) or cardiovascular death",
+          "pred": "composite of worsening heart failure or cardiovascular death",
+          "match": true,
+          "note": "overlap=0.57"
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "Composite of \u226550% decline in eGFR, end-stage kidney disease, or kidney/cardiovascular death",
+          "pred": "\u226550% decline in estimated glomerular filtration rate, end-stage kidney disease, or kidney/cardiovascular death",
+          "match": true,
+          "note": "overlap=0.75"
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Dual primary: (1) mean NT-proBNP at 6 and 12 weeks; (2) proportion with \u22655-point KCCQ increase or \u226520% NT-proBNP decrease",
+          "pred": "mean NT-proBNP and proportion of patients with \u22655-point increase in HF disease-specific health status on the Kansas City Cardiomyopathy Questionnaire overall summary score, or a \u226520% decrease in NT-proBNP",
+          "match": true,
+          "note": "overlap=0.53"
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Change in Kansas City Cardiomyopathy Questionnaire Clinical Summary Score (KCCQ-CS) at 12 weeks",
+          "pred": "Kansas City Cardiomyopathy Questionnaire Clinical Summary Score (KCCQ-CS)",
+          "match": true,
+          "note": "overlap=0.62"
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Change in peak oxygen consumption (peakVO2) at 1 and 3 months",
+          "pred": "change in peak oxygen consumption (peakVO2) at 1 and 3 months",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Change in left ventricular end-systolic volume (LVESV) by cardiac MRI",
+          "pred": "change in LV end-systolic volume (LVESV)",
+          "match": true,
+          "note": "overlap=0.50"
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Composite of worsening heart failure (unplanned hospitalization or urgent visit for HF) or cardiovascular death",
+          "pred": "Composite of worsening heart failure or cardiovascular death",
+          "match": true,
+          "note": "overlap=0.57"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        }
+      ]
+    },
+    "llama-3.3-70b": {
+      "first_author": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "McMurray",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "McMurray",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Nassif",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Nassif",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Palau",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Singh",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Solomon",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2021,
+          "pred": 2021,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 2021,
+          "pred": 2021,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "III",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "III",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 4744,
+          "pred": 4744,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 4304,
+          "pred": 4304,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 263,
+          "pred": 263,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 324,
+          "pred": 324,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 90,
+          "pred": 90,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 56,
+          "pred": 56,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 6263,
+          "pred": 6263,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2373,
+          "pred": 2373,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2152,
+          "pred": 2152,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 131,
+          "pred": 132,
+          "match": true,
+          "note": "diff=1 tol=13"
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 162,
+          "pred": 162,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 45,
+          "pred": 45,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 28,
+          "pred": 28,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 3131,
+          "pred": 3131,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2371,
+          "pred": 2371,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2152,
+          "pred": 2152,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 132,
+          "pred": 131,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 162,
+          "pred": 162,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 45,
+          "pred": 45,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 28,
+          "pred": 28,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 3132,
+          "pred": 3132,
+          "match": true,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "\u226518",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "\u226518",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "\u226518",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "\u226540",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "10 mg once daily",
+          "pred": "10 mg once daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "10 mg daily",
+          "pred": "10 mg daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "10 mg daily",
+          "pred": "10 mg daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "10 mg daily",
+          "pred": "10 mg",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "10 mg daily",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "10 mg daily",
+          "pred": "10 mg/day",
+          "match": true,
+          "note": "partial token match (1/3)"
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "10 mg once daily",
+          "pred": "10 mg once daily",
+          "match": true,
+          "note": null
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "Composite of worsening heart failure (hospitalization or urgent visit for IV therapy) or cardiovascular death",
+          "pred": "A composite of worsening heart failure (hospitalization or an urgent visit resulting in intravenous therapy for heart failure) or cardiovascular death",
+          "match": true,
+          "note": "overlap=0.86"
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "Composite of \u226550% decline in eGFR, end-stage kidney disease, or kidney/cardiovascular death",
+          "pred": "\u226550% decline in estimated glomerular filtration rate, end-stage kidney disease, or kidney/cardiovascular death",
+          "match": true,
+          "note": "overlap=0.75"
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Dual primary: (1) mean NT-proBNP at 6 and 12 weeks; (2) proportion with \u22655-point KCCQ increase or \u226520% NT-proBNP decrease",
+          "pred": "mean NT-proBNP and proportion of patients with \u22655-point increase in HF disease-specific health status on the Kansas City Cardiomyopathy Questionnaire overall summary score, or a \u226520% decrease in NT-proBNP",
+          "match": true,
+          "note": "overlap=0.53"
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Change in Kansas City Cardiomyopathy Questionnaire Clinical Summary Score (KCCQ-CS) at 12 weeks",
+          "pred": "KCCQ-CS at 12 weeks",
+          "match": false,
+          "note": "overlap=0.23"
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Change in peak oxygen consumption (peakVO2) at 1 and 3 months",
+          "pred": "change in peak oxygen consumption (peakVO2) at 1 and 3 months",
+          "match": true,
+          "note": "overlap=1.00"
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Change in left ventricular end-systolic volume (LVESV) by cardiac MRI",
+          "pred": "change in LV end-systolic volume (LVESV)",
+          "match": true,
+          "note": "overlap=0.50"
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Composite of worsening heart failure (unplanned hospitalization or urgent visit for HF) or cardiovascular death",
+          "pred": "A composite of worsening heart failure or cardiovascular death",
+          "match": true,
+          "note": "overlap=0.57"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        }
+      ]
+    },
+    "qwen-3-235b": {
+      "first_author": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "McMurray",
+          "pred": "McMurray",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "McMurray",
+          "pred": "Effects",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Nassif",
+          "pred": "Dunbar",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Nassif",
+          "pred": "Shah",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Palau",
+          "pred": "Drosos",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Singh",
+          "pred": "REFORM",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Solomon",
+          "pred": "Solomon",
+          "match": true,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2021,
+          "pred": 2021,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 2021,
+          "pred": 2021,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "III",
+          "pred": "N/A",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "II",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 4744,
+          "pred": 4744,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 4304,
+          "pred": 4304,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 263,
+          "pred": 263,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 324,
+          "pred": 324,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 90,
+          "pred": 90,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 56,
+          "pred": 56,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 6263,
+          "pred": 6263,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2373,
+          "pred": 2373,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2152,
+          "pred": 2152,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 131,
+          "pred": 132,
+          "match": true,
+          "note": "diff=1 tol=13"
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 162,
+          "pred": 162,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 45,
+          "pred": 45,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 28,
+          "pred": 28,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 3131,
+          "pred": 3131,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2371,
+          "pred": 2371,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2152,
+          "pred": 2152,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 132,
+          "pred": 131,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 162,
+          "pred": 162,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 45,
+          "pred": 45,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 28,
+          "pred": 28,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 3132,
+          "pred": 3132,
+          "match": true,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "\u226518",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "\u226540",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "10 mg once daily",
+          "pred": "10 mg once daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "10 mg daily",
+          "pred": "10 mg daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "10 mg daily",
+          "pred": "10 mg daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "10 mg daily",
+          "pred": "10 mg once daily",
+          "match": true,
+          "note": "partial token match (3/3)"
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "10 mg daily",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "10 mg daily",
+          "pred": "10 mg/day",
+          "match": true,
+          "note": "partial token match (1/3)"
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "10 mg once daily",
+          "pred": "10 mg once daily",
+          "match": true,
+          "note": null
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "Composite of worsening heart failure (hospitalization or urgent visit for IV therapy) or cardiovascular death",
+          "pred": "A composite of worsening heart failure (hospitalization or an urgent visit resulting in intravenous therapy for heart failure) or cardiovascular death",
+          "match": true,
+          "note": "overlap=0.86"
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "Composite of \u226550% decline in eGFR, end-stage kidney disease, or kidney/cardiovascular death",
+          "pred": "\u226550% decline in estimated glomerular filtration rate, end-stage kidney disease, or kidney/cardiovascular death",
+          "match": true,
+          "note": "overlap=0.75"
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Dual primary: (1) mean NT-proBNP at 6 and 12 weeks; (2) proportion with \u22655-point KCCQ increase or \u226520% NT-proBNP decrease",
+          "pred": "Mean NT-proBNP and proportion of patients with \u22655-point increase in Kansas City Cardiomyopathy Questionnaire overall summary score or \u226520% decrease in NT-proBNP",
+          "match": true,
+          "note": "overlap=0.53"
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Change in Kansas City Cardiomyopathy Questionnaire Clinical Summary Score (KCCQ-CS) at 12 weeks",
+          "pred": "Kansas City Cardiomyopathy Questionnaire Clinical Summary Score (KCCQ-CS) at 12 weeks",
+          "match": true,
+          "note": "overlap=0.85"
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Change in peak oxygen consumption (peakVO2) at 1 and 3 months",
+          "pred": "Change in peak oxygen consumption (peakVO<sub>2</sub>) at 1 and 3 months",
+          "match": true,
+          "note": "overlap=0.91"
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Change in left ventricular end-systolic volume (LVESV) by cardiac MRI",
+          "pred": "Change in left ventricular end-systolic volume (LVESV) using cardiac MRI",
+          "match": true,
+          "note": "overlap=0.90"
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Composite of worsening heart failure (unplanned hospitalization or urgent visit for HF) or cardiovascular death",
+          "pred": "Composite of worsening heart failure (unplanned hospitalization for heart failure or urgent visit for heart failure) or cardiovascular death, assessed by time-to-event analysis",
+          "match": true,
+          "note": "overlap=0.86"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        }
+      ]
+    },
+    "deepseek-v3": {
+      "first_author": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "McMurray",
+          "pred": "McMurray",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "McMurray",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Nassif",
+          "pred": "Nassif",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Nassif",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Palau",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Singh",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Solomon",
+          "pred": "Solomon",
+          "match": true,
+          "note": null
+        }
+      ],
+      "year": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2021,
+          "pred": 2021,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 2019,
+          "pred": 2019,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 2021,
+          "pred": 2021,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 2020,
+          "pred": 2020,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 2022,
+          "pred": 2022,
+          "match": true,
+          "note": null
+        }
+      ],
+      "phase": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "III",
+          "pred": "N/A",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "N/A (investigator-initiated)",
+          "pred": "N/A",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "III",
+          "pred": "III",
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_total": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 4744,
+          "pred": 4744,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 4304,
+          "pred": 4304,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 263,
+          "pred": 263,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 324,
+          "pred": 324,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 90,
+          "pred": 90,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 56,
+          "pred": 56,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 6263,
+          "pred": 6263,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_active": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2373,
+          "pred": 2373,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2152,
+          "pred": 2152,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 131,
+          "pred": 131,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 162,
+          "pred": 162,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 45,
+          "pred": 45,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 28,
+          "pred": 28,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 3131,
+          "pred": 3131,
+          "match": true,
+          "note": null
+        }
+      ],
+      "n_placebo": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": 2371,
+          "pred": 2371,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": 2152,
+          "pred": 2152,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": 132,
+          "pred": 132,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": 162,
+          "pred": 162,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": 45,
+          "pred": 45,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": 28,
+          "pred": 28,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": 3132,
+          "pred": 3132,
+          "match": true,
+          "note": null
+        }
+      ],
+      "age_range_years": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "\u226518",
+          "pred": ">=18",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "\u226518",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "\u226540",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        }
+      ],
+      "intervention": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Dapagliflozin",
+          "pred": "Dapagliflozin",
+          "match": true,
+          "note": null
+        }
+      ],
+      "dose": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "10 mg once daily",
+          "pred": "10 mg once daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "10 mg daily",
+          "pred": "10 mg daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "10 mg daily",
+          "pred": "10 mg daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "10 mg daily",
+          "pred": "10 mg once daily",
+          "match": true,
+          "note": "partial token match (3/3)"
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "10 mg daily",
+          "pred": "not_reported",
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "10 mg daily",
+          "pred": "10 mg daily",
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "10 mg once daily",
+          "pred": "10 mg once daily",
+          "match": true,
+          "note": null
+        }
+      ],
+      "primary_efficacy_outcome": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": "Composite of worsening heart failure (hospitalization or urgent visit for IV therapy) or cardiovascular death",
+          "pred": "Composite of worsening heart failure (hospitalization or urgent visit resulting in intravenous therapy for heart failure) or cardiovascular death",
+          "match": true,
+          "note": "overlap=0.86"
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": "Composite of \u226550% decline in eGFR, end-stage kidney disease, or kidney/cardiovascular death",
+          "pred": "\u226550% decline in estimated glomerular filtration rate, end-stage kidney disease, or kidney/cardiovascular death",
+          "match": true,
+          "note": "overlap=0.75"
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": "Dual primary: (1) mean NT-proBNP at 6 and 12 weeks; (2) proportion with \u22655-point KCCQ increase or \u226520% NT-proBNP decrease",
+          "pred": "Mean NT-proBNP and proportion of patients with \u22655-point increase in Kansas City Cardiomyopathy Questionnaire overall summary score or \u226520% decrease in NT-proBNP",
+          "match": true,
+          "note": "overlap=0.53"
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": "Change in Kansas City Cardiomyopathy Questionnaire Clinical Summary Score (KCCQ-CS) at 12 weeks",
+          "pred": "Kansas City Cardiomyopathy Questionnaire Clinical Summary Score (KCCQ-CS) at 12 weeks",
+          "match": true,
+          "note": "overlap=0.85"
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": "Change in peak oxygen consumption (peakVO2) at 1 and 3 months",
+          "pred": "Change in peak oxygen consumption (peakVO\u2082) at 1 and 3 months",
+          "match": true,
+          "note": "overlap=0.91"
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": "Change in left ventricular end-systolic volume (LVESV) by cardiac MRI",
+          "pred": "difference in LV end-systolic volume (LVESV) using cardiac MRI",
+          "match": true,
+          "note": "overlap=0.60"
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": "Composite of worsening heart failure (unplanned hospitalization or urgent visit for HF) or cardiovascular death",
+          "pred": "Composite of worsening heart failure (unplanned hospitalization for heart failure or urgent visit for heart failure) or cardiovascular death",
+          "match": true,
+          "note": "overlap=0.93"
+        }
+      ],
+      "maintenance_weeks_ge_12": [
+        {
+          "pmid": "31535829",
+          "study": "DAPA-HF",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34446370",
+          "study": "DAPA-CKD HF subanalysis",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "31524498",
+          "study": "DEFINE-HF",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "34711976",
+          "study": "Nassif 2021 HFpEF",
+          "gt": true,
+          "pred": false,
+          "match": false,
+          "note": null
+        },
+        {
+          "pmid": "35604416",
+          "study": "DAPA-VO2",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "32245746",
+          "study": "REFORM",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        },
+        {
+          "pmid": "36027570",
+          "study": "DELIVER",
+          "gt": true,
+          "pred": true,
+          "match": true,
+          "note": null
+        }
+      ]
+    }
+  }
+}

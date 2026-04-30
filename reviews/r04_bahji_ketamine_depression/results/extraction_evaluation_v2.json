@@ -1,0 +1,159 @@
+{
+  "review_id": "r04_bahji_ketamine_depression",
+  "description": "evaluation_v2 with post-processing normalizations and PubMed author injection",
+  "fixes_applied": [
+    "Phase normalization: arabic numerals -> roman numerals (e.g., '2' -> 'II')",
+    "Phase matching: strict equality (no substring matching)",
+    "Dose normalization: mg/kg/d -> mg/kg/day, BID -> twice daily, <= -> up to",
+    "Author metadata injection: first_author from PubMed authors[0] instead of LLM extraction",
+    "Ground-truth corrections (if any) are defined per-review in the review's ground_truth.json"
+  ],
+  "baseline_accuracy": {
+    "gpt-4o-mini": 0.6776859504132231,
+    "llama-3.3-70b": 0.6926406926406926,
+    "qwen-3-235b": 0.7231404958677686,
+    "deepseek-v3": 0.7662337662337663
+  },
+  "fixed_accuracy": {
+    "gpt-4o-mini": 0.768595041322314,
+    "llama-3.3-70b": 0.7792207792207793,
+    "qwen-3-235b": 0.7933884297520661,
+    "deepseek-v3": 0.8181818181818182
+  },
+  "baseline_field_scores": {
+    "first_author": {
+      "gpt-4o-mini": 0.0,
+      "llama-3.3-70b": 0.047619047619047616,
+      "qwen-3-235b": 0.22727272727272727,
+      "deepseek-v3": 0.42857142857142855
+    },
+    "year": {
+      "gpt-4o-mini": 0.9545454545454546,
+      "llama-3.3-70b": 0.9523809523809523,
+      "qwen-3-235b": 0.9545454545454546,
+      "deepseek-v3": 0.9523809523809523
+    },
+    "phase": {
+      "gpt-4o-mini": 0.8181818181818182,
+      "llama-3.3-70b": 0.2857142857142857,
+      "qwen-3-235b": 0.6363636363636364,
+      "deepseek-v3": 0.9047619047619048
+    },
+    "n_total": {
+      "gpt-4o-mini": 0.9090909090909091,
+      "llama-3.3-70b": 0.9523809523809523,
+      "qwen-3-235b": 0.9090909090909091,
+      "deepseek-v3": 0.9047619047619048
+    },
+    "n_active": {
+      "gpt-4o-mini": 0.7272727272727273,
+      "llama-3.3-70b": 0.9047619047619048,
+      "qwen-3-235b": 0.9545454545454546,
+      "deepseek-v3": 0.8095238095238095
+    },
+    "n_placebo": {
+      "gpt-4o-mini": 0.36363636363636365,
+      "llama-3.3-70b": 0.5238095238095238,
+      "qwen-3-235b": 0.6363636363636364,
+      "deepseek-v3": 0.6190476190476191
+    },
+    "age_range_years": {
+      "gpt-4o-mini": 0.4090909090909091,
+      "llama-3.3-70b": 0.6190476190476191,
+      "qwen-3-235b": 0.4090909090909091,
+      "deepseek-v3": 0.6190476190476191
+    },
+    "intervention": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "dose": {
+      "gpt-4o-mini": 0.6363636363636364,
+      "llama-3.3-70b": 0.7142857142857143,
+      "qwen-3-235b": 0.6363636363636364,
+      "deepseek-v3": 0.5714285714285714
+    },
+    "primary_efficacy_outcome": {
+      "gpt-4o-mini": 0.7272727272727273,
+      "llama-3.3-70b": 0.6666666666666666,
+      "qwen-3-235b": 0.7727272727272727,
+      "deepseek-v3": 0.7619047619047619
+    },
+    "maintenance_weeks_ge_12": {
+      "gpt-4o-mini": 0.9090909090909091,
+      "llama-3.3-70b": 0.9523809523809523,
+      "qwen-3-235b": 0.8181818181818182,
+      "deepseek-v3": 0.8571428571428571
+    }
+  },
+  "fixed_field_scores": {
+    "first_author": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "year": {
+      "gpt-4o-mini": 0.9545454545454546,
+      "llama-3.3-70b": 0.9523809523809523,
+      "qwen-3-235b": 0.9545454545454546,
+      "deepseek-v3": 0.9523809523809523
+    },
+    "phase": {
+      "gpt-4o-mini": 0.8181818181818182,
+      "llama-3.3-70b": 0.2857142857142857,
+      "qwen-3-235b": 0.6363636363636364,
+      "deepseek-v3": 0.9047619047619048
+    },
+    "n_total": {
+      "gpt-4o-mini": 0.9090909090909091,
+      "llama-3.3-70b": 0.9523809523809523,
+      "qwen-3-235b": 0.9090909090909091,
+      "deepseek-v3": 0.9047619047619048
+    },
+    "n_active": {
+      "gpt-4o-mini": 0.7272727272727273,
+      "llama-3.3-70b": 0.9047619047619048,
+      "qwen-3-235b": 0.9545454545454546,
+      "deepseek-v3": 0.8095238095238095
+    },
+    "n_placebo": {
+      "gpt-4o-mini": 0.36363636363636365,
+      "llama-3.3-70b": 0.5238095238095238,
+      "qwen-3-235b": 0.6363636363636364,
+      "deepseek-v3": 0.6190476190476191
+    },
+    "age_range_years": {
+      "gpt-4o-mini": 0.4090909090909091,
+      "llama-3.3-70b": 0.6190476190476191,
+      "qwen-3-235b": 0.4090909090909091,
+      "deepseek-v3": 0.6190476190476191
+    },
+    "intervention": {
+      "gpt-4o-mini": 1.0,
+      "llama-3.3-70b": 1.0,
+      "qwen-3-235b": 1.0,
+      "deepseek-v3": 1.0
+    },
+    "dose": {
+      "gpt-4o-mini": 0.6363636363636364,
+      "llama-3.3-70b": 0.7142857142857143,
+      "qwen-3-235b": 0.6363636363636364,
+      "deepseek-v3": 0.5714285714285714
+    },
+    "primary_efficacy_outcome": {
+      "gpt-4o-mini": 0.7272727272727273,
+      "llama-3.3-70b": 0.6666666666666666,
+      "qwen-3-235b": 0.7727272727272727,
+      "deepseek-v3": 0.7619047619047619
+    },
+    "maintenance_weeks_ge_12": {
+      "gpt-4o-mini": 0.9090909090909091,
+      "llama-3.3-70b": 0.9523809523809523,
+      "qwen-3-235b": 0.8181818181818182,
+      "deepseek-v3": 0.8571428571428571
+    }
+  }
+}

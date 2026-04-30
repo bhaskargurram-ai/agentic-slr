@@ -1,0 +1,42 @@
+{
+  "embedding_stats": {
+    "model": "text-embedding-3-small",
+    "n_papers": 7,
+    "total_tokens": 2842,
+    "estimated_cost_usd": 5.7e-05
+  },
+  "similarity_stats": {
+    "total_pairs": 21,
+    "edges_above_threshold": 20,
+    "threshold": 0.55,
+    "pairs_above_0.70": 5,
+    "pairs_above_0.60": 15,
+    "pairs_above_0.55": 20,
+    "pairs_above_0.50": 21,
+    "max_similarity": 0.8597,
+    "median_similarity": 0.6349,
+    "min_similarity": 0.5406
+  },
+  "n_clusters": 1,
+  "cluster_sizes": [
+    7
+  ],
+  "singletons": 0,
+  "multi_paper_clusters": 1,
+  "llm_calls": 1,
+  "clusters_detail": [
+    {
+      "cluster_id": 0,
+      "pmids": [
+        "28538134",
+        "31862249",
+        "31790543",
+        "29540584",
+        "11089822",
+        "35841234",
+        "32119035"
+      ],
+      "size": 7
+    }
+  ]
+}

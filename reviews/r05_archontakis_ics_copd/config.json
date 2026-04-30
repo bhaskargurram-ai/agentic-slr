@@ -1,0 +1,49 @@
+{
+  "review_id": "r05_archontakis_ics_copd",
+  "short_name": "Archontakis Barakakis 2023",
+  "full_title": "High versus Medium Dose of Inhaled Corticosteroid in Chronic Obstructive Lung Disease: A Systematic Review and Meta-Analysis",
+  "doi": "10.2147/COPD.S401736",
+  "pmid": "37056683",
+  "pmcid": "PMC10086393",
+  "domain": "Respiratory",
+  "search": {
+    "pubmed_query": "((Inhaled AND (glucocorticosteroids OR glucocorticoids OR corticosteroids OR steroids OR fluticasone OR budesonide OR mometasone OR beclomethasone OR ciclesonide)) AND (COPD OR \"chronic obstructive pulmonary disease\" OR \"chronic bronchitis\") AND (\"Randomized Controlled Trial\"[Publication Type] OR \"randomized\"[Title/Abstract] OR \"randomised\"[Title/Abstract] OR \"placebo\"[Title/Abstract])) AND (\"1900/01/01\"[PDAT] : \"2021/12/31\"[PDAT])",
+    "search_date_end": "2021-12-31",
+    "max_results": 5000,
+    "notes": "Based on the exact search string from the Methods section of Archontakis Barakakis 2023. The original searched Medline and Embase from Jan-Dec 2021. We search PubMed from inception through Dec 2021 to be broader (since included RCTs predate 2021). The original free-text query: (Inhaled AND ((glucocorticosteroids OR glucocorticoids OR corticosteroids OR steroids) OR (fluticasone OR budesonide OR mometasone OR beclomethasone OR ciclesonide))) AND (COPD OR (chronic AND obstructive AND pulmonary AND disease) OR (chronic AND bronchitis)). We add an RCT filter to reduce noise."
+  },
+  "inclusion_criteria": {
+    "study_design": "Randomized controlled trial",
+    "population": "Patients with chronic obstructive pulmonary disease (COPD)",
+    "intervention": "High-dose inhaled corticosteroid (ICS) combination therapy",
+    "comparator": "Medium-dose ICS combination therapy",
+    "outcomes_required": ["COPD exacerbations", "lung function (FEV1)", "pneumonia risk", "mortality"]
+  },
+  "exclusion_criteria": [
+    "Non-randomized studies",
+    "Observational studies, case reports, case series",
+    "Reviews, meta-analyses, editorials, commentaries",
+    "Animal or in vitro studies",
+    "Studies not comparing different ICS dose levels",
+    "Studies in asthma or non-COPD populations only",
+    "Studies without exacerbation or lung function outcomes"
+  ],
+  "prisma_expected": {
+    "records_identified": 5448,
+    "records_screened": 5448,
+    "fulltext_assessed_expected": 296,
+    "studies_included_final": 13
+  },
+  "prompts": {
+    "screening_system": "reviews/r05_archontakis_ics_copd/prompts/screening_system.txt",
+    "fulltext_system": "reviews/r05_archontakis_ics_copd/prompts/fulltext_system.txt",
+    "dedup_system": "reviews/r05_archontakis_ics_copd/prompts/dedup_system.txt"
+  },
+  "paths": {
+    "base_dir": "reviews/r05_archontakis_ics_copd",
+    "ground_truth": "reviews/r05_archontakis_ics_copd/ground_truth.json",
+    "retrieved_dir": "reviews/r05_archontakis_ics_copd/retrieved",
+    "results_dir": "reviews/r05_archontakis_ics_copd/results",
+    "extractions_dir": "reviews/r05_archontakis_ics_copd/extractions"
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "model": "gpt-4o",
+  "approach": "embedding-cluster-v2",
+  "clustering_summary": {
+    "n_clusters": 1,
+    "singletons": 0,
+    "multi_paper_clusters": 1,
+    "cluster_sizes": [
+      49
+    ],
+    "llm_calls": 1,
+    "embedding_cost_usd": 0.000483
+  },
+  "classifications": [
+    {
+      "pmid": "26027431",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the initial results of the CheckMate 067 trial, a randomized, double-blind, phase 3 study with a unique trial registration number (NCT01844505). It introduces a newly randomized cohort and reports primary endpoints."
+    },
+    {
+      "pmid": "20525992",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of a phase 3 trial comparing ipilimumab with gp100 vaccine in metastatic melanoma, with a unique trial registration number (NCT00094653). It introduces a new cohort and reports primary endpoints."
+    },
+    {
+      "pmid": "25891173",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the KEYNOTE-006 trial, a randomized, controlled, phase 3 study with a unique trial registration number (NCT01866319). It introduces a new cohort and reports primary endpoints."
+    },
+    {
+      "pmid": "28889792",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "26027431",
+      "reasoning": "This paper provides 3-year overall survival outcomes from the CheckMate 067 trial, which is already reported in PMID 26027431. It is an updated analysis of the same cohort."
+    },
+    {
+      "pmid": "25399552",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the CheckMate 066 trial, a randomized, double-blind, phase 3 study with a unique trial registration number (NCT01721772). It introduces a new cohort and reports primary endpoints."
+    },
+    {
+      "pmid": "29658430",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of a phase 3 trial evaluating pembrolizumab as adjuvant therapy in resected stage III melanoma, with a unique trial registration number (NCT02362594). It introduces a new cohort and reports primary endpoints."
+    },
+    {
+      "pmid": "30297911",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "This paper describes a randomized trial comparing neoadjuvant versus adjuvant ipilimumab plus nivolumab in stage III melanoma. It appears to introduce a new cohort, but lacks a trial registration number."
+    },
+    {
+      "pmid": "28891423",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the CheckMate 238 trial, a randomized, double-blind, phase 3 study with a unique trial registration number (NCT02388906). It introduces a new cohort and reports primary endpoints."
+    },
+    {
+      "pmid": "30361170",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "26027431",
+      "reasoning": "This paper provides 4-year outcomes from the CheckMate 067 trial, which is already reported in PMID 26027431. It is an updated analysis of the same cohort."
+    },
+    {
+      "pmid": "30811280",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "This paper describes the CheckMate 511 trial, a phase IIIb/IV study evaluating dosing regimens for nivolumab and ipilimumab. It appears to introduce a new cohort, but lacks a trial registration number."
+    },
+    {
+      "pmid": "28822576",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "25891173",
+      "reasoning": "This paper provides final overall survival results from the KEYNOTE-006 trial, which is already reported in PMID 25891173. It is an updated analysis of the same cohort."
+    },
+    {
+      "pmid": "25795410",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the CheckMate 037 trial, a randomized, controlled, open-label, phase 3 study with a unique trial registration number (NCT01721746). It introduces a new cohort and reports primary endpoints."
+    },
+    {
+      "pmid": "25840693",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of a phase 3 trial evaluating adjuvant ipilimumab versus placebo in high-risk stage III melanoma, with a unique trial registration number (NCT00636168). It introduces a new cohort and reports primary endpoints."
+    },
+    {
+      "pmid": "25891304",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "26027431",
+      "reasoning": "This paper reports results from the CheckMate 067 trial, which is already reported in PMID 26027431. It is an analysis of the same cohort."
+    },
+    {
+      "pmid": "27717298",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "25840693",
+      "reasoning": "This paper provides prolonged survival results from the EORTC 18071 trial, which is already reported in PMID 25840693. It is an updated analysis of the same cohort."
+    },
+    {
+      "pmid": "21639810",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of a phase 3 trial evaluating ipilimumab plus dacarbazine in untreated metastatic melanoma, with a unique trial registration number (NCT00324155). It introduces a new cohort and reports primary endpoints."
+    },
+    {
+      "pmid": "28651159",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: child title/methods has trial name(s) absent from parent: {'CheckMate 069'}. Original: This paper reports health-related quality of life results from the CheckMate 067 trial, which is already reported in PMID 26027431. It is an analysis of the same cohort."
+    },
+    {
+      "pmid": "23787916",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "21639810",
+      "reasoning": "This paper provides a Q-TWiST analysis from the trial reported in PMID 21639810. It is an analysis of the same cohort."
+    },
+    {
+      "pmid": "31221619",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of the ECHO-301/KEYNOTE-252 trial, a phase 3 study with a unique trial registration number (NCT02752074). It introduces a new cohort and reports primary endpoints."
+    },
+    {
+      "pmid": "22382362",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "20525992",
+      "reasoning": "This paper assesses the association between BRAF mutation status and response to ipilimumab, likely using data from the trial reported in PMID 20525992."
+    },
+    {
+      "pmid": "29602646",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "This paper describes a phase 2 trial evaluating nivolumab and ipilimumab in melanoma brain metastases. It appears to introduce a new cohort, but lacks a trial registration number."
+    },
+    {
+      "pmid": "28961465",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: different NCTs: child={'NCT01704287'}, parent={'NCT01866319'}; child title/methods has trial name(s) absent from parent: {'KEYNOTE-002'}. Original: This paper provides final analysis results from the KEYNOTE-002 trial, which is already reported in PMID 25891173. It is an updated analysis of the same cohort."
+    },
+    {
+      "pmid": "28179454",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "25891173",
+      "reasoning": "This paper summarizes FDA approval based on trials including KEYNOTE-006, reported in PMID 25891173."
+    },
+    {
+      "pmid": "30021886",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "25891173",
+      "reasoning": "This paper examines MHC proteins' role in response to therapies, likely using data from KEYNOTE-006, reported in PMID 25891173."
+    },
+    {
+      "pmid": "26115796",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "28961465",
+      "reasoning": "This paper reports results from the KEYNOTE-002 trial, which is already reported in PMID 28961465. It is an analysis of the same cohort."
+    },
+    {
+      "pmid": "23295794",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "This paper describes a phase 3 trial comparing tremelimumab with chemotherapy in advanced melanoma. It appears to introduce a new cohort, but lacks a trial registration number."
+    },
+    {
+      "pmid": "22130166",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "20525992",
+      "reasoning": "This paper explores ipilimumab's effects on T-cell populations, likely using data from the trial reported in PMID 20525992."
+    },
+    {
+      "pmid": "28987768",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "25891173",
+      "reasoning": "This paper reports patient-reported outcomes from the KEYNOTE-006 trial, which is already reported in PMID 25891173. It is an analysis of the same cohort."
+    },
+    {
+      "pmid": "30422243",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "25399552",
+      "reasoning": "This paper provides 3-year follow-up results from the CheckMate 066 trial, which is already reported in PMID 25399552. It is an updated analysis of the same cohort."
+    },
+    {
+      "pmid": "20082117",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "21639810",
+      "reasoning": "This paper describes a phase II study of ipilimumab with or without dacarbazine, likely related to the trial reported in PMID 21639810."
+    },
+    {
+      "pmid": "28073844",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "25399552",
+      "reasoning": "This paper summarizes FDA approval based on trials including CheckMate 066, reported in PMID 25399552."
+    },
+    {
+      "pmid": "30191365",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "26027431",
+      "reasoning": "This paper provides a Q-TWiST analysis from the CheckMate 067 trial, which is already reported in PMID 26027431. It is an analysis of the same cohort."
+    },
+    {
+      "pmid": "28162999",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "25840693",
+      "reasoning": "This paper reports health-related quality of life outcomes from the EORTC 18071 trial, which is already reported in PMID 25840693. It is an analysis of the same cohort."
+    },
+    {
+      "pmid": "30096704",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "25891173",
+      "reasoning": "This paper reports outcomes by line of therapy and PD-L1 expression from the KEYNOTE-006 trial, which is already reported in PMID 25891173. It is an analysis of the same cohort."
+    },
+    {
+      "pmid": "23444228",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "20525992",
+      "reasoning": "This paper evaluates retreatment with ipilimumab, likely using data from the trial reported in PMID 20525992."
+    },
+    {
+      "pmid": "27622997",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: different NCTs: child={'NCT01927419'}, parent={'NCT01844505'}; child title/methods has trial name(s) absent from parent: {'CheckMate 066', 'CheckMate 069'}. Original: This paper provides 2-year overall survival outcomes from the CheckMate 069 trial, which is already reported in PMID 26027431. It is an updated analysis of the same cohort."
+    },
+    {
+      "pmid": "28359784",
+      "classification": "PRIMARY",
+      "confidence": 0.95,
+      "parent_pmid": null,
+      "reasoning": "This paper reports the primary results of a phase 3 trial comparing ipilimumab 10 mg/kg versus 3 mg/kg in advanced melanoma, with a unique trial registration number (NCT01515189). It introduces a new cohort and reports primary endpoints."
+    },
+    {
+      "pmid": "27269740",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "This paper describes the CheckMate 064 trial, a phase 2 study evaluating sequential administration of nivolumab and ipilimumab. It appears to introduce a new cohort, but lacks a trial registration number."
+    },
+    {
+      "pmid": "31160251",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "This paper describes the OpACIN-neo trial, a phase 2 study evaluating neoadjuvant dosing schedules of ipilimumab plus nivolumab. It appears to introduce a new cohort, but lacks a trial registration number."
+    },
+    {
+      "pmid": "23942774",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "20525992",
+      "reasoning": "This paper evaluates long-term efficacy and safety of ipilimumab, likely using data from the trial reported in PMID 20525992."
+    },
+    {
+      "pmid": "25713437",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "21639810",
+      "reasoning": "This paper evaluates 5-year survival rates with ipilimumab plus dacarbazine, likely related to the trial reported in PMID 21639810."
+    },
+    {
+      "pmid": "27596353",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "28961465",
+      "reasoning": "This paper reports health-related quality of life outcomes from the KEYNOTE-002 trial, which is already reported in PMID 28961465. It is an analysis of the same cohort."
+    },
+    {
+      "pmid": "27405322",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: child title/methods has trial name(s) absent from parent: {'CheckMate 037'}. Original: This paper reports health-related quality of life outcomes from the CheckMate 066 trial, which is already reported in PMID 25399552. It is an analysis of the same cohort."
+    },
+    {
+      "pmid": "21090563",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "20525992",
+      "reasoning": "This paper explores ipilimumab's effects on gastrointestinal immunity, likely using data from the trial reported in PMID 20525992."
+    },
+    {
+      "pmid": "20004617",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: different NCTs: child={'NCT00289640'}, parent={'NCT00094653'}. Original: This paper evaluates ipilimumab monotherapy in a dose-ranging study, likely related to the trial reported in PMID 20525992."
+    },
+    {
+      "pmid": "22694829",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "20525992",
+      "reasoning": "This paper reports health-related quality of life outcomes from a trial involving ipilimumab, likely related to the trial reported in PMID 20525992."
+    },
+    {
+      "pmid": "23400564",
+      "classification": "SECONDARY",
+      "confidence": 0.8,
+      "parent_pmid": "20525992",
+      "reasoning": "This paper analyzes immune-related adverse events with ipilimumab, likely using data from the trial reported in PMID 20525992."
+    },
+    {
+      "pmid": "28671856",
+      "classification": "SECONDARY",
+      "confidence": 0.95,
+      "parent_pmid": "25795410",
+      "reasoning": "This paper provides overall survival results from the CheckMate 037 trial, which is already reported in PMID 25795410. It is an updated analysis of the same cohort."
+    },
+    {
+      "pmid": "22123319",
+      "classification": "PRIMARY",
+      "confidence": 0.8,
+      "parent_pmid": null,
+      "reasoning": "OVERRIDE SECONDARY\u2192PRIMARY: different NCTs: child={'NCT00261365'}, parent={'NCT00094653'}. Original: This paper explores tumor microenvironment biomarkers in relation to ipilimumab, likely using data from the trial reported in PMID 20525992."
+    }
+  ],
+  "final_included_pmids": [
+    "26027431",
+    "20525992",
+    "25891173",
+    "25399552",
+    "29658430",
+    "30297911",
+    "28891423",
+    "30811280",
+    "25795410",
+    "25840693",
+    "21639810",
+    "28651159",
+    "31221619",
+    "29602646",
+    "28961465",
+    "23295794",
+    "27622997",
+    "28359784",
+    "27269740",
+    "31160251",
+    "27405322",
+    "20004617",
+    "22123319"
+  ]
+}

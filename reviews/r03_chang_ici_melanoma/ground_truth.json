@@ -1,0 +1,368 @@
+{
+  "review_id": "r03_chang_ici_melanoma",
+  "source": "Chang et al. 2020, JAMA Network Open, PMC7097702",
+  "inclusion_pmids": ["21639810", "28961465", "25399552", "25795410", "28359784", "27622997", "25891173", "28891423", "28889792"],
+  "inclusion_pmids_count": 9,
+  "included_studies": [
+    {
+      "pmid": "21639810",
+      "first_author": "Robert",
+      "year": 2011,
+      "short_name": "Robert 2011",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Ipilimumab + dacarbazine",
+      "dose": "Ipilimumab 10 mg/kg + dacarbazine 850 mg/m2"
+    },
+    {
+      "pmid": "28961465",
+      "first_author": "Hamid",
+      "year": 2017,
+      "short_name": "Hamid 2017",
+      "journal": "European Journal of Cancer",
+      "intervention": "Pembrolizumab",
+      "dose": "2 mg/kg or 10 mg/kg Q3W"
+    },
+    {
+      "pmid": "25399552",
+      "first_author": "Robert",
+      "year": 2015,
+      "short_name": "CheckMate 066",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Nivolumab",
+      "dose": "3 mg/kg Q2W"
+    },
+    {
+      "pmid": "25795410",
+      "first_author": "Weber",
+      "year": 2015,
+      "short_name": "CheckMate 037",
+      "journal": "Lancet Oncology",
+      "intervention": "Nivolumab",
+      "dose": "3 mg/kg Q2W"
+    },
+    {
+      "pmid": "28359784",
+      "first_author": "Ascierto",
+      "year": 2017,
+      "short_name": "Ascierto 2017",
+      "journal": "Lancet Oncology",
+      "intervention": "Ipilimumab 10 mg/kg vs 3 mg/kg",
+      "dose": "10 mg/kg vs 3 mg/kg Q3W"
+    },
+    {
+      "pmid": "27622997",
+      "first_author": "Hodi",
+      "year": 2016,
+      "short_name": "CheckMate 069",
+      "journal": "Lancet Oncology",
+      "intervention": "Nivolumab + ipilimumab",
+      "dose": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg"
+    },
+    {
+      "pmid": "25891173",
+      "first_author": "Robert",
+      "year": 2015,
+      "short_name": "KEYNOTE-006",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Pembrolizumab",
+      "dose": "10 mg/kg Q2W or Q3W"
+    },
+    {
+      "pmid": "28891423",
+      "first_author": "Weber",
+      "year": 2017,
+      "short_name": "CheckMate 238",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Nivolumab (adjuvant)",
+      "dose": "3 mg/kg Q2W"
+    },
+    {
+      "pmid": "28889792",
+      "first_author": "Wolchok",
+      "year": 2017,
+      "short_name": "CheckMate 067",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Nivolumab + ipilimumab",
+      "dose": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg"
+    }
+  ],
+  "extraction_ground_truth": [
+    {
+      "pmid": "21639810",
+      "short_name": "Robert 2011 (CA184-024)",
+      "first_author": "Robert",
+      "year": 2011,
+      "phase": "III",
+      "design": "Randomized, double-blind, multicenter, phase 3 trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 502,
+      "n_active": 250,
+      "n_placebo": 252,
+      "age_range_years": ">=18",
+      "intervention": "Ipilimumab + Dacarbazine",
+      "dose": "Ipilimumab 10 mg/kg + Dacarbazine 850 mg/m2 at weeks 1, 4, 7, 10; then Dacarbazine alone every 3 weeks through week 22; ipilimumab/placebo every 12 weeks as maintenance",
+      "outcomes_reported": ["overall_survival", "adverse_events"],
+      "primary_efficacy_outcome": "Overall survival",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "We randomly assigned 502 patients ... in a 1:1 ratio, to ipilimumab (10 mg per kilogram) plus dacarbazine (850 mg per square meter ...) or dacarbazine (850 mg per square meter) plus placebo",
+          "The primary end point was overall survival.",
+          "Patients with stable disease or an objective response and no dose-limiting toxic effects received ipilimumab or placebo every 12 weeks thereafter as maintenance therapy."
+        ],
+        "notes": "Comparator is DTIC + placebo (active chemotherapy + placebo for ipilimumab); n_placebo holds the chemotherapy-comparator arm. Arm split (250 ipi+DTIC vs 252 DTIC+placebo) per the published paper; abstract states only 1:1 of 502."
+      }
+    },
+    {
+      "pmid": "28961465",
+      "short_name": "Hamid 2017 (KEYNOTE-002 final)",
+      "first_author": "Hamid",
+      "year": 2017,
+      "phase": "II",
+      "design": "Randomized, three-arm, phase 2 trial",
+      "blinding": "Open-label",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 540,
+      "n_active": 361,
+      "n_placebo": 179,
+      "age_range_years": ">=18",
+      "intervention": "Pembrolizumab",
+      "dose": "Pembrolizumab 2 mg/kg or 10 mg/kg every 3 weeks; comparator was investigator-choice chemotherapy",
+      "outcomes_reported": ["overall_survival", "progression_free_survival", "objective_response", "adverse_events"],
+      "primary_efficacy_outcome": "Overall survival",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "180 patients were randomised to pembrolizumab 2 mg/kg, 181 to pembrolizumab 10 mg/kg and 179 to chemotherapy.",
+          "the protocol-specified final analysis of overall survival (OS) in the KEYNOTE-002 study",
+          "median follow-up of 28 months"
+        ],
+        "notes": "n_active is sum of both pembrolizumab arms (180 + 181 = 361). n_placebo holds the investigator-choice chemotherapy arm. Open-label per phase 2 design (not stated in abstract)."
+      }
+    },
+    {
+      "pmid": "25399552",
+      "short_name": "CheckMate 066 (Robert 2015 NEJM)",
+      "first_author": "Robert",
+      "year": 2015,
+      "phase": "III",
+      "design": "Randomized, double-blind, phase 3 trial",
+      "blinding": "Double-blind (with matched placebos for both regimens)",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 418,
+      "n_active": 210,
+      "n_placebo": 208,
+      "age_range_years": ">=18",
+      "intervention": "Nivolumab",
+      "dose": "Nivolumab 3 mg/kg every 2 weeks (with dacarbazine-matched placebo every 3 weeks); comparator dacarbazine 1000 mg/m2 every 3 weeks",
+      "outcomes_reported": ["overall_survival", "progression_free_survival", "objective_response", "adverse_events"],
+      "primary_efficacy_outcome": "Overall survival",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "We randomly assigned 418 previously untreated patients ... to receive nivolumab (at a dose of 3 mg per kilogram of body weight every 2 weeks and dacarbazine-matched placebo every 3 weeks) or dacarbazine (at a dose of 1000 mg per square meter ... and nivolumab-matched placebo every 2 weeks).",
+          "The primary end point was overall survival."
+        ],
+        "notes": "Arm split (210 nivo vs 208 DTIC) per published paper; abstract says 418 total. 1:1 randomization. Comparator is DTIC; n_placebo holds the DTIC arm."
+      }
+    },
+    {
+      "pmid": "25795410",
+      "short_name": "CheckMate 037 (Weber 2015 Lancet Oncol)",
+      "first_author": "Weber",
+      "year": 2015,
+      "phase": "III",
+      "design": "Randomized, controlled, open-label, phase 3 trial",
+      "blinding": "Open-label",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (90 sites, 14 countries)",
+      "n_total": 405,
+      "n_active": 272,
+      "n_placebo": 133,
+      "age_range_years": ">=18",
+      "intervention": "Nivolumab",
+      "dose": "Nivolumab 3 mg/kg every 2 weeks; comparator was investigator's choice chemotherapy (dacarbazine 1000 mg/m2 every 3 weeks or paclitaxel 175 mg/m2 + carboplatin AUC 6 every 3 weeks)",
+      "outcomes_reported": ["objective_response", "overall_survival", "adverse_events"],
+      "primary_efficacy_outcome": "Objective response rate (and overall survival; co-primary endpoints)",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "Eligible patients were 18 years or older, had unresectable or metastatic melanoma",
+          "we screened 631 patients, randomly allocating 272 patients to nivolumab and 133 to ICC.",
+          "Primary endpoints were the proportion of patients who had an objective response and overall survival."
+        ],
+        "notes": "n_total is 405 (272 + 133, 2:1 randomization). Comparator is investigator-choice chemotherapy (ICC); n_placebo holds the ICC arm. Age explicit in abstract."
+      }
+    },
+    {
+      "pmid": "28359784",
+      "short_name": "Ascierto 2017 (Ipi 10 vs 3 mg/kg)",
+      "first_author": "Ascierto",
+      "year": 2017,
+      "phase": "III",
+      "design": "Randomized, double-blind, multicenter, phase 3 trial",
+      "blinding": "Double-blind",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (87 centers, 21 countries)",
+      "n_total": 727,
+      "n_active": 365,
+      "n_placebo": 362,
+      "age_range_years": ">=18",
+      "intervention": "Ipilimumab",
+      "dose": "Ipilimumab 10 mg/kg vs ipilimumab 3 mg/kg, IV every 3 weeks for 4 doses",
+      "outcomes_reported": ["overall_survival", "adverse_events"],
+      "primary_efficacy_outcome": "Overall survival",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "727 patients were enrolled and randomly assigned to ipilimumab 10 mg/kg (365 patients; 364 treated) or ipilimumab 3 mg/kg (362 patients; all treated).",
+          "The primary endpoint was overall survival in the intention-to-treat population"
+        ],
+        "notes": "No placebo arm — both arms received ipilimumab at different doses. n_active = 10 mg/kg arm (the experimental higher-dose arm); n_placebo holds the 3 mg/kg comparator arm per task instruction. maintenance_weeks_ge_12 = True from median follow-up of 14.5 months."
+      }
+    },
+    {
+      "pmid": "27622997",
+      "short_name": "CheckMate 069 (Hodi 2016)",
+      "first_author": "Hodi",
+      "year": 2016,
+      "phase": "II",
+      "design": "Randomized, double-blind, multicentre, phase 2 trial",
+      "blinding": "Double-blind (placebo-controlled for the nivolumab component)",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 142,
+      "n_active": 95,
+      "n_placebo": 47,
+      "age_range_years": ">=18",
+      "intervention": "Nivolumab + Ipilimumab",
+      "dose": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg every 3 weeks for 4 doses, followed by nivolumab 3 mg/kg every 2 weeks; comparator: ipilimumab 3 mg/kg + placebo every 3 weeks for 4 doses, followed by placebo every 2 weeks",
+      "outcomes_reported": ["objective_response", "overall_survival", "adverse_events"],
+      "primary_efficacy_outcome": "Investigator-assessed objective response rate (in BRAF V600 wild-type patients)",
+      "source_evidence": {
+        "fulltext_or_abstract": "fulltext",
+        "key_quotes": [
+          "142 patients aged \u226518 years with previously untreated, unresectable stage III or IV melanoma ... were randomly assigned 2:1 to receive an intravenous infusion of nivolumab 1 mg/kg plus ipilimumab 3 mg/kg or ipilimumab 3 mg/kg plus placebo",
+          "we screened 179 patients, randomly allocating 95 patients to nivolumab plus ipilimumab and 47 to ipilimumab",
+          "The primary endpoint (previously reported) was the rate of investigator-assessed objective response among patients with BRAF V600 wild-type melanoma."
+        ],
+        "notes": "Comparator is ipilimumab + placebo (matching placebo for nivolumab). n_active = nivo+ipi combination arm; n_placebo holds the ipilimumab-monotherapy comparator. Age explicit in abstract."
+      }
+    },
+    {
+      "pmid": "25891173",
+      "short_name": "KEYNOTE-006 (Robert 2015 NEJM)",
+      "first_author": "Robert",
+      "year": 2015,
+      "phase": "III",
+      "design": "Randomized, controlled, three-arm, phase 3 trial",
+      "blinding": "Open-label",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 834,
+      "n_active": 556,
+      "n_placebo": 278,
+      "age_range_years": ">=18",
+      "intervention": "Pembrolizumab",
+      "dose": "Pembrolizumab 10 mg/kg every 2 weeks or every 3 weeks; comparator was four doses of ipilimumab 3 mg/kg every 3 weeks",
+      "outcomes_reported": ["progression_free_survival", "overall_survival", "objective_response", "adverse_events"],
+      "primary_efficacy_outcome": "Progression-free survival and overall survival (co-primary)",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "we assigned 834 patients with advanced melanoma in a 1:1:1 ratio to receive pembrolizumab (at a dose of 10 mg per kilogram of body weight) every 2 weeks or every 3 weeks or four doses of ipilimumab (at 3 mg per kilogram) every 3 weeks.",
+          "Primary end points were progression-free and overall survival."
+        ],
+        "notes": "n_active is sum of both pembrolizumab arms (~278 + ~278 = 556). Comparator is ipilimumab; n_placebo holds the ipilimumab arm. Arm sizes per published paper (pembro Q2W 279, pembro Q3W 277, ipi 278); abstract gives 1:1:1 of 834 only."
+      }
+    },
+    {
+      "pmid": "28891423",
+      "short_name": "CheckMate 238 (Weber 2017 NEJM)",
+      "first_author": "Weber",
+      "year": 2017,
+      "phase": "III",
+      "design": "Randomized, double-blind, phase 3 adjuvant trial",
+      "blinding": "Double-blind",
+      "duration_weeks": 52,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (multicenter)",
+      "n_total": 906,
+      "n_active": 453,
+      "n_placebo": 453,
+      "age_range_years": ">=15",
+      "intervention": "Nivolumab",
+      "dose": "Nivolumab 3 mg/kg every 2 weeks; comparator: ipilimumab 10 mg/kg every 3 weeks for 4 doses then every 12 weeks; treatment up to 1 year",
+      "outcomes_reported": ["recurrence_free_survival", "adverse_events"],
+      "primary_efficacy_outcome": "Recurrence-free survival",
+      "source_evidence": {
+        "fulltext_or_abstract": "abstract",
+        "key_quotes": [
+          "we randomly assigned 906 patients (\u226515 years of age) who were undergoing complete resection of stage IIIB, IIIC, or IV melanoma to receive an intravenous infusion of either nivolumab at a dose of 3 mg per kilogram of body weight every 2 weeks (453 patients) or ipilimumab at a dose of 10 mg per kilogram every 3 weeks for four doses and then every 12 weeks (453 patients).",
+          "The patients were treated for a period of up to 1 year",
+          "The primary end point was recurrence-free survival in the intention-to-treat population."
+        ],
+        "notes": "Adjuvant trial (active disease resected). Comparator is active control (ipilimumab), not placebo; n_placebo holds the ipilimumab control arm. Age explicit in abstract: \u226515 years (unusually low — pediatric eligibility)."
+      }
+    },
+    {
+      "pmid": "26027431",
+      "short_name": "CheckMate 067 (Larkin 2015) — substituted for original GT PMID 28889792",
+      "first_author": "Larkin",
+      "year": 2015,
+      "phase": "III",
+      "design": "Randomized, double-blind, three-arm, phase 3 trial",
+      "blinding": "Double-blind (matched placebos across arms)",
+      "duration_weeks": null,
+      "maintenance_weeks_ge_12": true,
+      "country_region": "International (North America, Europe, Israel, New Zealand, Australia)",
+      "n_total": 945,
+      "n_active": 314,
+      "n_placebo": 315,
+      "age_range_years": ">=18",
+      "intervention": "Nivolumab + Ipilimumab",
+      "dose": "Nivolumab 1 mg/kg + ipilimumab 3 mg/kg every 3 weeks for 4 doses, followed by nivolumab 3 mg/kg every 2 weeks; comparator arms: nivolumab 3 mg/kg every 2 weeks (mono) and ipilimumab 3 mg/kg every 3 weeks for 4 doses (mono)",
+      "outcomes_reported": ["progression_free_survival", "overall_survival", "objective_response", "adverse_events"],
+      "primary_efficacy_outcome": "Progression-free survival and overall survival (co-primary)",
+      "source_evidence": {
+        "fulltext_or_abstract": "fulltext",
+        "key_quotes": [
+          "We randomly assigned 945 previously untreated patients with unresectable stage III or IV melanoma, in 1:1:1 ratio",
+          "316 patients were assigned to the nivolumab group, 314 to the nivolumab plus ipilimumab group, and 315 to the ipilimumab group",
+          "Other eligibility criteria included an age of at least 18 years"
+        ],
+        "notes": "Three-arm trial. Per task instruction, the registration / Chang 2020 comparison is the combination (nivo+ipi) vs ipilimumab monotherapy; n_active = combination arm (314), n_placebo holds the ipilimumab monotherapy arm (315). The third arm (nivolumab monotherapy, n=316) is not represented in n_active/n_placebo. SUBSTITUTED for original Chang 2020 GT PMID 28889792 (Wolchok 2017 NEJM, 3-year OS update of the same trial); our pipeline kept this earlier publication of the same trial. See EXTRACTION_GT_REPORT.md \u00a72."
+      }
+    },
+    {
+      "pmid": "28889792",
+      "upstream_substituted_to": "26027431",
+      "short_name": "CheckMate 067 (Wolchok 2017 OS update) — substituted out, see PMID 26027431",
+      "note": "This PMID is in the original Chang 2020 GT (inclusion_pmids) but was classified SECONDARY by our dedup agent. Extraction GT for this trial is stored under PMID 26027431 (Larkin 2015), which is the earlier randomized-results publication of the same CheckMate 067 trial that our pipeline retained as PRIMARY. The evaluator will skip this entry (no extraction available); accuracy for the trial is scored against PMID 26027431's extraction."
+    }
+  ],
+  "extraction_fields_for_evaluation": [
+    "first_author",
+    "year",
+    "phase",
+    "n_total",
+    "n_active",
+    "n_placebo",
+    "age_range_years",
+    "intervention",
+    "dose",
+    "primary_efficacy_outcome",
+    "maintenance_weeks_ge_12"
+  ]
+}

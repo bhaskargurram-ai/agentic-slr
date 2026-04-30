@@ -1,0 +1,81 @@
+{
+  "target_count": 7,
+  "found_count": 7,
+  "missed_count": 0,
+  "recall": 1.0,
+  "found_pmids": [
+    "11089822",
+    "29540584",
+    "28538134",
+    "32119035",
+    "31862249",
+    "31790543",
+    "35841234"
+  ],
+  "missed_pmids": [],
+  "included_studies_details": [
+    {
+      "pmid": "11089822",
+      "first_author": "Chiron",
+      "year": 2000,
+      "short_name": "STICLO-France",
+      "journal": "Lancet",
+      "intervention": "Stiripentol",
+      "dose": "50 mg/kg/day"
+    },
+    {
+      "pmid": "29540584",
+      "first_author": "Devinsky",
+      "year": 2018,
+      "short_name": "GWPCARE1 Part A",
+      "journal": "Neurology",
+      "intervention": "Cannabidiol",
+      "dose": "5, 10, 20 mg/kg/day"
+    },
+    {
+      "pmid": "28538134",
+      "first_author": "Devinsky",
+      "year": 2017,
+      "short_name": "GWPCARE1 Part B",
+      "journal": "New England Journal of Medicine",
+      "intervention": "Cannabidiol",
+      "dose": "20 mg/kg/day"
+    },
+    {
+      "pmid": "32119035",
+      "first_author": "Miller",
+      "year": 2020,
+      "short_name": "GWPCARE2",
+      "journal": "JAMA Neurology",
+      "intervention": "Cannabidiol",
+      "dose": "10, 20 mg/kg/day"
+    },
+    {
+      "pmid": "31862249",
+      "first_author": "Lagae",
+      "year": 2019,
+      "short_name": "Lagae 2019",
+      "journal": "Lancet",
+      "intervention": "Fenfluramine hydrochloride",
+      "dose": "0.2, 0.8 mg/kg/day"
+    },
+    {
+      "pmid": "31790543",
+      "first_author": "Nabbout",
+      "year": 2020,
+      "short_name": "Nabbout 2020",
+      "journal": "JAMA Neurology",
+      "intervention": "Fenfluramine hydrochloride",
+      "dose": "0.4 mg/kg/day (maximum 17 mg/day)"
+    },
+    {
+      "pmid": "35841234",
+      "first_author": "Hahn",
+      "year": 2022,
+      "short_name": "ELEKTRA",
+      "journal": "Epilepsia",
+      "intervention": "Soticlestat",
+      "dose": "Up to 300 mg twice daily (weight-adjusted)"
+    }
+  ]
+}
