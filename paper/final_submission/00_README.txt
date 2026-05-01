@@ -7,7 +7,7 @@ Manuscript:
   Evaluation Across 62 Randomized Controlled Trials
 
 Author:
-  Yoshitha Challagulla
+  Bhaskar Gurram
   ZASTI, India
   gurrambhaskar.ai@gmail.com
 

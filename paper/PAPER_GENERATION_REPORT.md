@@ -104,7 +104,7 @@ strings: `yoshitha`, `challagulla`, `zasti`, `bhaskar` (case-insensitive).
 reader to a "redacted" repository URL.
 
 The author version (`paper_with_authors.tex`) restores:
-- `\author[1]{Yoshitha Challagulla}`
+- `\author[1]{Bhaskar Gurram}`
 - `\affiliation[1]{organization={ZASTI}, country={India}}`
 - `\ead{bhaskar@zasti.ai}`
 - author-contributions section
